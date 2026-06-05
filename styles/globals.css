@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400;1,500&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-playfair: 'Playfair Display', Georgia, serif;
+  --font-lora: 'Lora', Georgia, serif;
+  --font-urdu: 'Noto Nastaliq Urdu', serif;
+  --color-green: #1a3a2a;
+  --color-cream: #f5f0e8;
+  --color-gold: #c9a84c;
+  --color-parchment: #f0ead6;
+  --color-text: #1c1c1c;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #f5f0e8;
+    color: #1c1c1c;
+    font-family: var(--font-lora);
+    line-height: 1.7;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-playfair);
+    color: #1a3a2a;
+    line-height: 1.3;
+  }
+}
+
+@layer components {
+  .font-urdu {
+    font-family: var(--font-urdu);
+    direction: rtl;
+    line-height: 2.2;
+  }
+
+  .text-urdu {
+    font-family: var(--font-urdu);
+    direction: rtl;
+    text-align: right;
+    line-height: 2.4;
+    font-size: 1.1em;
+  }
+
+  .arabic-text {
+    font-family: var(--font-urdu);
+    direction: rtl;
+    text-align: center;
+    line-height: 2;
+  }
+
+  .gold-divider {
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #c9a84c, transparent);
+    margin: 1rem auto;
+  }
+
+  .section-divider {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #c9a84c 30%, #c9a84c 70%, transparent);
+    margin: 3rem 0;
+  }
+
+  .page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+
+  .card-hover {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(26, 58, 42, 0.12);
+  }
+
+  .btn-primary {
+    @apply inline-block px-6 py-3 bg-green text-cream font-lora font-medium rounded transition-all duration-200 hover:bg-green-light hover:shadow-md;
+  }
+
+  .btn-gold {
+    @apply inline-block px-6 py-3 bg-gold text-green-dark font-lora font-medium rounded transition-all duration-200 hover:bg-gold-dark hover:shadow-md;
+  }
+
+  .section-heading {
+    @apply font-playfair text-3xl md:text-4xl text-green font-bold;
+  }
+}
+
+/* Prose customization for MDX content */
+.prose-archive {
+  @apply prose prose-lg max-w-none;
+  font-family: var(--font-lora);
+}
+
+.prose-archive h1,
+.prose-archive h2,
+.prose-archive h3 {
+  font-family: var(--font-playfair);
+  color: #1a3a2a;
+}
+
+.prose-archive blockquote {
+  border-left: 4px solid #c9a84c;
+  background: #f0ead6;
+  padding: 1rem 1.5rem;
+  font-style: italic;
+  color: #1a3a2a;
+}
+
+/* RTL Urdu content */
+.urdu-content {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-urdu);
+  line-height: 2.4;
+  font-size: 1.15rem;
+}
+
+.urdu-content h1,
+.urdu-content h2,
+.urdu-content h3 {
+  font-family: var(--font-urdu);
+  direction: rtl;
+  text-align: right;
+}
+
+/* Gold ornamental border */
+.ornament-border {
+  border: 1px solid #c9a84c;
+  position: relative;
+}
+
+.ornament-border::before {
+  content: '◆';
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f5f0e8;
+  color: #c9a84c;
+  padding: 0 8px;
+  font-size: 12px;
+}
+
+/* Timeline styles */
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, transparent, #c9a84c 10%, #c9a84c 90%, transparent);
+  transform: translateX(-50%);
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ede8d8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a3a2a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2d5c42;
+}

@@ -1,0 +1,5 @@
+# Cloudflare Pages redirects
+# Format: /old-path /new-path STATUS_CODE
+
+# SPA fallback (not typically needed with static export + trailingSlash)
+# /*  /index.html  200
