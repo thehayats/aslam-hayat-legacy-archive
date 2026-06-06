@@ -1,13 +1,45 @@
 {
   "categories": [
-    { "id": "family", "label": "Family", "description": "Family moments and gatherings" },
-    { "id": "faith", "label": "Faith & Pilgrimage", "description": "Spiritual journeys and places of worship" },
-    { "id": "professional", "label": "Professional Life", "description": "Professional years" },
-    { "id": "canada", "label": "Canada", "description": "Life in Vancouver, Canada" },
-    { "id": "pakistan", "label": "Pakistan", "description": "Years in Pakistan" },
-    { "id": "documents", "label": "Writings & Documents", "description": "Letters, writings, and personal records" },
-    { "id": "community", "label": "Community", "description": "Community and social occasions" },
-    { "id": "final-years", "label": "Final Years", "description": "Later years and family time" }
+    {
+      "id": "family",
+      "label": "Family",
+      "description": "Family moments and gatherings"
+    },
+    {
+      "id": "faith",
+      "label": "Faith & Pilgrimage",
+      "description": "Spiritual journeys and places of worship"
+    },
+    {
+      "id": "professional",
+      "label": "Professional Life",
+      "description": "Professional years"
+    },
+    {
+      "id": "canada",
+      "label": "Canada",
+      "description": "Life in Vancouver, Canada"
+    },
+    {
+      "id": "pakistan",
+      "label": "Pakistan",
+      "description": "Years in Pakistan"
+    },
+    {
+      "id": "documents",
+      "label": "Writings & Documents",
+      "description": "Letters, writings, and personal records"
+    },
+    {
+      "id": "community",
+      "label": "Community",
+      "description": "Community and social occasions"
+    },
+    {
+      "id": "final-years",
+      "label": "Final Years",
+      "description": "Later years and family time"
+    }
   ],
   "photos": [
     {
@@ -360,6 +392,61 @@
       "category": "community",
       "description": "Aslam Hayat at a Pakistani-Canadian community event in Surrey, British Columbia.",
       "featured": false
+    },
+    {
+      "id": "ph-real-027",
+      "src": "/images/gallery/aslam-hayat-85th-birthday-vancouver.jpg",
+      "alt": "Aslam Hayat surrounded by family at his 85th birthday celebration in Vancouver",
+      "caption": "85th Birthday celebration with family, Vancouver",
+      "date": "c. 2018",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "Aslam Hayat surrounded by the whole family at his 85th birthday celebration in Vancouver — children, grandchildren, and great-grandchildren gathered around the birthday cake.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-028",
+      "src": "/images/gallery/aslam-hayat-85th-birthday-table.jpg",
+      "alt": "Aslam Hayat at the birthday dinner table with family, Vancouver",
+      "caption": "At the birthday dinner table, Vancouver",
+      "date": "c. 2018",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "Aslam Hayat at the birthday dinner table with family, the birthday cake visible beside him.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-029",
+      "src": "/images/gallery/aslam-hayat-85th-birthday-dinner.jpg",
+      "alt": "Aslam Hayat with his daughters at his 85th birthday dinner, Vancouver",
+      "caption": "With family at the 85th birthday dinner, Vancouver",
+      "date": "c. 2018",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "Aslam Hayat with his daughters and family members at his 85th birthday dinner — a warm gathering beneath the Moroccan lanterns of the restaurant.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-030",
+      "src": "/images/gallery/aslam-hayat-85th-birthday-cake.jpg",
+      "alt": "Aslam Hayat seated at his 85th birthday with cake and family, Vancouver",
+      "caption": "85th birthday with the family, Vancouver",
+      "date": "c. 2018",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "Aslam Hayat at his 85th birthday — seated at the table with the birthday cake in front, surrounded by daughters and family.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-031",
+      "src": "/images/gallery/aslam-hayat-three-generations.jpg",
+      "alt": "Three generations — Aslam Hayat with son and grandson, Vancouver",
+      "caption": "Three generations — with son and grandson, Vancouver",
+      "date": "c. 2018",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "Three generations gathered — Aslam Hayat with his son and young grandson, photographed in Vancouver against the warm glow of a fireplace.",
+      "featured": true
     }
   ]
 }

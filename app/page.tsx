@@ -308,11 +308,11 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             {[
-              { src: '/images/gallery/aslam-hayat-miracle-award-surrey.jpg', label: 'Community Service', position: 'center top' },
-              { src: '/images/gallery/aslam-hayat-nyc-times-square-2009.jpg', label: 'Travels', position: 'center center' },
-              { src: '/images/gallery/aslam-hayat-london-with-daughter-2017.jpg', label: 'Family', position: 'center top' },
-              { src: '/images/gallery/aslam-hayat-home-with-grandchild.jpg', label: 'At Home', position: 'center 20%' },
-              { src: '/images/gallery/aslam-hayat-vancouver-with-zeeshan.jpg', label: 'Vancouver', position: 'center center' },
+              { src: '/images/gallery/aslam-hayat-85th-birthday-vancouver.jpg', label: '85th Birthday', position: 'center 30%' },
+              { src: '/images/gallery/aslam-hayat-85th-birthday-dinner.jpg', label: 'With Family', position: 'center 20%' },
+              { src: '/images/gallery/aslam-hayat-85th-birthday-cake.jpg', label: 'Birthday Celebration', position: 'center 25%' },
+              { src: '/images/gallery/aslam-hayat-three-generations.jpg', label: 'Three Generations', position: 'center 20%' },
+              { src: '/images/gallery/aslam-hayat-85th-birthday-table.jpg', label: 'Birthday Dinner', position: 'center 30%' },
             ].map(({ src, label, position }) => (
               <Link
                 key={label}
