@@ -16,97 +16,215 @@ export default function HomePage() {
   return (
     <>
       {/* ── Hero ─────────────────────────────────────────────────── */}
-      <section style={{ background: 'linear-gradient(155deg, #062b20 0%, #0c1f17 45%, #051510 100%)' }}>
+      <section style={{ background: 'linear-gradient(150deg, #04180f 0%, #081c12 45%, #040f0a 100%)' }}>
 
-        {/* Two-column layout: portrait left, text right */}
-        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-stretch" style={{ minHeight: '820px' }}>
+        {/* Two-column layout */}
+        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row" style={{ minHeight: '700px' }}>
 
-          {/* ── Portrait column (left, desktop only) ── */}
-          <div className="hidden lg:block relative flex-shrink-0" style={{ width: '46%' }}>
-            <img
-              src="/images/hero-portrait.jpg"
-              alt="Aslam Hayat"
-              className="absolute inset-0 w-full h-full object-cover object-top"
-            />
-            {/* Right-edge fade — portrait dissolves into dark background */}
-            <div className="absolute inset-y-0 right-0 w-52" style={{
-              background: 'linear-gradient(to right, transparent, #051510)'
-            }} />
-            {/* Bottom fade */}
-            <div className="absolute inset-x-0 bottom-0 h-40" style={{
-              background: 'linear-gradient(to bottom, transparent, #051510)'
-            }} />
-            {/* Top fade */}
-            <div className="absolute inset-x-0 top-0 h-20" style={{
-              background: 'linear-gradient(to bottom, #062b20, transparent)'
-            }} />
-            {/* Left edge */}
-            <div className="absolute inset-y-0 left-0 w-6" style={{
-              background: 'linear-gradient(to right, #062b20, transparent)'
-            }} />
-          </div>
+          {/* ── Portrait column — desktop ── */}
+          <div
+            className="hidden lg:flex items-center justify-center flex-shrink-0"
+            style={{ width: '44%', padding: '64px 32px 64px 48px' }}
+          >
+            {/* Relative wrapper: glow sits behind card */}
+            <div style={{ position: 'relative' }}>
 
-          {/* ── Mobile portrait ── */}
-          <div className="lg:hidden flex justify-center pt-12 pb-6 px-6">
-            <div className="relative w-44 h-60 rounded-2xl overflow-hidden shadow-2xl" style={{ border: '1.5px solid rgba(201,162,77,0.35)' }}>
-              <img
-                src="/images/hero-portrait.jpg"
-                alt="Aslam Hayat"
-                className="w-full h-full object-cover object-top"
-              />
+              {/* Radial glow halo */}
+              <div style={{
+                position: 'absolute',
+                inset: '-35%',
+                borderRadius: '50%',
+                background: 'radial-gradient(ellipse at center, rgba(201,162,77,0.09) 0%, transparent 62%)',
+                pointerEvents: 'none',
+              }} />
+
+              {/* Portrait card */}
+              <div style={{
+                position: 'relative',
+                width: '380px',
+                height: '560px',
+                overflow: 'hidden',
+                borderRadius: '18px',
+                border: '1px solid rgba(201,162,77,0.28)',
+                boxShadow: '0 32px 80px rgba(0,0,0,0.60), 0 0 0 4px rgba(201,162,77,0.06) inset',
+              }}>
+                <img
+                  src="/images/hero-portrait-v2.jpg"
+                  alt="Aslam Hayat — formal portrait"
+                  style={{
+                    position: 'absolute',
+                    inset: 0,
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    objectPosition: 'center top',
+                  }}
+                />
+
+                {/* Top overlay — softens the blurry background at top of photo */}
+                <div style={{
+                  position: 'absolute', inset: '0 0 auto 0',
+                  height: '130px',
+                  background: 'linear-gradient(to bottom, rgba(4,14,9,0.72) 0%, rgba(4,14,9,0.18) 60%, transparent 100%)',
+                }} />
+
+                {/* Bottom fade — dissolves into section background */}
+                <div style={{
+                  position: 'absolute', inset: 'auto 0 0 0',
+                  height: '100px',
+                  background: 'linear-gradient(to top, rgba(4,12,8,0.88) 0%, transparent 100%)',
+                }} />
+
+                {/* Left edge */}
+                <div style={{
+                  position: 'absolute', inset: '0 auto 0 0',
+                  width: '28px',
+                  background: 'linear-gradient(to right, rgba(4,14,9,0.32), transparent)',
+                }} />
+
+                {/* Right edge */}
+                <div style={{
+                  position: 'absolute', inset: '0 0 0 auto',
+                  width: '28px',
+                  background: 'linear-gradient(to left, rgba(4,14,9,0.32), transparent)',
+                }} />
+              </div>
+
+              {/* Caption */}
+              <p style={{
+                textAlign: 'center',
+                marginTop: '12px',
+                fontFamily: 'var(--font-lora)',
+                fontSize: '0.72rem',
+                letterSpacing: '0.06em',
+                color: 'rgba(140,180,160,0.45)',
+              }}>
+                ASLAM HAYAT &nbsp;·&nbsp; 1933 – 2026
+              </p>
             </div>
           </div>
 
-          {/* ── Text column (right) ── */}
-          <div className="flex-1 flex items-center px-6 sm:px-10 lg:px-14 pb-14 lg:py-20">
-            <div className="w-full max-w-lg mx-auto lg:mx-0">
+          {/* ── Portrait — mobile (full-width card, stacked above text) ── */}
+          <div className="lg:hidden flex justify-center" style={{ padding: '48px 24px 24px' }}>
+            <div style={{
+              position: 'relative',
+              width: '100%',
+              maxWidth: '280px',
+              height: '320px',
+              overflow: 'hidden',
+              borderRadius: '16px',
+              border: '1px solid rgba(201,162,77,0.28)',
+              boxShadow: '0 20px 50px rgba(0,0,0,0.55)',
+            }}>
+              <img
+                src="/images/hero-portrait-v2.jpg"
+                alt="Aslam Hayat"
+                style={{
+                  position: 'absolute',
+                  inset: 0,
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  objectPosition: 'center 20%',
+                }}
+              />
+              <div style={{
+                position: 'absolute', inset: '0 0 auto 0',
+                height: '70px',
+                background: 'linear-gradient(to bottom, rgba(4,14,9,0.65), transparent)',
+              }} />
+              <div style={{
+                position: 'absolute', inset: 'auto 0 0 0',
+                height: '60px',
+                background: 'linear-gradient(to top, rgba(4,12,8,0.80), transparent)',
+              }} />
+            </div>
+          </div>
+
+          {/* ── Text column ── */}
+          <div
+            className="flex-1 flex items-center"
+            style={{ padding: '48px 24px 56px', paddingLeft: 'max(24px, 3vw)' }}
+          >
+            <div style={{ width: '100%', maxWidth: '520px', margin: '0 auto' }}>
 
               {/* Arabic verse */}
               <p
-                className="text-2xl md:text-3xl mb-5 font-urdu text-center lg:text-left"
                 dir="rtl"
-                style={{ color: '#c9a24d', fontFamily: '"Amiri", "Scheherazade New", serif', lineHeight: '2' }}
+                style={{
+                  fontFamily: '"Amiri", "Scheherazade New", serif',
+                  fontSize: 'clamp(1.3rem, 2.5vw, 1.75rem)',
+                  color: '#c9a24d',
+                  lineHeight: '2.1',
+                  marginBottom: '16px',
+                  textAlign: 'center',
+                }}
               >
                 إِنَّا لِلَّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ
               </p>
 
               {/* Gold rule */}
-              <div className="gold-divider mb-7" />
+              <div className="gold-divider" style={{ marginBottom: '24px' }} />
 
               {/* Main heading */}
-              <h1 className="font-playfair font-bold leading-tight mb-5 text-center lg:text-left" style={{ fontSize: 'clamp(2.2rem, 4vw, 3.4rem)', color: '#ffffff' }}>
+              <h1
+                className="font-playfair font-bold leading-tight"
+                style={{
+                  fontSize: 'clamp(2rem, 4vw, 3.2rem)',
+                  color: '#f5f0e8',
+                  marginBottom: '16px',
+                  textAlign: 'center',
+                }}
+              >
                 The Aslam Hayat
-                <span className="block mt-2" style={{ color: '#c9a24d' }}>Legacy Archive</span>
+                <span className="block" style={{ color: '#c9a24d', marginTop: '4px' }}>
+                  Legacy Archive
+                </span>
               </h1>
 
-              {/* Subheading */}
-              <p className="font-lora italic mb-5 text-center lg:text-left" style={{ fontSize: '0.95rem', color: '#8fb8a0', letterSpacing: '0.01em' }}>
-                Chartered Accountant &nbsp;&middot;&nbsp; Civil Aviation Executive &nbsp;&middot;&nbsp; Writer &nbsp;&middot;&nbsp; Student of Islamic Spirituality
+              {/* Role line */}
+              <p
+                className="font-lora italic"
+                style={{
+                  fontSize: '0.875rem',
+                  color: '#7aaa90',
+                  letterSpacing: '0.015em',
+                  marginBottom: '20px',
+                  textAlign: 'center',
+                }}
+              >
+                Chartered Accountant &nbsp;&middot;&nbsp; Civil Aviation Executive
+                <br />
+                Writer &nbsp;&middot;&nbsp; Student of Islamic Spirituality
               </p>
 
               {/* Gold rule */}
-              <div className="gold-divider mb-6" />
+              <div className="gold-divider" style={{ marginBottom: '20px' }} />
 
               {/* Biography paragraph */}
-              <p className="font-lora leading-relaxed mb-9 text-center lg:text-left" style={{ fontSize: '0.95rem', color: '#6b9980' }}>
-                Aslam Hayat (1933–2026) was a Pakistani-Canadian chartered accountant, civil aviation
-                executive, writer, and lifelong student of Islamic spirituality. Over more than
-                twenty-five years he authored over 650 published articles while exploring history,
+              <p
+                className="font-lora leading-relaxed"
+                style={{ fontSize: '0.9rem', color: '#5e9478', marginBottom: '32px', textAlign: 'center' }}
+              >
+                Aslam Hayat (1933–2026) was a Pakistani-Canadian chartered accountant, civil
+                aviation executive, writer, and lifelong student of Islamic spirituality. Over more
+                than twenty-five years he authored over 650 published articles exploring history,
                 faith, literature, science, and public affairs.
               </p>
 
               {/* Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Link href="/about" className="btn-primary">Read Biography</Link>
                 <Link href="/articles" className="btn-gold">Browse Articles</Link>
               </div>
 
             </div>
           </div>
+
         </div>
 
         {/* ── Stats bar ── */}
-        <div style={{ borderTop: '1px solid rgba(201,162,77,0.18)', background: 'rgba(0,0,0,0.28)' }}>
+        <div style={{ borderTop: '1px solid rgba(201,162,77,0.16)', background: 'rgba(0,0,0,0.30)' }}>
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
               {[
