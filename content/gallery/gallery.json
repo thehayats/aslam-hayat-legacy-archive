@@ -283,6 +283,83 @@
       "category": "family",
       "description": "Aslam Hayat with Junaid Alam and his grandson Zeeshan Hayat at Zaira Hayat's wedding in July 2021.",
       "featured": true
+    },
+    {
+      "id": "ph-real-020",
+      "src": "/images/gallery/aslam-hayat-miracle-award-surrey.jpg",
+      "alt": "Aslam Hayat receiving a Miracle Writers Award at the Surrey BC community event",
+      "caption": "Receiving the Miracle Writers & Singers Award, Surrey, BC",
+      "date": "c. 2010s",
+      "location": "Surrey, British Columbia, Canada",
+      "category": "community",
+      "description": "Aslam Hayat receiving an award for his years of dedicated service and contribution to Urdu writing at a Miracle Media Group event in Surrey, British Columbia.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-021",
+      "src": "/images/gallery/aslam-hayat-nyc-times-square-2009.jpg",
+      "alt": "Aslam Hayat at Times Square, New York City, 2009",
+      "caption": "Times Square, New York City, 2009",
+      "date": "2009",
+      "location": "New York City, USA",
+      "category": "canada",
+      "description": "Aslam Hayat at Times Square, New York City, during his 2009 visit — one of many international journeys he undertook in his later years.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-022",
+      "src": "/images/gallery/aslam-hayat-london-with-daughter-2017.jpg",
+      "alt": "Aslam Hayat with his daughter Saira in London, 2017",
+      "caption": "With his daughter Saira in London, 2017",
+      "date": "2017",
+      "location": "London, United Kingdom",
+      "category": "family",
+      "description": "Aslam Hayat with his daughter Saira during his visit to London in 2017.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-023",
+      "src": "/images/gallery/aslam-hayat-home-with-grandchild.jpg",
+      "alt": "Aslam Hayat with his granddaughter at home in Vancouver",
+      "caption": "With his granddaughter at home in Vancouver",
+      "date": "c. 2015–2020",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "Aslam Hayat with his young granddaughter at home in Vancouver — an Islamic calligraphy tapestry hangs on the wall behind them.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-024",
+      "src": "/images/gallery/aslam-hayat-vancouver-with-zeeshan.jpg",
+      "alt": "Aslam Hayat with Zeeshan Hayat at a restaurant in Vancouver",
+      "caption": "With Zeeshan Hayat, Vancouver",
+      "date": "c. 2015",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "canada",
+      "description": "Aslam Hayat with his grandson Zeeshan Hayat at a restaurant in Vancouver.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-025",
+      "src": "/images/gallery/aslam-hayat-miracle-15th-anniversary.jpg",
+      "alt": "The Miracle 15th Anniversary Writers and Singers Awards event, Surrey BC",
+      "caption": "The Miracle 15th Anniversary — Writers & Singers Awards, Surrey, BC",
+      "date": "c. 2010s",
+      "location": "Surrey, British Columbia, Canada",
+      "category": "community",
+      "description": "The Miracle Media Group's 15th Anniversary celebration and Writers & Singers Awards ceremony in Surrey, BC — a community event Aslam Hayat was closely associated with as a long-standing columnist.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-026",
+      "src": "/images/gallery/aslam-hayat-surrey-community-event.jpg",
+      "alt": "Aslam Hayat at a community event in Surrey, BC",
+      "caption": "At a community event, Surrey, BC",
+      "date": "c. 2010s",
+      "location": "Surrey, British Columbia, Canada",
+      "category": "community",
+      "description": "Aslam Hayat at a Pakistani-Canadian community event in Surrey, British Columbia.",
+      "featured": false
     }
   ]
 }

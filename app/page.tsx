@@ -294,7 +294,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8">
             <SectionHeader
               title="Photo Gallery"
-              subtitle="Family photographs, documents, and memories — to be added as the archive grows."
+              subtitle="Photographs from across the decades — family, travels, community, and celebration."
             />
             <Link
               href="/gallery"
@@ -308,28 +308,40 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             {[
-              { color: '#1a3a2a', label: 'Family' },
-              { color: '#2d5c42', label: 'Vancouver Years' },
-              { color: '#a8893a', label: 'Writings & Documents' },
-              { color: '#0f2318', label: 'Pakistan' },
-              { color: '#1a3a2a', label: 'Community' },
-            ].map(({ color, label }) => (
+              { src: '/images/gallery/aslam-hayat-miracle-award-surrey.jpg', label: 'Community Service', position: 'center top' },
+              { src: '/images/gallery/aslam-hayat-nyc-times-square-2009.jpg', label: 'Travels', position: 'center center' },
+              { src: '/images/gallery/aslam-hayat-london-with-daughter-2017.jpg', label: 'Family', position: 'center top' },
+              { src: '/images/gallery/aslam-hayat-home-with-grandchild.jpg', label: 'At Home', position: 'center 20%' },
+              { src: '/images/gallery/aslam-hayat-vancouver-with-zeeshan.jpg', label: 'Vancouver', position: 'center center' },
+            ].map(({ src, label, position }) => (
               <Link
                 key={label}
                 href="/gallery"
                 className="group relative aspect-square rounded-lg overflow-hidden card-hover"
               >
-                <div className="w-full h-full flex items-center justify-center" style={{ backgroundColor: color }}>
-                  <span className="font-lora text-xs text-cream-dark opacity-60 group-hover:opacity-100 transition-opacity text-center px-2">
-                    {label}
-                  </span>
+                <img
+                  src={src}
+                  alt={label}
+                  style={{
+                    position: 'absolute',
+                    inset: 0,
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    objectPosition: position,
+                    transition: 'transform 0.4s ease',
+                  }}
+                  className="group-hover:scale-105"
+                />
+                <div
+                  className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity flex items-end"
+                  style={{ background: 'linear-gradient(to top, rgba(4,24,15,0.75) 0%, transparent 60%)' }}
+                >
+                  <span className="font-lora text-xs text-cream-light px-3 pb-2.5">{label}</span>
                 </div>
               </Link>
             ))}
           </div>
-          <p className="font-lora text-sm text-gray-500 italic text-center mt-6">
-            Family-approved photographs will be added soon.
-          </p>
         </div>
       </section>
 
