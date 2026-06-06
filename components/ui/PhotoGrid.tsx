@@ -123,18 +123,19 @@ function Lightbox({ photo, categoryLabel, onClose }: LightboxProps) {
         </div>
 
         {/* Image or placeholder */}
-        <div className="flex-shrink-0 w-full aspect-video overflow-hidden">
+        <div className="flex-shrink-0 w-full bg-black flex items-center justify-center" style={{ maxHeight: '65vh' }}>
           {!imgError && photo.src && !photo.src.includes('placeholder') ? (
             // eslint-disable-next-line @next/next/no-img-element
             <img
               src={photo.src}
               alt={photo.alt ?? photo.caption}
-              className="w-full h-full object-cover"
+              className="max-w-full max-h-full object-contain"
+              style={{ maxHeight: '65vh' }}
               onError={() => setImgError(true)}
             />
           ) : (
             <div
-              className="w-full h-full flex flex-col items-center justify-center"
+              className="w-full flex flex-col items-center justify-center py-16"
               style={{ backgroundColor: bgColor }}
             >
               <span className="font-playfair text-6xl text-cream-dark opacity-20 font-bold select-none">
