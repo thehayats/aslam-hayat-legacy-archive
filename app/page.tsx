@@ -16,163 +16,113 @@ export default function HomePage() {
   return (
     <>
       {/* ── Hero ─────────────────────────────────────────────────── */}
-      <section style={{ background: 'linear-gradient(150deg, #04180f 0%, #081c12 45%, #040f0a 100%)' }}>
+      <section style={{ background: '#04180f' }}>
 
-        {/* Two-column layout */}
-        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row" style={{ minHeight: '700px' }}>
+        {/* Full-width editorial split — no max-width container so image bleeds to viewport edge */}
+        <div className="flex flex-col lg:flex-row" style={{ minHeight: '720px' }}>
 
-          {/* ── Portrait column — desktop ── */}
+          {/* ── Image panel — desktop left, 50% of viewport ── */}
           <div
-            className="hidden lg:flex items-center justify-center flex-shrink-0"
-            style={{ width: '44%', padding: '64px 32px 64px 48px' }}
+            className="hidden lg:block relative flex-shrink-0"
+            style={{ width: '50%' }}
           >
-            {/* Relative wrapper: glow sits behind card */}
-            <div style={{ position: 'relative' }}>
-
-              {/* Radial glow halo */}
-              <div style={{
+            <img
+              src="/images/hero-portrait-v2.jpg"
+              alt="Aslam Hayat"
+              style={{
                 position: 'absolute',
-                inset: '-35%',
-                borderRadius: '50%',
-                background: 'radial-gradient(ellipse at center, rgba(201,162,77,0.09) 0%, transparent 62%)',
-                pointerEvents: 'none',
-              }} />
-
-              {/* Portrait card */}
-              <div style={{
-                position: 'relative',
-                width: '380px',
-                height: '560px',
-                overflow: 'hidden',
-                borderRadius: '18px',
-                border: '1px solid rgba(201,162,77,0.28)',
-                boxShadow: '0 32px 80px rgba(0,0,0,0.60), 0 0 0 4px rgba(201,162,77,0.06) inset',
-              }}>
-                <img
-                  src="/images/hero-portrait-v2.jpg"
-                  alt="Aslam Hayat — formal portrait"
-                  style={{
-                    position: 'absolute',
-                    inset: 0,
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    objectPosition: 'center top',
-                  }}
-                />
-
-                {/* Top overlay — softens the blurry background at top of photo */}
-                <div style={{
-                  position: 'absolute', inset: '0 0 auto 0',
-                  height: '130px',
-                  background: 'linear-gradient(to bottom, rgba(4,14,9,0.72) 0%, rgba(4,14,9,0.18) 60%, transparent 100%)',
-                }} />
-
-                {/* Bottom fade — dissolves into section background */}
-                <div style={{
-                  position: 'absolute', inset: 'auto 0 0 0',
-                  height: '100px',
-                  background: 'linear-gradient(to top, rgba(4,12,8,0.88) 0%, transparent 100%)',
-                }} />
-
-                {/* Left edge */}
-                <div style={{
-                  position: 'absolute', inset: '0 auto 0 0',
-                  width: '28px',
-                  background: 'linear-gradient(to right, rgba(4,14,9,0.32), transparent)',
-                }} />
-
-                {/* Right edge */}
-                <div style={{
-                  position: 'absolute', inset: '0 0 0 auto',
-                  width: '28px',
-                  background: 'linear-gradient(to left, rgba(4,14,9,0.32), transparent)',
-                }} />
-              </div>
-
-              {/* Caption */}
-              <p style={{
-                textAlign: 'center',
-                marginTop: '12px',
-                fontFamily: 'var(--font-lora)',
-                fontSize: '0.72rem',
-                letterSpacing: '0.06em',
-                color: 'rgba(140,180,160,0.45)',
-              }}>
-                ASLAM HAYAT &nbsp;·&nbsp; 1933 – 2026
-              </p>
-            </div>
-          </div>
-
-          {/* ── Portrait — mobile (full-width card, stacked above text) ── */}
-          <div className="lg:hidden flex justify-center" style={{ padding: '48px 24px 24px' }}>
+                inset: 0,
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                objectPosition: '55% 22%',
+                filter: 'brightness(1.08) contrast(1.02)',
+              }}
+            />
+            {/* Right-edge gradient — blends seamlessly into text area */}
             <div style={{
-              position: 'relative',
-              width: '100%',
-              maxWidth: '280px',
-              height: '320px',
-              overflow: 'hidden',
-              borderRadius: '16px',
-              border: '1px solid rgba(201,162,77,0.28)',
-              boxShadow: '0 20px 50px rgba(0,0,0,0.55)',
-            }}>
-              <img
-                src="/images/hero-portrait-v2.jpg"
-                alt="Aslam Hayat"
-                style={{
-                  position: 'absolute',
-                  inset: 0,
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                  objectPosition: 'center 20%',
-                }}
-              />
-              <div style={{
-                position: 'absolute', inset: '0 0 auto 0',
-                height: '70px',
-                background: 'linear-gradient(to bottom, rgba(4,14,9,0.65), transparent)',
-              }} />
-              <div style={{
-                position: 'absolute', inset: 'auto 0 0 0',
-                height: '60px',
-                background: 'linear-gradient(to top, rgba(4,12,8,0.80), transparent)',
-              }} />
-            </div>
+              position: 'absolute',
+              top: 0, bottom: 0, right: 0,
+              width: '260px',
+              background: 'linear-gradient(to right, transparent, #04180f)',
+              pointerEvents: 'none',
+            }} />
+            {/* Soft top vignette — dims upper background without touching face */}
+            <div style={{
+              position: 'absolute',
+              top: 0, left: 0, right: 0,
+              height: '130px',
+              background: 'linear-gradient(to bottom, rgba(4,16,10,0.50) 0%, transparent 100%)',
+              pointerEvents: 'none',
+            }} />
+            {/* Soft bottom vignette */}
+            <div style={{
+              position: 'absolute',
+              bottom: 0, left: 0, right: 0,
+              height: '130px',
+              background: 'linear-gradient(to top, rgba(4,14,9,0.60) 0%, transparent 100%)',
+              pointerEvents: 'none',
+            }} />
           </div>
 
-          {/* ── Text column ── */}
+          {/* ── Mobile: full-width image stacked above text ── */}
+          <div className="lg:hidden relative" style={{ height: '380px' }}>
+            <img
+              src="/images/hero-portrait-v2.jpg"
+              alt="Aslam Hayat"
+              style={{
+                position: 'absolute',
+                inset: 0,
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                objectPosition: '55% 20%',
+                filter: 'brightness(1.06)',
+              }}
+            />
+            <div style={{
+              position: 'absolute',
+              bottom: 0, left: 0, right: 0,
+              height: '120px',
+              background: 'linear-gradient(to top, #04180f 30%, transparent 100%)',
+              pointerEvents: 'none',
+            }} />
+          </div>
+
+          {/* ── Text column — right on desktop, below image on mobile ── */}
           <div
-            className="flex-1 flex items-center"
-            style={{ padding: '48px 24px 56px', paddingLeft: 'max(24px, 3vw)' }}
+            className="flex-1 flex items-center justify-center"
+            style={{
+              background: 'linear-gradient(160deg, #061a10 0%, #081c12 60%, #04130c 100%)',
+              padding: '56px 48px 64px 40px',
+            }}
           >
-            <div style={{ width: '100%', maxWidth: '520px', margin: '0 auto' }}>
+            <div style={{ width: '100%', maxWidth: '480px' }}>
 
               {/* Arabic verse */}
               <p
                 dir="rtl"
                 style={{
                   fontFamily: '"Amiri", "Scheherazade New", serif',
-                  fontSize: 'clamp(1.3rem, 2.5vw, 1.75rem)',
+                  fontSize: 'clamp(1.25rem, 2vw, 1.65rem)',
                   color: '#c9a24d',
                   lineHeight: '2.1',
-                  marginBottom: '16px',
+                  marginBottom: '14px',
                   textAlign: 'center',
                 }}
               >
                 إِنَّا لِلَّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ
               </p>
 
-              {/* Gold rule */}
-              <div className="gold-divider" style={{ marginBottom: '24px' }} />
+              <div className="gold-divider" style={{ marginBottom: '20px' }} />
 
               {/* Main heading */}
               <h1
                 className="font-playfair font-bold leading-tight"
                 style={{
-                  fontSize: 'clamp(2rem, 4vw, 3.2rem)',
+                  fontSize: 'clamp(2rem, 3.2vw, 3rem)',
                   color: '#f5f0e8',
-                  marginBottom: '16px',
+                  marginBottom: '14px',
                   textAlign: 'center',
                 }}
               >
@@ -189,7 +139,7 @@ export default function HomePage() {
                   fontSize: '0.875rem',
                   color: '#7aaa90',
                   letterSpacing: '0.015em',
-                  marginBottom: '20px',
+                  marginBottom: '18px',
                   textAlign: 'center',
                 }}
               >
@@ -198,8 +148,7 @@ export default function HomePage() {
                 Writer &nbsp;&middot;&nbsp; Student of Islamic Spirituality
               </p>
 
-              {/* Gold rule */}
-              <div className="gold-divider" style={{ marginBottom: '20px' }} />
+              <div className="gold-divider" style={{ marginBottom: '18px' }} />
 
               {/* Biography paragraph */}
               <p
@@ -224,7 +173,7 @@ export default function HomePage() {
         </div>
 
         {/* ── Stats bar ── */}
-        <div style={{ borderTop: '1px solid rgba(201,162,77,0.16)', background: 'rgba(0,0,0,0.30)' }}>
+        <div style={{ borderTop: '1px solid rgba(201,162,77,0.16)', background: 'rgba(0,0,0,0.32)' }}>
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
               {[
