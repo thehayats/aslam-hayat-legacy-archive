@@ -43,17 +43,30 @@ export default function ArticlesPage() {
           englishArticles={englishArticles}
         />
 
-        {/* Cross-link */}
-        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mt-12">
-          <div>
-            <p className="font-playfair text-base text-green font-bold mb-1">Scholarship &amp; Spiritual Influences</p>
-            <p className="font-lora text-sm text-gray-600">
-              Understand the scholars, mystics, and thinkers whose ideas shaped his writing over 25 years.
-            </p>
+        {/* Cross-links */}
+        <div className="grid sm:grid-cols-2 gap-4 mt-12">
+          <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
+            <div>
+              <p className="font-playfair text-base text-green font-bold mb-1">Faith, Theology &amp; Spirituality</p>
+              <p className="font-lora text-sm text-gray-600">
+                The Quran, Sunnah, Sufism, and the faith that informed every word he wrote.
+              </p>
+            </div>
+            <Link href="/faith-theology-and-spirituality" className="btn-gold text-sm text-center">
+              Explore
+            </Link>
           </div>
-          <Link href="/scholarship-and-spirituality" className="btn-gold text-sm flex-shrink-0">
-            Explore
-          </Link>
+          <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
+            <div>
+              <p className="font-playfair text-base text-green font-bold mb-1">Scholarship &amp; Intellectual Influences</p>
+              <p className="font-lora text-sm text-gray-600">
+                The scholars, mystics, and thinkers whose ideas shaped his writing over 25 years.
+              </p>
+            </div>
+            <Link href="/scholarship-and-spirituality" className="btn-gold text-sm text-center">
+              Explore
+            </Link>
+          </div>
         </div>
       </div>
     </div>

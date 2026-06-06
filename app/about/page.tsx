@@ -226,11 +226,22 @@ export default function AboutPage() {
               </div>
             </section>
 
+            <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+              <div>
+                <p className="font-playfair text-base text-green font-bold mb-1">Faith, Theology &amp; Spiritual Worldview</p>
+                <p className="font-lora text-sm text-gray-600">
+                  The Quran, Sunnah, Sufism, and his lifelong pursuit of spiritual understanding.
+                </p>
+              </div>
+              <Link href="/faith-theology-and-spirituality" className="btn-gold text-sm flex-shrink-0">
+                Read More
+              </Link>
+            </div>
             <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-10">
               <div>
-                <p className="font-playfair text-base text-green font-bold mb-1">Scholarship &amp; Spiritual Life</p>
+                <p className="font-playfair text-base text-green font-bold mb-1">Scholarship &amp; Intellectual Influences</p>
                 <p className="font-lora text-sm text-gray-600">
-                  Explore the scholars, mystics, and thinkers who shaped Aslam Hayat&apos;s intellectual world.
+                  The scholars, mystics, and thinkers who shaped his intellectual world.
                 </p>
               </div>
               <Link href="/scholarship-and-spirituality" className="btn-gold text-sm flex-shrink-0">

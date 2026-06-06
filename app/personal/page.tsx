@@ -140,10 +140,22 @@ export default function PersonalPage() {
           </div>
         </section>
 
+        {/* Faith cross-link */}
+        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+          <div>
+            <p className="font-playfair text-base text-green font-bold mb-1">Faith, Theology &amp; Spiritual Worldview</p>
+            <p className="font-lora text-sm text-gray-600">
+              The Quran, Sunnah, Sufism, the Divine Names — a lifelong pursuit of spiritual understanding.
+            </p>
+          </div>
+          <Link href="/faith-theology-and-spirituality" className="btn-gold text-sm flex-shrink-0">
+            Explore
+          </Link>
+        </div>
         {/* Scholarship cross-link */}
         <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-14">
           <div>
-            <p className="font-playfair text-base text-green font-bold mb-1">Scholarship &amp; Spirituality</p>
+            <p className="font-playfair text-base text-green font-bold mb-1">Scholarship &amp; Intellectual Influences</p>
             <p className="font-lora text-sm text-gray-600">
               The scholars, mystics, scientists, and world thinkers who shaped his intellectual life.
             </p>

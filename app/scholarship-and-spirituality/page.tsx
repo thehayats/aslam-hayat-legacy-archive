@@ -271,8 +271,11 @@ export default function ScholarshipPage() {
             <Link href="/articles" className="btn-primary text-center">
               Browse His Articles
             </Link>
+            <Link href="/faith-theology-and-spirituality" className="btn-gold text-center">
+              Faith &amp; Theology
+            </Link>
             <Link href="/about" className="btn-gold text-center">
-              Read His Biography
+              Biography
             </Link>
           </div>
         </section>

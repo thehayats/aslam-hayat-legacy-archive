@@ -17,6 +17,7 @@ const navItems: NavItem[] = [
   { label: 'Professional', href: '/professional' },
   { label: 'Personal', href: '/personal' },
   { label: 'Scholarship & Spirituality', href: '/scholarship-and-spirituality' },
+  { label: 'Faith & Theology', href: '/faith-theology-and-spirituality' },
   {
     label: 'Articles',
     href: '/articles',
