@@ -205,6 +205,19 @@ export default function PersonalPage() {
           </div>
         </section>
 
+        {/* Tributes cross-link */}
+        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
+          <div>
+            <p className="font-playfair text-base text-green font-bold mb-1">Family Tributes</p>
+            <p className="font-lora text-sm text-gray-600">
+              Remembrances from those who loved him most — in their own words.
+            </p>
+          </div>
+          <Link href="/tributes" className="btn-gold text-sm flex-shrink-0">
+            Read Tributes
+          </Link>
+        </div>
+
         {/* Contribute */}
         <div className="bg-green rounded-lg p-6 text-center">
           <p className="font-lora text-base text-cream-dark leading-relaxed mb-4">

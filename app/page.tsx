@@ -233,6 +233,56 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── Family Tribute ───────────────────────────────────────── */}
+      <section className="py-16 md:py-20 bg-parchment border-y border-cream-dark">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="font-playfair text-2xl md:text-3xl text-green font-bold mb-2">
+              In Their Own Words
+            </h2>
+            <p className="font-lora text-sm text-gray-500 italic">A tribute from his family</p>
+            <div className="gold-divider mt-4" />
+          </div>
+
+          <div className="bg-green rounded-xl shadow-lg overflow-hidden">
+            <div className="px-6 pt-8 pb-4 text-center border-b border-green-dark">
+              <p className="arabic-text text-gold text-2xl font-urdu leading-loose">
+                إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ
+              </p>
+            </div>
+            <div className="px-6 md:px-10 py-8">
+              <p className="font-lora text-base md:text-lg text-gold-light text-center font-semibold leading-relaxed mb-5">
+                My beloved grandfather will be remembered as a pillar of our family, life&apos;s
+                biggest blessing and influence, from childhood into adulthood.
+              </p>
+              <p className="font-lora text-sm md:text-base text-cream-light leading-relaxed text-center italic mb-5 opacity-90">
+                He instilled values of love, kindness, and strong faith among his family
+                members and wider community.
+              </p>
+              <p className="font-lora text-sm text-cream-dark leading-relaxed opacity-80">
+                A lover of literature and poetry &mdash; English, Urdu and Persian. He leaves us with
+                the hoards of books that he surrounded himself with 24/7, tasbīhs (prayer beads)
+                that constantly intertwined in his fingers&hellip; He leaves us with an inexplicable
+                void, yet immense gratitude to have known him.
+              </p>
+              <div className="gold-divider my-5" />
+              <p className="font-lora text-base text-gold-light text-center font-semibold">
+                May God rest your soul, our beautiful grandfather &nbsp;&#x1F339;
+              </p>
+            </div>
+            <div className="bg-green-dark px-6 py-4 flex items-center justify-between">
+              <div>
+                <cite className="font-playfair text-sm text-gold not-italic font-bold">Rida Hayat</cite>
+                <p className="font-lora text-xs text-cream-dark opacity-70">Granddaughter</p>
+              </div>
+              <Link href="/tributes" className="btn-gold text-xs py-2 px-4">
+                Read Full Tribute
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── Submit Memory CTA ─────────────────────────────────────── */}
       <section className="py-16 md:py-20 bg-cream">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
