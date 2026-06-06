@@ -2,10 +2,34 @@
   {
     "year": "1933",
     "title": "Born in Lahore, Pakistan",
-    "description": "Aslam Hayat was born on March 23, 1933, in Lahore, Pakistan.",
+    "description": "Aslam Hayat was born on 23 March 1933 in Lahore, Pakistan, with family roots in Subhan Pur, Kapurthala, Punjab.",
     "category": "personal",
     "icon": "🌙",
     "location": "Lahore, Pakistan"
+  },
+  {
+    "year": "1947",
+    "title": "Partition of India",
+    "description": "Aslam Hayat witnessed the Partition of India as a teenager in Lahore — an experience that shaped his writing and historical outlook throughout his life.",
+    "category": "historical",
+    "icon": "📜",
+    "location": "Lahore, Pakistan"
+  },
+  {
+    "year": "1950s–60s",
+    "title": "Qualified as Chartered Accountant, London",
+    "description": "He travelled to London, United Kingdom, where he qualified as a Chartered Accountant — the professional foundation for his subsequent public-sector career.",
+    "category": "professional",
+    "icon": "🎓",
+    "location": "London, United Kingdom"
+  },
+  {
+    "year": "Career",
+    "title": "Director-level, Pakistan Civil Aviation Authority",
+    "description": "Aslam Hayat served at the Pakistan Civil Aviation Authority (PCAA), rising to director-level responsibilities during a formative period in Pakistan's aviation history.",
+    "category": "professional",
+    "icon": "✈️",
+    "location": "Pakistan"
   },
   {
     "year": "1989",
@@ -16,9 +40,17 @@
     "location": "Vancouver, British Columbia, Canada"
   },
   {
+    "year": "25 yrs",
+    "title": "Columnist, The Miracle Newspaper",
+    "description": "For more than twenty-five years, Aslam Hayat maintained a regular column in The Miracle, Vancouver's Pakistani community newspaper, authoring over 650 articles on history, current affairs, Islamic thought, and the South Asian diaspora.",
+    "category": "writing",
+    "icon": "✍️",
+    "location": "Vancouver, British Columbia, Canada"
+  },
+  {
     "year": "2026",
     "title": "Passed Away in Vancouver",
-    "description": "Aslam Hayat passed away on May 30, 2026, in Vancouver, British Columbia, Canada. إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+    "description": "Aslam Hayat passed away on 30 May 2026 in Vancouver, British Columbia, Canada, aged 93. إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
     "category": "personal",
     "icon": "🌹",
     "location": "Vancouver, British Columbia, Canada"

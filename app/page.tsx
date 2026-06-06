@@ -7,7 +7,7 @@ import type { TimelineEntry } from '@/lib/articles';
 export const metadata: Metadata = {
   title: 'The Aslam Hayat Legacy Archive',
   description:
-    'A digital archive preserving the life, writings, memories, and family legacy of Aslam Hayat — beloved family elder, writer, and community member.',
+    'A digital archive preserving the life, writings, and legacy of Aslam Hayat (1933–2026) — Chartered Accountant, civil aviation executive, Urdu writer, and beloved family elder.',
 };
 
 export default function HomePage() {
@@ -25,52 +25,42 @@ export default function HomePage() {
             backgroundSize: '60px 60px',
           }}
         />
-
         <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 text-center">
-          {/* Bismillah */}
           <p className="arabic-text text-green text-2xl md:text-3xl mb-6 font-urdu">
             بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
           </p>
-
           <div className="gold-divider mb-8" />
-
           <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-green font-bold leading-tight mb-6">
             The Aslam Hayat
             <span className="block text-gold mt-1">Legacy Archive</span>
           </h1>
-
           <p className="font-lora text-lg md:text-xl text-gray-600 italic leading-relaxed max-w-2xl mx-auto mb-4">
-            Preserving the life, writings, memories, and family legacy of Aslam Hayat
+            Chartered Accountant &middot; Civil Aviation Executive &middot; Writer &middot; Family Elder
           </p>
-
           <div className="gold-divider mb-8" />
-
           <p className="font-lora text-base md:text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto mb-10">
-            Aslam Hayat was a beloved family elder, writer, and community member who lived a life
-            rooted in faith, knowledge, family, and service. This archive has been created by his
-            family to preserve his memories, writings, photographs, and legacy for future generations.
+            Aslam Hayat (23 March 1933 – 2026) was a Pakistani-Canadian chartered accountant,
+            civil aviation executive, writer, and student of Islamic spirituality. Over more than
+            twenty-five years he authored more than 650 articles in Vancouver&apos;s Pakistani
+            community newspaper. This archive is maintained by his family to preserve his life,
+            writings, and legacy for future generations.
           </p>
-
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/about" className="btn-primary">
-              Read His Biography
-            </Link>
-            <Link href="/gallery" className="btn-gold">
-              View the Gallery
-            </Link>
+            <Link href="/about" className="btn-primary">Read His Biography</Link>
+            <Link href="/articles" className="btn-gold">Browse the Articles</Link>
           </div>
         </div>
       </section>
 
-      {/* ── Key Facts Bar ─────────────────────────────────────────── */}
+      {/* ── Stats Bar ─────────────────────────────────────────────── */}
       <section className="bg-green border-b border-green-dark">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
             {[
               { stat: '1933', label: 'Born in Lahore, Pakistan' },
-              { stat: '1989', label: 'Arrived in Canada' },
-              { stat: 'Vancouver', label: 'Home in Canada' },
-              { stat: '2026', label: 'Passed Away' },
+              { stat: '650+', label: 'Published Articles' },
+              { stat: '25 yrs', label: 'Newspaper Column, Vancouver' },
+              { stat: '93', label: 'Years of a Life Well Lived' },
             ].map(({ stat, label }) => (
               <div key={label} className="px-2 py-2">
                 <p className="font-playfair text-2xl md:text-3xl text-gold font-bold">{stat}</p>
@@ -88,41 +78,41 @@ export default function HomePage() {
             <div>
               <SectionHeader
                 title="About Aslam Hayat"
-                subtitle="A life rooted in faith, family, and service."
+                subtitle="A life that spanned pre-Partition India, modern Pakistan, and the Pakistani-Canadian community."
               />
               <p className="font-lora text-base text-gray-700 leading-relaxed mb-4">
-                Aslam Hayat was born on March 23, 1933, in Lahore, Pakistan. He was a devoted
-                Muslim, a loving father and grandfather, a writer in Urdu, and a respected presence
-                in his community. He arrived in Canada in 1989 and settled in Vancouver, British
-                Columbia, where he remained a beloved family elder until his passing on May 30, 2026.
+                Born in Lahore in 1933, with family roots in Subhan Pur, Kapurthala, Punjab, Aslam
+                Hayat witnessed the Partition of India in 1947 — an experience that shaped his
+                writing and historical outlook throughout his life. He later travelled to London
+                to qualify as a Chartered Accountant and returned to serve in Pakistan&apos;s civil
+                aviation sector, rising to director-level responsibilities at the Pakistan Civil
+                Aviation Authority.
               </p>
               <p className="font-lora text-base text-gray-700 leading-relaxed mb-6">
-                To his grandson Zeeshan Hayat, he was far more than a grandfather — he was a father
-                figure, a mentor, a teacher of faith, and a lifelong companion. He helped raise
-                Zeeshan, taught him to read the Quran in Arabic, and instilled in him the values of
-                education, faith, patience, humility, and service.
+                After his retirement he settled in Vancouver, British Columbia, where he became a
+                respected voice in the Pakistani-Canadian community. For more than twenty-five years
+                he maintained a regular column in <em>The Miracle</em> newspaper, authoring over
+                650 articles on history, current affairs, community life, and the experiences of
+                the South Asian diaspora.
               </p>
-              <Link href="/about" className="btn-primary">
-                Read Full Biography
-              </Link>
+              <Link href="/about" className="btn-primary">Read Full Biography</Link>
             </div>
 
-            {/* Quick Facts Card */}
             <div className="bg-parchment border border-cream-dark rounded-lg p-8 ornament-border">
               <h3 className="font-playfair text-xl text-green font-bold mb-5">At a Glance</h3>
               <dl className="space-y-3">
                 {[
-                  { label: 'Born', value: 'March 23, 1933' },
-                  { label: 'Birthplace', value: 'Lahore, Pakistan' },
-                  { label: 'Faith', value: 'Islam' },
-                  { label: 'Arrived Canada', value: '1989' },
-                  { label: 'Resided', value: 'Vancouver, BC, Canada' },
-                  { label: 'Passed Away', value: 'May 30, 2026, Vancouver, BC' },
+                  { label: 'Born', value: '23 March 1933, Lahore, Pakistan' },
+                  { label: 'Family Origins', value: 'Subhan Pur, Kapurthala, Punjab' },
+                  { label: 'Education', value: 'Chartered Accountant, London, UK' },
+                  { label: 'Career', value: 'Director-level, Pakistan Civil Aviation Authority' },
+                  { label: 'Writing', value: '650+ articles, The Miracle (Vancouver)' },
+                  { label: 'Faith', value: 'Islam; student of Sufism and Ibn Arabi' },
+                  { label: 'Settled', value: 'Vancouver, British Columbia, Canada' },
+                  { label: 'Passed Away', value: '2026, aged 93, Vancouver' },
                 ].map(({ label, value }) => (
                   <div key={label} className="flex gap-3">
-                    <dt className="font-lora text-sm font-medium text-green w-32 flex-shrink-0">
-                      {label}
-                    </dt>
+                    <dt className="font-lora text-sm font-medium text-green w-32 flex-shrink-0">{label}</dt>
                     <dd className="font-lora text-sm text-gray-700">{value}</dd>
                   </div>
                 ))}
@@ -138,7 +128,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
             <SectionHeader
               title="Life Timeline"
-              subtitle="Key moments from his life — from Lahore to Vancouver."
+              subtitle="From pre-Partition Punjab to Vancouver — the key moments of a life that spanned a century."
             />
             <Link
               href="/timeline"
@@ -150,7 +140,6 @@ export default function HomePage() {
               </svg>
             </Link>
           </div>
-
           <div className="space-y-4">
             {timelineEntries.map((entry) => (
               <div
@@ -183,7 +172,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8">
             <SectionHeader
               title="Photo Gallery"
-              subtitle="Family photographs, memories, and documents — to be added as the archive grows."
+              subtitle="Family photographs, documents, and memories — to be added as the archive grows."
             />
             <Link
               href="/gallery"
@@ -195,14 +184,13 @@ export default function HomePage() {
               </svg>
             </Link>
           </div>
-
           <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
             {[
               { color: '#1a3a2a', label: 'Family' },
               { color: '#2d5c42', label: 'Vancouver Years' },
               { color: '#a8893a', label: 'Writings & Documents' },
-              { color: '#0f2318', label: 'Community' },
-              { color: '#1a3a2a', label: 'Memories' },
+              { color: '#0f2318', label: 'Pakistan' },
+              { color: '#1a3a2a', label: 'Community' },
             ].map(({ color, label }) => (
               <Link
                 key={label}
@@ -217,7 +205,6 @@ export default function HomePage() {
               </Link>
             ))}
           </div>
-
           <p className="font-lora text-sm text-gray-500 italic text-center mt-6">
             Family-approved photographs will be added soon.
           </p>
@@ -240,8 +227,8 @@ export default function HomePage() {
           </p>
           <div className="gold-divider mb-4" />
           <cite className="font-lora text-sm text-cream-dark not-italic">
-            — Hadith of the Prophet Muhammad ﷺ &nbsp;·&nbsp;{' '}
-            <em>A saying Aslam Hayat passed on to his family</em>
+            — Hadith of the Prophet Muhammad ﷺ &nbsp;&middot;&nbsp;{' '}
+            <em>A principle Aslam Hayat lived and wrote by, and passed on to his family</em>
           </cite>
         </div>
       </section>
@@ -251,17 +238,15 @@ export default function HomePage() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <SectionHeader
             title="Share a Memory"
-            subtitle="Do you have a story, photograph, or memory of Aslam Hayat? The family warmly invites you to contribute to this archive."
+            subtitle="Do you have a story, photograph, or memory of Aslam Hayat? The family warmly invites you to contribute."
             centered
           />
           <p className="font-lora text-base text-gray-600 leading-relaxed mb-8">
-            Every memory matters — a photograph, a letter, a story, or simply the way he made you
-            feel welcome. This archive grows richer with each contribution, and the family is
-            grateful to all who choose to share.
+            Whether you knew him through his writing in <em>The Miracle</em>, through the Pakistani-Canadian
+            community, through his years in public service in Pakistan, or simply as a beloved member
+            of the family — every memory matters and every contribution enriches this archive.
           </p>
-          <Link href="/contact" className="btn-primary text-lg">
-            Submit Your Memory
-          </Link>
+          <Link href="/contact" className="btn-primary text-lg">Submit Your Memory</Link>
         </div>
       </section>
     </>
