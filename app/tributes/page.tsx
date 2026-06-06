@@ -100,6 +100,20 @@ export default function TributesPage() {
               </div>
             </div>
 
+            {/* Photos from the tribute */}
+            <div className="grid grid-cols-2 gap-1 border-t border-green-dark">
+              <img
+                src="/images/gallery/aslam-hayat-home-green-sweater.jpg"
+                alt="Aslam Hayat at home in Vancouver, wearing a green sweater"
+                className="w-full object-cover aspect-[4/5]"
+              />
+              <img
+                src="/images/gallery/aslam-hayat-home-armchair.jpg"
+                alt="Aslam Hayat relaxed at home in Vancouver, wearing white shalwar kameez"
+                className="w-full object-cover aspect-[4/5]"
+              />
+            </div>
+
             {/* Attribution */}
             <div className="bg-green-dark px-8 py-5 text-center">
               <cite className="font-playfair text-base text-gold not-italic font-bold">
