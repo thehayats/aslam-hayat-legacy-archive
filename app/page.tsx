@@ -16,39 +16,37 @@ export default function HomePage() {
   return (
     <>
       {/* ── Hero ─────────────────────────────────────────────────── */}
-      <section className="relative min-h-[620px] md:min-h-[720px] lg:min-h-[780px] overflow-hidden flex items-center">
-        {/* Background photo */}
+      <section className="relative min-h-[680px] md:min-h-[780px] lg:min-h-[860px] overflow-hidden flex items-end">
+        {/* Background photo — fills the banner, face positioned upper-centre */}
         <img
           src="/images/gallery/aslam-hayat-hero-formal-event.jpg"
           alt=""
           aria-hidden="true"
           className="absolute inset-0 w-full h-full object-cover"
-          style={{ objectPosition: 'center 18%' }}
+          style={{ objectPosition: 'center 15%' }}
         />
-        {/* Green-tinted gradient overlay — dark at bottom for text, lighter at top to show photo */}
+        {/* Very light global tint so colours stay true */}
+        <div className="absolute inset-0 bg-black/15" />
+        {/* Heavy gradient rising from the bottom — only darkens where text lives */}
         <div className="absolute inset-0" style={{
-          background: 'linear-gradient(to bottom, rgba(10,25,18,0.45) 0%, rgba(10,25,18,0.62) 45%, rgba(10,25,18,0.88) 100%)'
-        }} />
-        {/* Subtle side vignette */}
-        <div className="absolute inset-0" style={{
-          background: 'radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.35) 100%)'
+          background: 'linear-gradient(to top, rgba(8,22,15,0.96) 0%, rgba(8,22,15,0.82) 22%, rgba(8,22,15,0.40) 45%, rgba(8,22,15,0.08) 65%, transparent 80%)'
         }} />
 
-        {/* Content */}
-        <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
-          <p className="arabic-text text-gold text-2xl md:text-3xl mb-5 font-urdu drop-shadow-lg">
+        {/* Text — pinned to the bottom of the banner */}
+        <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-0 pb-12 md:pb-16 text-center">
+          <p className="arabic-text text-gold text-2xl md:text-3xl mb-4 font-urdu" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.8)' }}>
             بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
           </p>
-          <div className="gold-divider mb-7" />
-          <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-white font-bold leading-tight mb-5 drop-shadow-xl">
+          <div className="gold-divider mb-6" />
+          <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-white font-bold leading-tight mb-4" style={{ textShadow: '0 2px 16px rgba(0,0,0,0.9)' }}>
             The Aslam Hayat
             <span className="block text-gold mt-2">Legacy Archive</span>
           </h1>
-          <p className="font-lora text-lg md:text-xl text-cream-light italic leading-relaxed max-w-2xl mx-auto mb-4 drop-shadow">
+          <p className="font-lora text-lg md:text-xl text-cream-light italic leading-relaxed max-w-2xl mx-auto mb-3" style={{ textShadow: '0 1px 8px rgba(0,0,0,0.8)' }}>
             Chartered Accountant &middot; Civil Aviation Executive &middot; Writer &middot; Family Elder
           </p>
-          <div className="gold-divider mb-7" />
-          <p className="font-lora text-base md:text-lg text-cream-dark leading-relaxed max-w-3xl mx-auto mb-10">
+          <div className="gold-divider mb-6" />
+          <p className="font-lora text-base md:text-lg text-cream-dark leading-relaxed max-w-3xl mx-auto mb-8" style={{ textShadow: '0 1px 6px rgba(0,0,0,0.7)' }}>
             Aslam Hayat (23 March 1933 – 2026) was a Pakistani-Canadian chartered accountant,
             civil aviation executive, writer, and student of Islamic spirituality. Over more than
             twenty-five years he authored more than 650 articles in Vancouver&apos;s Pakistani
