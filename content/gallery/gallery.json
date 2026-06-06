@@ -1,98 +1,133 @@
-[
-  {
-    "id": "gallery-001",
-    "src": "/images/placeholder.jpg",
-    "caption": "Aslam Hayat at his writing desk, Lahore, circa 1972",
-    "date": "1972-01-01",
-    "category": "personal",
-    "alt": "Aslam Hayat seated at his writing desk surrounded by books"
-  },
-  {
-    "id": "gallery-002",
-    "src": "/images/placeholder.jpg",
-    "caption": "Family gathering, Eid ul-Fitr, Lahore 1980",
-    "date": "1980-08-01",
-    "category": "family",
-    "alt": "Family gathered together for Eid celebrations"
-  },
-  {
-    "id": "gallery-003",
-    "src": "/images/placeholder.jpg",
-    "caption": "Speaking at the All-Pakistan Urdu Conference, Karachi 1985",
-    "date": "1985-04-15",
-    "category": "professional",
-    "alt": "Aslam Hayat addressing the All-Pakistan Urdu Conference"
-  },
-  {
-    "id": "gallery-004",
-    "src": "/images/placeholder.jpg",
-    "caption": "Receiving the National Literary Award, Islamabad 1990",
-    "date": "1990-03-23",
-    "category": "professional",
-    "alt": "Award ceremony at the Pakistan Academy of Letters"
-  },
-  {
-    "id": "gallery-005",
-    "src": "/images/placeholder.jpg",
-    "caption": "With children at home, Lahore 1988",
-    "date": "1988-12-25",
-    "category": "family",
-    "alt": "Aslam Hayat with his children at the family home"
-  },
-  {
-    "id": "gallery-006",
-    "src": "/images/placeholder.jpg",
-    "caption": "Mushaira at Government College, Lahore 1995",
-    "date": "1995-10-12",
-    "category": "events",
-    "alt": "Literary evening at Government College University Lahore"
-  },
-  {
-    "id": "gallery-007",
-    "src": "/images/placeholder.jpg",
-    "caption": "Hajj pilgrimage, Makkah al-Mukarramah 1998",
-    "date": "1998-03-01",
-    "category": "personal",
-    "alt": "Aslam Hayat during Hajj pilgrimage"
-  },
-  {
-    "id": "gallery-008",
-    "src": "/images/placeholder.jpg",
-    "caption": "Book launch — second essay collection, Lahore 2005",
-    "date": "2005-06-20",
-    "category": "professional",
-    "alt": "Book launch event for second essay collection"
-  },
-  {
-    "id": "gallery-009",
-    "src": "/images/placeholder.jpg",
-    "caption": "With grandchildren, family home 2012",
-    "date": "2012-08-15",
-    "category": "family",
-    "alt": "Aslam Hayat with grandchildren at the family home"
-  },
-  {
-    "id": "gallery-010",
-    "src": "/images/placeholder.jpg",
-    "caption": "Interview for national television programme, 2015",
-    "date": "2015-11-03",
-    "category": "professional",
-    "alt": "Television interview on national broadcaster"
-  },
-  {
-    "id": "gallery-011",
-    "src": "/images/placeholder.jpg",
-    "caption": "Annual community iftar gathering, Lahore 2018",
-    "date": "2018-05-25",
-    "category": "events",
-    "alt": "Community iftar dinner organized by Aslam Hayat"
-  },
-  {
-    "id": "gallery-012",
-    "src": "/images/placeholder.jpg",
-    "caption": "Last formal portrait, Lahore 2020",
-    "date": "2020-01-10",
-    "category": "personal",
-    "alt": "Formal portrait photograph taken in 2020"
-  }
-]
+{
+  "categories": [
+    { "id": "family", "label": "Family", "description": "Family moments and gatherings" },
+    { "id": "pakistan", "label": "Pakistan", "description": "Years in Pakistan" },
+    { "id": "canada", "label": "Canada", "description": "Life in Vancouver, Canada" },
+    { "id": "professional", "label": "Professional Life", "description": "Professional years — details to be added by the family" },
+    { "id": "documents", "label": "Writings & Documents", "description": "Letters, writings, and personal records" },
+    { "id": "community", "label": "Community", "description": "Community and social occasions" },
+    { "id": "final-years", "label": "Final Years", "description": "Later years and family time" }
+  ],
+  "photos": [
+    {
+      "id": "ph-001",
+      "src": "/images/gallery/placeholder-family-1.jpg",
+      "caption": "Family photograph",
+      "date": "To be dated by family",
+      "location": "To be confirmed",
+      "category": "family",
+      "description": "Family-approved photographs will be added soon.",
+      "featured": true
+    },
+    {
+      "id": "ph-002",
+      "src": "/images/gallery/placeholder-family-2.jpg",
+      "caption": "Family photograph",
+      "date": "To be dated by family",
+      "location": "To be confirmed",
+      "category": "family",
+      "description": "Family-approved photographs will be added soon.",
+      "featured": false
+    },
+    {
+      "id": "ph-003",
+      "src": "/images/gallery/placeholder-family-3.jpg",
+      "caption": "Family photograph",
+      "date": "To be dated by family",
+      "location": "To be confirmed",
+      "category": "family",
+      "description": "Family-approved photographs will be added soon.",
+      "featured": false
+    },
+    {
+      "id": "ph-004",
+      "src": "/images/gallery/placeholder-pakistan-1.jpg",
+      "caption": "Years in Pakistan",
+      "date": "To be dated by family",
+      "location": "Pakistan",
+      "category": "pakistan",
+      "description": "Family-approved photographs will be added soon.",
+      "featured": false
+    },
+    {
+      "id": "ph-005",
+      "src": "/images/gallery/placeholder-pakistan-2.jpg",
+      "caption": "Lahore, Pakistan",
+      "date": "To be dated by family",
+      "location": "Lahore, Pakistan",
+      "category": "pakistan",
+      "description": "Family-approved photographs will be added soon.",
+      "featured": false
+    },
+    {
+      "id": "ph-006",
+      "src": "/images/gallery/placeholder-canada-1.jpg",
+      "caption": "Life in Vancouver",
+      "date": "After 1989",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "canada",
+      "description": "Family-approved photographs will be added soon.",
+      "featured": true
+    },
+    {
+      "id": "ph-007",
+      "src": "/images/gallery/placeholder-canada-2.jpg",
+      "caption": "Vancouver years",
+      "date": "After 1989",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "canada",
+      "description": "Family-approved photographs will be added soon.",
+      "featured": false
+    },
+    {
+      "id": "ph-008",
+      "src": "/images/gallery/placeholder-professional-1.jpg",
+      "caption": "Professional photograph",
+      "date": "To be dated by family",
+      "location": "To be confirmed",
+      "category": "professional",
+      "description": "Family-approved photographs and professional details will be added soon.",
+      "featured": false
+    },
+    {
+      "id": "ph-009",
+      "src": "/images/gallery/placeholder-documents-1.jpg",
+      "caption": "Personal document or writing",
+      "date": "To be dated by family",
+      "location": "To be confirmed",
+      "category": "documents",
+      "description": "Original documents and writings will be added after family review.",
+      "featured": false
+    },
+    {
+      "id": "ph-010",
+      "src": "/images/gallery/placeholder-community-1.jpg",
+      "caption": "Community occasion",
+      "date": "To be dated by family",
+      "location": "Vancouver, BC",
+      "category": "community",
+      "description": "Family-approved photographs will be added soon.",
+      "featured": false
+    },
+    {
+      "id": "ph-011",
+      "src": "/images/gallery/placeholder-final-1.jpg",
+      "caption": "Later years",
+      "date": "To be dated by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "final-years",
+      "description": "Family-approved photographs will be added soon.",
+      "featured": true
+    },
+    {
+      "id": "ph-012",
+      "src": "/images/gallery/placeholder-final-2.jpg",
+      "caption": "With family",
+      "date": "To be dated by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "final-years",
+      "description": "Family-approved photographs will be added soon.",
+      "featured": false
+    }
+  ]
+}

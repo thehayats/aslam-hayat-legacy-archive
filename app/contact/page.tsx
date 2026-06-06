@@ -4,9 +4,9 @@ import { buildMetadata } from '@/components/seo/MetaTags';
 import ContactForm from './ContactForm';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Submit a Memory',
+  title: 'Submit a Memory — Aslam Hayat | Share Stories, Photos & Recollections',
   description:
-    'Share your memories, photographs, and reflections about Aslam Hayat. Contributions are warmly welcomed by the family.',
+    'Did you know Aslam Hayat — as a PCAA colleague, community member, reader, or friend? Share your memories, photographs, and stories. Every contribution enriches the archive.',
   canonical: '/contact',
 });
 

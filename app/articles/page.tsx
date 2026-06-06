@@ -5,9 +5,9 @@ import { getAllArticles } from '@/lib/mdx';
 import ArticlesFilterClient from './ArticlesFilterClient';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Articles',
+  title: 'Articles — Aslam Hayat | Urdu Essays & English Translations',
   description:
-    "Browse all of Aslam Hayat's written articles — in Urdu and in English translation.",
+    "Browse all of Aslam Hayat's Urdu essays and English translations — writings on philosophy, faith, society, time, and the Pakistani experience.",
   canonical: '/articles',
 });
 

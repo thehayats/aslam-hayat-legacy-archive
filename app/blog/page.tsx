@@ -5,8 +5,9 @@ import { buildMetadata } from '@/components/seo/MetaTags';
 import { getAllBlogPosts } from '@/lib/mdx';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Blog',
-  description: 'Archive notes, reflections, and updates about the Aslam Hayat Legacy Archive.',
+  title: 'Archive Blog — Notes on the Life of Aslam Hayat | Legacy Archive Updates',
+  description:
+    'Notes, updates and reflections from the Aslam Hayat Legacy Archive — preserving the life, Urdu writings, and memory of a Pakistani Chartered Accountant, PCAA Director, and family man.',
   canonical: '/blog',
 });
 

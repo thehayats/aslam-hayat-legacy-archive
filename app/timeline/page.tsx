@@ -6,9 +6,9 @@ import timelineData from '@/content/timeline/timeline.json';
 import type { TimelineEntry as TimelineEntryType } from '@/lib/articles';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Life Timeline',
+  title: 'Life Timeline — Aslam Hayat | From Pakistan to London to Canada',
   description:
-    'A visual chronology of the key moments and milestones in the life of Aslam Hayat — from 1945 to 2020.',
+    "A visual chronology of Aslam Hayat's life — birth in Pakistan, CA qualification in London, PCAA Director career, Urdu writing, and emigration to Canada.",
   canonical: '/timeline',
 });
 
@@ -33,8 +33,8 @@ export default function TimelinePage() {
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <SectionHeader
-          title="From 1945 to 2020"
-          subtitle="Each entry marks a chapter in the story of a remarkable life."
+          title="A Life in Full"
+          subtitle="From Pakistan to London to Canada — each entry marks a chapter in a remarkable life."
           centered
         />
 

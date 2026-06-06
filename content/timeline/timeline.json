@@ -1,104 +1,26 @@
 [
   {
-    "year": "1945",
-    "title": "Birth",
-    "description": "Aslam Hayat was born in Lahore, Pakistan, into a family of scholars and educators. His early home was filled with books, poetry, and the gentle cadence of Urdu verse — an environment that would shape every dimension of his character.",
-    "category": "personal"
+    "year": "1933",
+    "title": "Born in Lahore, Pakistan",
+    "description": "Aslam Hayat was born on March 23, 1933, in Lahore, Pakistan.",
+    "category": "personal",
+    "icon": "🌙",
+    "location": "Lahore, Pakistan"
   },
   {
-    "year": "1955",
-    "title": "Primary Education",
-    "description": "Enrolled at Government Primary School, Lahore, where his teachers quickly recognized an exceptional aptitude for reading and composition. By age ten he had already begun keeping a personal journal — a habit he would maintain for six decades.",
-    "category": "education"
+    "year": "1989",
+    "title": "Arrived in Canada",
+    "description": "Aslam Hayat arrived in Canada in 1989 and settled in Vancouver, British Columbia, where he would remain for the rest of his life.",
+    "category": "migration",
+    "icon": "🍁",
+    "location": "Vancouver, British Columbia, Canada"
   },
   {
-    "year": "1960",
-    "title": "Secondary Education & Early Writing",
-    "description": "Completed his secondary education with distinction at Islamia High School. During these years he published his first short essays in the school gazette and won the district-level Urdu essay competition for two consecutive years.",
-    "category": "education"
-  },
-  {
-    "year": "1965",
-    "title": "University Years",
-    "description": "Enrolled at the University of the Punjab, Lahore, studying Urdu Literature and Islamic Studies. He became a leading voice in the university's literary circle, organizing mushairas and editing the student literary journal.",
-    "category": "education"
-  },
-  {
-    "year": "1968",
-    "title": "Graduation & First Publication",
-    "description": "Graduated with honours and published his first formal essay collection in a respected Lahore literary journal. His writing combined classical Urdu sensibility with a clear-eyed analysis of contemporary life.",
-    "category": "education"
-  },
-  {
-    "year": "1970",
-    "title": "Professional Beginnings",
-    "description": "Began his professional career as a lecturer and writer, establishing himself as a thoughtful commentator on culture, society, and Islamic thought. His columns in regional newspapers quickly attracted a dedicated readership.",
-    "category": "career"
-  },
-  {
-    "year": "1975",
-    "title": "Marriage & Family",
-    "description": "Married Nasreen Akhtar, beginning a partnership that would be the bedrock of his life. Their home became a gathering place for scholars, poets, and students seeking guidance and intellectual exchange.",
-    "category": "personal"
-  },
-  {
-    "year": "1978",
-    "title": "Children & Home Life",
-    "description": "Welcomed his children into the world, embracing fatherhood with the same depth of engagement he brought to his intellectual pursuits. He was known for reading aloud to his children each evening — poetry, stories, and Quranic exegesis alike.",
-    "category": "personal"
-  },
-  {
-    "year": "1980",
-    "title": "Literary Recognition",
-    "description": "Received his first major literary award for contributions to Urdu prose, gaining a wider national readership. His essays on the intersection of Islamic philosophy and modern Pakistani identity resonated far beyond academic circles.",
-    "category": "career"
-  },
-  {
-    "year": "1985",
-    "title": "Senior Positions",
-    "description": "Appointed to senior editorial and academic roles, influencing a generation of younger writers and educators. He championed the view that Urdu literature must engage honestly with the lived experience of ordinary Pakistanis.",
-    "category": "career"
-  },
-  {
-    "year": "1990",
-    "title": "Peak Career",
-    "description": "At the height of his professional influence, contributing significantly to literary journals, academic conferences, and public discourse. His collected essays were anthologized and taught in several universities across Pakistan.",
-    "category": "career"
-  },
-  {
-    "year": "1995",
-    "title": "Community Service",
-    "description": "Founded a local educational initiative to support underprivileged students in Lahore, believing passionately that literacy and access to literature were fundamental rights. The programme mentored hundreds of young people over the following decades.",
-    "category": "personal"
-  },
-  {
-    "year": "2000",
-    "title": "Digital Presence",
-    "description": "Embraced digital platforms to share his writings and connect with a broader diaspora audience. His early blog and email newsletter introduced his Urdu essays to readers in the UK, USA, Canada, and the Gulf states.",
-    "category": "personal"
-  },
-  {
-    "year": "2005",
-    "title": "Second Essay Collection",
-    "description": "Published his second major essay collection, widely reviewed and praised for its mature voice and deep engagement with questions of belonging, memory, and faith in the modern world.",
-    "category": "career"
-  },
-  {
-    "year": "2010",
-    "title": "Legacy Building",
-    "description": "Focused increasingly on preserving and transmitting knowledge, mentoring younger generations of writers and actively archiving his correspondence, manuscripts, and unpublished notes.",
-    "category": "personal"
-  },
-  {
-    "year": "2015",
-    "title": "Facebook & Social Media",
-    "description": "Joined Facebook and discovered an entirely new audience for his short reflections, daily observations, and spiritual meditations. His posts — often written at dawn — accumulated thousands of followers who treasured their morning wisdom.",
-    "category": "personal"
-  },
-  {
-    "year": "2020",
-    "title": "Final Years",
-    "description": "Continued writing with undiminished passion despite declining health, producing some of his most poignant and reflective work. His family, friends, and readers worldwide held him in profound respect and deep affection.",
-    "category": "personal"
+    "year": "2026",
+    "title": "Passed Away in Vancouver",
+    "description": "Aslam Hayat passed away on May 30, 2026, in Vancouver, British Columbia, Canada. إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+    "category": "personal",
+    "icon": "🌹",
+    "location": "Vancouver, British Columbia, Canada"
   }
 ]

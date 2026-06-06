@@ -5,8 +5,9 @@ import { getAllArticles } from '@/lib/mdx';
 import { formatDate } from '@/lib/utils';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'Urdu Articles — مضامین',
-  description: "Browse all of Aslam Hayat's original Urdu articles and essays.",
+  title: "Urdu Articles — مضامین | Aslam Hayat's Original Urdu Essays",
+  description:
+    "Read all of Aslam Hayat's original Urdu essays — writings on philosophy, faith, time, family, and Pakistani society, in the language of his deepest thought.",
   canonical: '/articles/urdu',
 });
 

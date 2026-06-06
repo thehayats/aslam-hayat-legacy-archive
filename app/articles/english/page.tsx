@@ -5,8 +5,9 @@ import { buildMetadata } from '@/components/seo/MetaTags';
 import { getAllArticles } from '@/lib/mdx';
 
 export const metadata: Metadata = buildMetadata({
-  title: 'English Translations',
-  description: "English translations of Aslam Hayat's Urdu articles and essays.",
+  title: 'English Translations — Aslam Hayat | Urdu Essays in English',
+  description:
+    "English translations of Aslam Hayat's Urdu essays — his writings on philosophy, faith, time, and Pakistani society, made accessible to those who cannot read the original.",
   canonical: '/articles/english',
 });
 

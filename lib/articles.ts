@@ -38,16 +38,42 @@ export interface TimelineEntry {
   year: string;
   title: string;
   description: string;
-  category: 'personal' | 'education' | 'career' | 'family' | 'recognition';
+  category: 'personal' | 'education' | 'career' | 'family' | 'recognition' | 'writing' | 'migration';
+  icon?: string;
+  location?: string;
   image?: string;
 }
 
+export interface GalleryCategory {
+  id: string;
+  label: string;
+  description: string;
+}
+
+export interface GalleryPhoto {
+  id: string;
+  src: string;
+  caption: string;
+  date: string;
+  location?: string;
+  category: string;
+  description?: string;
+  featured?: boolean;
+  alt?: string;
+}
+
+export interface GalleryData {
+  categories: GalleryCategory[];
+  photos: GalleryPhoto[];
+}
+
+/** @deprecated Use GalleryPhoto instead */
 export interface GalleryItem {
   id: string;
   src: string;
   caption: string;
   date: string;
-  category: 'family' | 'professional' | 'events' | 'personal';
+  category: string;
   alt: string;
 }
 
