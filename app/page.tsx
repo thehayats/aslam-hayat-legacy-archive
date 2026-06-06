@@ -25,29 +25,53 @@ export default function HomePage() {
             backgroundSize: '60px 60px',
           }}
         />
-        <div className="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 text-center">
-          <p className="arabic-text text-green text-2xl md:text-3xl mb-6 font-urdu">
-            بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
-          </p>
-          <div className="gold-divider mb-8" />
-          <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-green font-bold leading-tight mb-6">
-            The Aslam Hayat
-            <span className="block text-gold mt-1">Legacy Archive</span>
-          </h1>
-          <p className="font-lora text-lg md:text-xl text-gray-600 italic leading-relaxed max-w-2xl mx-auto mb-4">
-            Chartered Accountant &middot; Civil Aviation Executive &middot; Writer &middot; Family Elder
-          </p>
-          <div className="gold-divider mb-8" />
-          <p className="font-lora text-base md:text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto mb-10">
-            Aslam Hayat (23 March 1933 – 2026) was a Pakistani-Canadian chartered accountant,
-            civil aviation executive, writer, and student of Islamic spirituality. Over more than
-            twenty-five years he authored more than 650 articles in Vancouver&apos;s Pakistani
-            community newspaper. This archive is maintained by his family to preserve his life,
-            writings, and legacy for future generations.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/about" className="btn-primary">Read His Biography</Link>
-            <Link href="/articles" className="btn-gold">Browse the Articles</Link>
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+          <div className="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16">
+
+            {/* Text */}
+            <div className="flex-1 text-center md:text-left">
+              <p className="arabic-text text-green text-2xl md:text-3xl mb-5 font-urdu">
+                بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
+              </p>
+              <div className="gold-divider mb-6" />
+              <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-green font-bold leading-tight mb-5">
+                The Aslam Hayat
+                <span className="block text-gold mt-1">Legacy Archive</span>
+              </h1>
+              <p className="font-lora text-lg md:text-xl text-gray-600 italic leading-relaxed mb-4">
+                Chartered Accountant &middot; Civil Aviation Executive &middot; Writer &middot; Family Elder
+              </p>
+              <div className="gold-divider mb-6" />
+              <p className="font-lora text-base md:text-lg text-gray-700 leading-relaxed mb-8">
+                Aslam Hayat (23 March 1933 – 2026) was a Pakistani-Canadian chartered accountant,
+                civil aviation executive, writer, and student of Islamic spirituality. Over more than
+                twenty-five years he authored more than 650 articles in Vancouver&apos;s Pakistani
+                community newspaper. This archive is maintained by his family to preserve his life,
+                writings, and legacy for future generations.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                <Link href="/about" className="btn-primary">Read His Biography</Link>
+                <Link href="/articles" className="btn-gold">Browse the Articles</Link>
+              </div>
+            </div>
+
+            {/* Portrait */}
+            <div className="flex-shrink-0 flex flex-col items-center gap-3">
+              <div className="relative">
+                <div className="absolute -inset-1.5 rounded-lg bg-gradient-to-b from-gold via-gold-dark to-gold opacity-60" />
+                <div className="relative rounded-lg overflow-hidden shadow-2xl w-56 md:w-72 lg:w-80">
+                  <img
+                    src="/images/gallery/aslam-hayat-professional-portrait.jpg"
+                    alt="Aslam Hayat — formal portrait"
+                    className="w-full object-cover"
+                  />
+                </div>
+              </div>
+              <p className="font-lora text-xs text-gray-500 italic text-center">
+                Aslam Hayat &nbsp;&middot;&nbsp; 1933 – 2026
+              </p>
+            </div>
+
           </div>
         </div>
       </section>
