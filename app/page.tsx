@@ -312,7 +312,7 @@ export default function HomePage() {
               { src: '/images/gallery/aslam-hayat-85th-birthday-dinner.jpg', label: 'With Family', position: 'center 20%' },
               { src: '/images/gallery/aslam-hayat-85th-birthday-cake.jpg', label: 'Birthday Celebration', position: 'center 25%' },
               { src: '/images/gallery/aslam-hayat-three-generations.jpg', label: 'Three Generations', position: 'center 20%' },
-              { src: '/images/gallery/aslam-hayat-85th-birthday-table.jpg', label: 'Birthday Dinner', position: 'center 30%' },
+              { src: '/images/gallery/aslam-hayat-family-gathering-vancouver.jpg', label: 'Family Gathering', position: 'center 25%' },
             ].map(({ src, label, position }) => (
               <Link
                 key={label}
