@@ -16,67 +16,114 @@ export default function HomePage() {
   return (
     <>
       {/* ── Hero ─────────────────────────────────────────────────── */}
-      <section className="relative min-h-[680px] md:min-h-[780px] lg:min-h-[860px] overflow-hidden flex items-end">
-        {/* Background photo — fills the banner, face positioned upper-centre */}
-        <img
-          src="/images/gallery/aslam-hayat-hero-formal-event.jpg"
-          alt=""
-          aria-hidden="true"
-          className="absolute inset-0 w-full h-full object-cover"
-          style={{ objectPosition: 'center 15%' }}
-        />
-        {/* Very light global tint so colours stay true */}
-        <div className="absolute inset-0 bg-black/15" />
-        {/* Heavy gradient rising from the bottom — only darkens where text lives */}
-        <div className="absolute inset-0" style={{
-          background: 'linear-gradient(to top, rgba(8,22,15,0.96) 0%, rgba(8,22,15,0.82) 22%, rgba(8,22,15,0.40) 45%, rgba(8,22,15,0.08) 65%, transparent 80%)'
-        }} />
+      <section style={{ background: 'linear-gradient(155deg, #062b20 0%, #0c1f17 45%, #051510 100%)' }}>
 
-        {/* Text — pinned to the bottom of the banner */}
-        <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-0 pb-12 md:pb-16 text-center">
-          <p className="arabic-text text-gold text-2xl md:text-3xl mb-4 font-urdu" style={{ textShadow: '0 2px 12px rgba(0,0,0,0.8)' }}>
-            بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
-          </p>
-          <div className="gold-divider mb-6" />
-          <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-white font-bold leading-tight mb-4" style={{ textShadow: '0 2px 16px rgba(0,0,0,0.9)' }}>
-            The Aslam Hayat
-            <span className="block text-gold mt-2">Legacy Archive</span>
-          </h1>
-          <p className="font-lora text-lg md:text-xl text-cream-light italic leading-relaxed max-w-2xl mx-auto mb-3" style={{ textShadow: '0 1px 8px rgba(0,0,0,0.8)' }}>
-            Chartered Accountant &middot; Civil Aviation Executive &middot; Writer &middot; Family Elder
-          </p>
-          <div className="gold-divider mb-6" />
-          <p className="font-lora text-base md:text-lg text-cream-dark leading-relaxed max-w-3xl mx-auto mb-8" style={{ textShadow: '0 1px 6px rgba(0,0,0,0.7)' }}>
-            Aslam Hayat (23 March 1933 – 2026) was a Pakistani-Canadian chartered accountant,
-            civil aviation executive, writer, and student of Islamic spirituality. Over more than
-            twenty-five years he authored more than 650 articles in Vancouver&apos;s Pakistani
-            community newspaper. This archive is maintained by his family to preserve his life,
-            writings, and legacy for future generations.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/about" className="btn-primary">Read His Biography</Link>
-            <Link href="/articles" className="btn-gold">Browse the Articles</Link>
+        {/* Two-column layout: portrait left, text right */}
+        <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row items-stretch" style={{ minHeight: '820px' }}>
+
+          {/* ── Portrait column (left, desktop only) ── */}
+          <div className="hidden lg:block relative flex-shrink-0" style={{ width: '46%' }}>
+            <img
+              src="/images/hero-portrait.jpg"
+              alt="Aslam Hayat"
+              className="absolute inset-0 w-full h-full object-cover object-top"
+            />
+            {/* Right-edge fade — portrait dissolves into dark background */}
+            <div className="absolute inset-y-0 right-0 w-52" style={{
+              background: 'linear-gradient(to right, transparent, #051510)'
+            }} />
+            {/* Bottom fade */}
+            <div className="absolute inset-x-0 bottom-0 h-40" style={{
+              background: 'linear-gradient(to bottom, transparent, #051510)'
+            }} />
+            {/* Top fade */}
+            <div className="absolute inset-x-0 top-0 h-20" style={{
+              background: 'linear-gradient(to bottom, #062b20, transparent)'
+            }} />
+            {/* Left edge */}
+            <div className="absolute inset-y-0 left-0 w-6" style={{
+              background: 'linear-gradient(to right, #062b20, transparent)'
+            }} />
           </div>
-        </div>
-      </section>
 
-      {/* ── Stats Bar ─────────────────────────────────────────────── */}
-      <section className="bg-green border-b border-green-dark">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center">
-            {[
-              { stat: '1933', label: 'Born in Lahore, Pakistan' },
-              { stat: '650+', label: 'Published Articles' },
-              { stat: '25 yrs', label: 'Newspaper Column, Vancouver' },
-              { stat: '93', label: 'Years of a Life Well Lived' },
-            ].map(({ stat, label }) => (
-              <div key={label} className="px-2 py-2">
-                <p className="font-playfair text-2xl md:text-3xl text-gold font-bold">{stat}</p>
-                <p className="font-lora text-xs md:text-sm text-cream-dark mt-1">{label}</p>
+          {/* ── Mobile portrait ── */}
+          <div className="lg:hidden flex justify-center pt-12 pb-6 px-6">
+            <div className="relative w-44 h-60 rounded-2xl overflow-hidden shadow-2xl" style={{ border: '1.5px solid rgba(201,162,77,0.35)' }}>
+              <img
+                src="/images/hero-portrait.jpg"
+                alt="Aslam Hayat"
+                className="w-full h-full object-cover object-top"
+              />
+            </div>
+          </div>
+
+          {/* ── Text column (right) ── */}
+          <div className="flex-1 flex items-center px-6 sm:px-10 lg:px-14 pb-14 lg:py-20">
+            <div className="w-full max-w-lg mx-auto lg:mx-0">
+
+              {/* Arabic verse */}
+              <p
+                className="text-2xl md:text-3xl mb-5 font-urdu text-center lg:text-left"
+                dir="rtl"
+                style={{ color: '#c9a24d', fontFamily: '"Amiri", "Scheherazade New", serif', lineHeight: '2' }}
+              >
+                إِنَّا لِلَّٰهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ
+              </p>
+
+              {/* Gold rule */}
+              <div className="gold-divider mb-7" />
+
+              {/* Main heading */}
+              <h1 className="font-playfair font-bold leading-tight mb-5 text-center lg:text-left" style={{ fontSize: 'clamp(2.2rem, 4vw, 3.4rem)', color: '#ffffff' }}>
+                The Aslam Hayat
+                <span className="block mt-2" style={{ color: '#c9a24d' }}>Legacy Archive</span>
+              </h1>
+
+              {/* Subheading */}
+              <p className="font-lora italic mb-5 text-center lg:text-left" style={{ fontSize: '0.95rem', color: '#8fb8a0', letterSpacing: '0.01em' }}>
+                Chartered Accountant &nbsp;&middot;&nbsp; Civil Aviation Executive &nbsp;&middot;&nbsp; Writer &nbsp;&middot;&nbsp; Student of Islamic Spirituality
+              </p>
+
+              {/* Gold rule */}
+              <div className="gold-divider mb-6" />
+
+              {/* Biography paragraph */}
+              <p className="font-lora leading-relaxed mb-9 text-center lg:text-left" style={{ fontSize: '0.95rem', color: '#6b9980' }}>
+                Aslam Hayat (1933–2026) was a Pakistani-Canadian chartered accountant, civil aviation
+                executive, writer, and lifelong student of Islamic spirituality. Over more than
+                twenty-five years he authored over 650 published articles while exploring history,
+                faith, literature, science, and public affairs.
+              </p>
+
+              {/* Buttons */}
+              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                <Link href="/about" className="btn-primary">Read Biography</Link>
+                <Link href="/articles" className="btn-gold">Browse Articles</Link>
               </div>
-            ))}
+
+            </div>
           </div>
         </div>
+
+        {/* ── Stats bar ── */}
+        <div style={{ borderTop: '1px solid rgba(201,162,77,0.18)', background: 'rgba(0,0,0,0.28)' }}>
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
+              {[
+                { stat: '1933', label: 'Born in Lahore' },
+                { stat: '650+', label: 'Published Articles' },
+                { stat: '25 Years', label: 'The Miracle Newspaper' },
+                { stat: '93', label: 'Years of Life' },
+              ].map(({ stat, label }) => (
+                <div key={label}>
+                  <p className="font-playfair text-2xl md:text-3xl font-bold mb-1" style={{ color: '#c9a24d' }}>{stat}</p>
+                  <p className="font-lora text-xs md:text-sm" style={{ color: '#6b9980' }}>{label}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+
       </section>
 
       {/* ── About Preview ────────────────────────────────────────── */}
