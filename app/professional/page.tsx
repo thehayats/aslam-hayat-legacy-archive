@@ -52,11 +52,12 @@ export default function ProfessionalPage() {
                   <h3 className="font-playfair text-lg text-green font-bold mb-1">
                     Chartered Accountant
                   </h3>
-                  <p className="font-lora text-sm text-gray-500 mb-2">London, United Kingdom</p>
+                  <p className="font-lora text-sm text-gray-500 mb-2">London, England — late 1950s and early 1960s</p>
                   <p className="font-lora text-base text-gray-700 leading-relaxed">
-                    He travelled to London to pursue and attain professional qualification as a
-                    Chartered Accountant — a significant personal achievement that provided the
-                    foundation for a distinguished public-sector career.
+                    In the late 1950s and early 1960s, Aslam Hayat travelled to London, England,
+                    where he pursued advanced accountancy studies and qualified as a Chartered
+                    Accountant — a significant personal achievement that provided the foundation
+                    for his subsequent public-service career.
                   </p>
                 </div>
               </div>
@@ -76,10 +77,12 @@ export default function ProfessionalPage() {
                 </h3>
                 <p className="font-lora text-sm text-gray-500 mb-2">Pakistan</p>
                 <p className="font-lora text-base text-gray-700 leading-relaxed mb-3">
-                  Aslam Hayat served in Pakistan&apos;s civil aviation sector, rising to director-level
-                  responsibilities at the <strong>Pakistan Civil Aviation Authority (PCAA)</strong>.
-                  His career combined professional financial expertise with public service during
-                  a formative period in Pakistan&apos;s aviation history.
+                  Upon returning to Pakistan, Aslam Hayat entered public service and built a
+                  distinguished career in civil aviation. Over the course of several decades, he
+                  served in increasingly senior leadership positions and ultimately rose to
+                  director-level responsibilities within the{' '}
+                  <strong>Pakistan Civil Aviation Authority (PCAA)</strong>. His professional career
+                  was marked by dedication, integrity, and a commitment to public service.
                 </p>
                 <p className="font-lora text-sm italic text-gray-500 bg-cream border border-cream-dark rounded p-3">
                   Further details about his specific roles and service dates will be added as

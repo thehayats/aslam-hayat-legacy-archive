@@ -92,9 +92,11 @@ export default function AboutPage() {
                 <p>
                   Born in Lahore, with family roots in Subhan Pur, Kapurthala, Punjab, he witnessed
                   the Partition of India in 1947 — an experience that shaped his writing and
-                  historical outlook throughout his life. He travelled to London to qualify as a
-                  Chartered Accountant and returned to serve in Pakistan&apos;s civil aviation sector,
-                  rising to director-level responsibilities at the Pakistan Civil Aviation Authority.
+                  historical outlook throughout his life. In the late 1950s and early 1960s he
+                  travelled to London, England, to pursue advanced accountancy studies and qualify as
+                  a Chartered Accountant. Upon returning to Pakistan, he entered public service and
+                  built a distinguished career in civil aviation, ultimately rising to director-level
+                  responsibilities at the Pakistan Civil Aviation Authority.
                 </p>
                 <p>
                   After his retirement he settled in Vancouver, British Columbia, where he became a
@@ -142,10 +144,10 @@ export default function AboutPage() {
                   in Lahore, Pakistan.
                 </p>
                 <p>
-                  He later travelled to London, United Kingdom, where he qualified as a{' '}
+                  In the late 1950s and early 1960s, he travelled to London, England, where he
+                  pursued advanced accountancy studies and qualified as a{' '}
                   <strong>Chartered Accountant</strong> — a significant personal and professional
-                  achievement, and one that shaped the rigour and discipline he brought to
-                  everything he did.
+                  achievement that provided the foundation for his subsequent public-service career.
                 </p>
               </div>
             </section>
@@ -156,11 +158,12 @@ export default function AboutPage() {
               <SectionHeader title="Professional Career" goldDivider />
               <div className="prose-archive">
                 <p>
-                  Aslam Hayat served in Pakistan&apos;s civil aviation sector, rising to
-                  director-level responsibilities at the{' '}
-                  <strong>Pakistan Civil Aviation Authority (PCAA)</strong>. His career combined
-                  professional financial expertise with public-sector service during a formative
-                  period in Pakistan&apos;s aviation history.
+                  Upon returning to Pakistan, Aslam Hayat entered public service and built a
+                  distinguished career in civil aviation. Over the course of several decades, he
+                  served in increasingly senior leadership positions and ultimately rose to
+                  director-level responsibilities within the{' '}
+                  <strong>Pakistan Civil Aviation Authority (PCAA)</strong>. His professional career
+                  was marked by dedication, integrity, and a commitment to public service.
                 </p>
                 <p className="text-sm italic text-gray-500 bg-parchment border border-cream-dark rounded p-4">
                   Further details about his career — including specific roles and dates — will be
@@ -181,11 +184,9 @@ export default function AboutPage() {
                   newspaper.
                 </p>
                 <p>
-                  During that period he authored more than <strong>650 articles</strong> — a
-                  remarkable body of work covering history, current affairs, community life, Islamic
-                  thought, and the experiences of the South Asian diaspora in Canada. His writing was
-                  known for its depth, its careful attention to historical context, and its sincere
-                  engagement with questions of faith and identity.
+                  During that period he authored more than <strong>650 articles</strong> covering
+                  history, current affairs, community issues, personal reflections, and the
+                  experiences of the South Asian diaspora in Canada.
                 </p>
                 <p>
                   He was also active on Facebook in his later years, sharing thoughts, memories,
@@ -206,8 +207,9 @@ export default function AboutPage() {
                 <p>
                   Aslam Hayat was a devoted Muslim who lived his faith deeply and consistently.
                   Beyond practice, he was a serious student of Islamic spirituality — particularly
-                  the Sufi tradition and the profound philosophical and mystical writings of{' '}
-                  <strong>Ibn Arabi</strong>, the twelfth-century Andalusian Sufi master.
+                  the Sufi tradition and the writings of{' '}
+                  <strong>Ibn Arabi</strong>, the renowned Andalusian philosopher and mystic, whose
+                  works he studied extensively.
                 </p>
                 <p>
                   His faith was not separate from his intellectual life — it was its foundation.

@@ -3,6 +3,10 @@
 This file lists every biographical fact currently used on the site and its verification status.
 Updated by the family as new information is confirmed.
 
+**Authoritative source:** The official family biography provided June 2026.
+All site content is based on this biography and explicitly family-confirmed facts only.
+Nothing is added, inferred, or embellished beyond what the biography or family have stated.
+
 ---
 
 ## Status Key
@@ -25,9 +29,9 @@ Updated by the family as new information is confirmed.
 | Faith: Islam | ✅ Family verified | |
 | Student of Sufism and the works of Ibn Arabi | ✅ Family verified | |
 | School: Muslim Model High School, Lahore | ✅ Family verified | |
-| Qualified as Chartered Accountant in London, UK | ✅ Family verified | Specific institute not listed on site — see notes below |
+| Qualified as Chartered Accountant in London, England | ✅ Family verified | Timeframe: late 1950s and early 1960s (from biography). Specific institute not named. |
 | Served at Pakistan Civil Aviation Authority (PCAA) | ✅ Family verified | |
-| Rose to director-level responsibilities at PCAA | ✅ Family verified | Specific titles/dates still pending |
+| Rose to director-level responsibilities at PCAA | ✅ Family verified | "Over several decades, increasingly senior leadership positions" (from biography). Specific titles/dates still pending. |
 | Arrived in Canada: 1989 | ✅ Family verified | |
 | Settled in Vancouver, British Columbia, Canada | ✅ Family verified | |
 | Wrote in Urdu | ✅ Family verified | |

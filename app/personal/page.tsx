@@ -123,9 +123,8 @@ export default function PersonalPage() {
               Aslam Hayat was a devoted Muslim who lived his faith deeply and consistently.
               Beyond daily practice, he was a serious student of Islamic spirituality — in
               particular the Sufi tradition and the writings of{' '}
-              <strong>Ibn Arabi</strong>, the twelfth-century Andalusian mystic and philosopher
-              whose work represents one of the most profound expressions of Islamic spiritual
-              thought.
+              <strong>Ibn Arabi</strong>, the renowned Andalusian philosopher and mystic,
+              whose works he studied extensively.
             </p>
             <p>
               His faith was inseparable from his intellectual life. It informed his writing,
