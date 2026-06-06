@@ -35,7 +35,7 @@ export default function HomePage() {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
-                objectPosition: '55% 22%',
+                objectPosition: '55% 5%',
                 filter: 'brightness(1.08) contrast(1.02)',
               }}
             />
@@ -76,7 +76,7 @@ export default function HomePage() {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
-                objectPosition: '55% 20%',
+                objectPosition: '55% 5%',
                 filter: 'brightness(1.06)',
               }}
             />
