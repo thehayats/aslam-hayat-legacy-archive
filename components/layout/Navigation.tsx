@@ -4,166 +4,228 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
-interface NavItem {
+interface NavChild {
   label: string;
   href: string;
-  children?: { label: string; href: string }[];
 }
 
-const navItems: NavItem[] = [
+interface NavGroup {
+  label: string;
+  href?: string;
+  children?: NavChild[];
+}
+
+const navGroups: NavGroup[] = [
   { label: 'Home', href: '/' },
-  { label: 'About', href: '/about' },
-  { label: 'Timeline', href: '/timeline' },
-  { label: 'Professional', href: '/professional' },
-  { label: 'Personal', href: '/personal' },
-  { label: 'Tributes', href: '/tributes' },
-  { label: 'Technology & Learning', href: '/technology-and-lifelong-learning' },
-  { label: 'Politics & World Affairs', href: '/politics-economics-and-world-affairs' },
-  { label: 'Travels & Pilgrimage', href: '/travels-pilgrimage-and-exploration' },
-  { label: 'Scholarship & Spirituality', href: '/scholarship-and-spirituality' },
-  { label: 'Faith & Theology', href: '/faith-theology-and-spirituality' },
   {
-    label: 'Articles',
-    href: '/articles',
+    label: 'Biography',
     children: [
-      { label: 'All Articles', href: '/articles' },
-      { label: 'Urdu Articles', href: '/articles/urdu' },
-      { label: 'English Translations', href: '/articles/english' },
+      { label: 'About', href: '/about' },
+      { label: 'Timeline', href: '/timeline' },
+      { label: 'Professional Life', href: '/professional' },
+      { label: 'Personal Life', href: '/personal' },
+      { label: 'Travels & Pilgrimage', href: '/travels-pilgrimage-and-exploration' },
     ],
   },
-  { label: 'Blog', href: '/blog' },
-  { label: 'Gallery', href: '/gallery' },
-  { label: 'Facebook Archive', href: '/facebook-archive' },
-  { label: 'Submit Memory', href: '/contact' },
+  {
+    label: 'Scholarship',
+    children: [
+      { label: 'Faith & Theology', href: '/faith-theology-and-spirituality' },
+      { label: 'Scholarship & Spirituality', href: '/scholarship-and-spirituality' },
+      { label: 'Technology & Learning', href: '/technology-and-lifelong-learning' },
+      { label: 'Politics & World Affairs', href: '/politics-economics-and-world-affairs' },
+    ],
+  },
+  {
+    label: 'Writings',
+    children: [
+      { label: 'Articles', href: '/articles' },
+      { label: 'Blog', href: '/blog' },
+      { label: 'Facebook Archive', href: '/facebook-archive' },
+    ],
+  },
+  {
+    label: 'Legacy',
+    children: [
+      { label: 'Gallery', href: '/gallery' },
+      { label: 'Tributes', href: '/tributes' },
+      { label: 'Submit Memory', href: '/contact' },
+    ],
+  },
 ];
 
 export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [articlesOpen, setArticlesOpen] = useState(false);
+  const [openGroups, setOpenGroups] = useState<Record<string, boolean>>({});
   const pathname = usePathname();
 
-  const isActive = (href: string) => {
+  const isActivePath = (href: string) => {
     if (href === '/') return pathname === '/';
     return pathname.startsWith(href);
   };
 
+  const isGroupActive = (group: NavGroup): boolean => {
+    if (group.href) return isActivePath(group.href);
+    return group.children?.some((c) => isActivePath(c.href)) ?? false;
+  };
+
+  const toggleGroup = (label: string) => {
+    setOpenGroups((prev) => ({ ...prev, [label]: !prev[label] }));
+  };
+
+  const active = isGroupActive;
+
   return (
     <nav>
-      {/* Desktop Navigation */}
-      <ul className="hidden lg:flex items-center gap-1">
-        {navItems.map((item) => (
-          <li key={item.href} className="relative group">
-            {item.children ? (
+      {/* ── Desktop ── */}
+      <ul className="hidden lg:flex items-center">
+        {navGroups.map((group) => (
+          <li key={group.label} className="relative group h-16 flex items-center">
+            {group.href ? (
+              /* Standalone link */
+              <Link
+                href={group.href}
+                className={`relative px-3 py-2 text-sm font-lora whitespace-nowrap transition-colors duration-200
+                  after:absolute after:bottom-1 after:left-3 after:right-3 after:h-px after:bg-gold after:origin-left
+                  after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-200
+                  ${active(group) ? 'text-gold' : 'text-cream-dark hover:text-gold-light'}`}
+              >
+                {group.label}
+              </Link>
+            ) : (
               <>
+                {/* Dropdown trigger */}
                 <button
-                  className={`px-3 py-2 text-sm font-lora transition-colors duration-200 rounded flex items-center gap-1 ${
-                    isActive(item.href)
-                      ? 'text-gold'
-                      : 'text-cream-dark hover:text-gold-light'
-                  }`}
-                  onClick={() => setArticlesOpen(!articlesOpen)}
-                  onMouseEnter={() => setArticlesOpen(true)}
-                  onMouseLeave={() => setArticlesOpen(false)}
+                  className={`relative px-3 py-2 text-sm font-lora whitespace-nowrap transition-colors duration-200
+                    flex items-center gap-1 cursor-default
+                    after:absolute after:bottom-1 after:left-3 after:right-3 after:h-px after:bg-gold after:origin-left
+                    after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-200
+                    ${active(group) ? 'text-gold' : 'text-cream-dark group-hover:text-gold-light'}`}
+                  tabIndex={-1}
+                  aria-haspopup="true"
                 >
-                  {item.label}
+                  {group.label}
                   <svg
-                    className="w-3 h-3 transition-transform group-hover:rotate-180"
+                    className="w-3 h-3 flex-shrink-0 transition-transform duration-200 group-hover:rotate-180"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
+                    strokeWidth={2}
                   >
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                   </svg>
                 </button>
+
+                {/* Dropdown panel — pt-1 creates hover bridge over the visual gap */}
                 <div
-                  className="absolute top-full left-0 mt-1 w-52 bg-green border border-gold-dark rounded shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50"
-                  onMouseEnter={() => setArticlesOpen(true)}
-                  onMouseLeave={() => setArticlesOpen(false)}
+                  className="absolute top-full left-0 pt-1 z-50
+                    opacity-0 invisible -translate-y-1
+                    group-hover:opacity-100 group-hover:visible group-hover:translate-y-0
+                    transition-all duration-150"
                 >
-                  {item.children.map((child) => (
-                    <Link
-                      key={child.href}
-                      href={child.href}
-                      className="block px-4 py-2.5 text-sm font-lora text-cream-dark hover:text-gold-light hover:bg-green-light transition-colors duration-150 first:rounded-t last:rounded-b"
-                    >
-                      {child.label}
-                    </Link>
-                  ))}
+                  <div
+                    className="min-w-[210px] rounded-lg shadow-2xl overflow-hidden"
+                    style={{
+                      background: 'rgba(12, 30, 20, 0.97)',
+                      border: '1px solid rgba(201,162,77,0.22)',
+                    }}
+                  >
+                    {group.children!.map((child) => (
+                      <Link
+                        key={child.href}
+                        href={child.href}
+                        className={`block px-4 py-2.5 text-sm font-lora whitespace-nowrap
+                          border-b border-white/5 last:border-b-0 transition-colors duration-150
+                          ${isActivePath(child.href)
+                            ? 'text-gold bg-white/5'
+                            : 'text-cream-dark hover:text-gold-light hover:bg-white/5'
+                          }`}
+                      >
+                        {child.label}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
               </>
-            ) : (
-              <Link
-                href={item.href}
-                className={`px-3 py-2 text-sm font-lora transition-colors duration-200 rounded ${
-                  isActive(item.href)
-                    ? 'text-gold'
-                    : 'text-cream-dark hover:text-gold-light'
-                }`}
-              >
-                {item.label}
-              </Link>
             )}
           </li>
         ))}
       </ul>
 
-      {/* Mobile Hamburger Button */}
+      {/* ── Mobile hamburger ── */}
       <button
         className="lg:hidden flex flex-col justify-center items-center w-8 h-8 gap-1.5"
-        onClick={() => setMobileOpen(!mobileOpen)}
-        aria-label="Toggle menu"
+        onClick={() => setMobileOpen((o) => !o)}
+        aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+        aria-expanded={mobileOpen}
       >
-        <span
-          className={`block w-6 h-0.5 bg-cream-dark transition-transform duration-200 ${
-            mobileOpen ? 'rotate-45 translate-y-2' : ''
-          }`}
-        />
-        <span
-          className={`block w-6 h-0.5 bg-cream-dark transition-opacity duration-200 ${
-            mobileOpen ? 'opacity-0' : ''
-          }`}
-        />
-        <span
-          className={`block w-6 h-0.5 bg-cream-dark transition-transform duration-200 ${
-            mobileOpen ? '-rotate-45 -translate-y-2' : ''
-          }`}
-        />
+        <span className={`block w-6 h-px bg-cream-dark transition-all duration-200 ${mobileOpen ? 'rotate-45 translate-y-[7px]' : ''}`} />
+        <span className={`block w-6 h-px bg-cream-dark transition-opacity duration-200 ${mobileOpen ? 'opacity-0' : ''}`} />
+        <span className={`block w-6 h-px bg-cream-dark transition-all duration-200 ${mobileOpen ? '-rotate-45 -translate-y-[7px]' : ''}`} />
       </button>
 
-      {/* Mobile Menu */}
+      {/* ── Mobile menu ── */}
       {mobileOpen && (
-        <div className="lg:hidden absolute top-full left-0 right-0 bg-green-dark border-t border-gold-dark shadow-lg z-50">
-          <ul className="py-4">
-            {navItems.map((item) => (
-              <li key={item.href}>
-                {item.children ? (
-                  <>
-                    <div className="px-6 py-2.5 text-sm font-lora text-cream-dark font-medium">
-                      {item.label}
-                    </div>
-                    {item.children.map((child) => (
-                      <Link
-                        key={child.href}
-                        href={child.href}
-                        className="block px-10 py-2 text-sm font-lora text-cream-dark hover:text-gold-light transition-colors"
-                        onClick={() => setMobileOpen(false)}
-                      >
-                        {child.label}
-                      </Link>
-                    ))}
-                  </>
-                ) : (
+        <div
+          className="lg:hidden absolute top-full left-0 right-0 z-50 border-t border-gold/20 shadow-2xl"
+          style={{ background: 'rgba(8, 22, 15, 0.98)' }}
+        >
+          <ul>
+            {navGroups.map((group) => (
+              <li key={group.label} className="border-b border-white/5 last:border-b-0">
+                {group.href ? (
                   <Link
-                    href={item.href}
-                    className={`block px-6 py-2.5 text-sm font-lora transition-colors ${
-                      isActive(item.href)
-                        ? 'text-gold'
-                        : 'text-cream-dark hover:text-gold-light'
+                    href={group.href}
+                    className={`block px-6 py-3.5 text-sm font-lora transition-colors ${
+                      active(group) ? 'text-gold' : 'text-cream-dark'
                     }`}
                     onClick={() => setMobileOpen(false)}
                   >
-                    {item.label}
+                    {group.label}
                   </Link>
+                ) : (
+                  <>
+                    <button
+                      className={`w-full flex items-center justify-between px-6 py-3.5 text-sm font-lora transition-colors ${
+                        active(group) ? 'text-gold' : 'text-cream-dark'
+                      }`}
+                      onClick={() => toggleGroup(group.label)}
+                      aria-expanded={!!openGroups[group.label]}
+                    >
+                      <span>{group.label}</span>
+                      <svg
+                        className={`w-3.5 h-3.5 transition-transform duration-200 ${
+                          openGroups[group.label] ? 'rotate-180' : ''
+                        }`}
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </button>
+
+                    {openGroups[group.label] && (
+                      <ul className="border-t border-white/5" style={{ background: 'rgba(0,0,0,0.25)' }}>
+                        {group.children!.map((child) => (
+                          <li key={child.href}>
+                            <Link
+                              href={child.href}
+                              className={`block pl-10 pr-6 py-3 text-sm font-lora border-b border-white/5 last:border-b-0 transition-colors ${
+                                isActivePath(child.href)
+                                  ? 'text-gold'
+                                  : 'text-cream-dark/75 hover:text-gold-light'
+                              }`}
+                              onClick={() => setMobileOpen(false)}
+                            >
+                              {child.label}
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </>
                 )}
               </li>
             ))}
