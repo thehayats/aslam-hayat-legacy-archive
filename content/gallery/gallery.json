@@ -142,6 +142,28 @@
       "featured": false
     },
     {
+      "id": "ph-real-020",
+      "src": "/images/gallery/aslam-hayat-home-green-sweater.jpg",
+      "alt": "Aslam Hayat seated at home in Vancouver, wearing a green sweater",
+      "caption": "At home in Vancouver — final years",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "final-years",
+      "description": "Aslam Hayat at home in Vancouver in his final years — a warm portrait shared in Rida Hayat's tribute.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-021",
+      "src": "/images/gallery/aslam-hayat-home-armchair.jpg",
+      "alt": "Aslam Hayat seated on a red sofa at home in Vancouver, wearing white shalwar kameez",
+      "caption": "At home in Vancouver — final years",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "final-years",
+      "description": "Aslam Hayat relaxed at home in Vancouver in his final years — a portrait shared in Rida Hayat's tribute.",
+      "featured": true
+    },
+    {
       "id": "ph-real-010",
       "src": "/images/gallery/aslam-hayat-attiya-grave-lahore-2015.jpg",
       "alt": "Aslam Hayat standing at the grave of his daughter Attiya Hayat, Lahore",
