@@ -10,6 +10,17 @@
   ],
   "photos": [
     {
+      "id": "ph-real-001",
+      "src": "/images/gallery/aslam-hayat-formal-event.jpg",
+      "alt": "Aslam Hayat at a formal occasion",
+      "caption": "Aslam Hayat at a formal occasion",
+      "date": "To be confirmed by family",
+      "location": "To be confirmed by family",
+      "category": "family",
+      "description": "Aslam Hayat at a formal family or community occasion. Date and details to be confirmed by the family.",
+      "featured": true
+    },
+    {
       "id": "ph-001",
       "src": "/images/gallery/placeholder-family-1.jpg",
       "caption": "Family photograph",
