@@ -55,6 +55,14 @@ Nothing is added, inferred, or embellished beyond what the biography or family h
 | Helped raise Zeeshan after Zeeshan lost his mother at a young age | ✅ Family verified | |
 | Taught Zeeshan to read the Quran in Arabic | ✅ Family verified | |
 | Encouraged education, faith, patience, humility, and service | ✅ Family verified | |
+| Daughter: Attiya Hayat (deceased) | ✅ Family verified | Confirmed from January 2015 photo at her grave, Lahore |
+| Granddaughter: Saniya Hayat | ✅ Family verified | Confirmed from January 2015 wedding photo, Lahore |
+| Brother (younger): Imtiaz Hayat | ✅ Family verified | Confirmed from January 2015 family photo, Lahore |
+| Family member: Salma Hayat | ✅ Family verified | Confirmed from Dubai New Year's Day 2015 photo |
+| Grandson: Junaid Alam | ✅ Family verified | Confirmed from Zaira Hayat's wedding photo, July 2021 |
+| Granddaughter: Zaira Hayat | ✅ Family verified | Confirmed from wedding photo, July 2021 |
+| Visited shrine of Data Ganj Bakhsh (Data Sahib), Lahore, January 2015 | ✅ Family verified | Confirmed from family photo |
+| Travelled Vancouver to London, 2017 | ✅ Family verified | Confirmed from in-flight photo |
 
 ### Notes on Chartered Accountant qualification
 The family confirmed the professional qualification. The specific institute name is not listed on the site — the site uses the generic term "Chartered Accountant" as used in the family's own biography text.

@@ -140,6 +140,116 @@
       "category": "documents",
       "description": "Original documents and writings will be added after family review.",
       "featured": false
+    },
+    {
+      "id": "ph-real-010",
+      "src": "/images/gallery/aslam-hayat-attiya-grave-lahore-2015.jpg",
+      "alt": "Aslam Hayat standing at the grave of his daughter Attiya Hayat, Lahore",
+      "caption": "At the grave of his daughter Attiya Hayat, Lahore, January 2015",
+      "date": "January 2015",
+      "location": "Lahore, Pakistan",
+      "category": "pakistan",
+      "description": "Aslam Hayat standing at the grave of his daughter Attiya Hayat in Lahore, Pakistan, January 2015.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-011",
+      "src": "/images/gallery/aslam-hayat-saniya-wedding-lahore-2015.jpg",
+      "alt": "Aslam Hayat with his granddaughter Saniya Hayat at her wedding in Lahore",
+      "caption": "With granddaughter Saniya Hayat at her wedding, Lahore, January 2015",
+      "date": "January 2015",
+      "location": "Lahore, Pakistan",
+      "category": "family",
+      "description": "Aslam Hayat with his granddaughter Saniya Hayat at her wedding in Lahore, Pakistan, January 2015.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-012",
+      "src": "/images/gallery/aslam-hayat-zeeshan-imtiaz-lahore-2015.jpg",
+      "alt": "Aslam Hayat with Zeeshan Hayat and Imtiaz Hayat in Lahore",
+      "caption": "With Zeeshan Hayat and brother Imtiaz Hayat, Lahore, January 2015",
+      "date": "January 2015",
+      "location": "Lahore, Pakistan",
+      "category": "family",
+      "description": "Aslam Hayat with his grandson Zeeshan Hayat and his younger brother Imtiaz Hayat in Lahore, Pakistan, January 2015.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-013",
+      "src": "/images/gallery/aslam-hayat-lahore-2015.jpg",
+      "alt": "Aslam Hayat at a formal occasion in Lahore, January 2015",
+      "caption": "Lahore, January 2015",
+      "date": "January 2015",
+      "location": "Lahore, Pakistan",
+      "category": "pakistan",
+      "description": "Aslam Hayat at a formal occasion in Lahore, Pakistan, January 2015.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-014",
+      "src": "/images/gallery/aslam-hayat-data-sahib-shrine-lahore-2015.jpg",
+      "alt": "Aslam Hayat at the shrine of Data Ganj Bakhsh (Data Sahib), Lahore",
+      "caption": "At the shrine of Data Ganj Bakhsh (Data Sahib), Lahore, January 2015",
+      "date": "January 2015",
+      "location": "Lahore, Pakistan",
+      "category": "faith",
+      "description": "Aslam Hayat at the maqam of Data Ganj Bakhsh — Ali Hujwiri, patron saint of Lahore — in January 2015.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-015",
+      "src": "/images/gallery/aslam-hayat-formal-lahore-2015.jpg",
+      "alt": "Aslam Hayat at a formal occasion, Lahore, January 2015",
+      "caption": "Formal occasion, Lahore, January 2015",
+      "date": "January 2015",
+      "location": "Lahore, Pakistan",
+      "category": "pakistan",
+      "description": "Aslam Hayat at a formal occasion in Lahore, Pakistan, January 2015.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-016",
+      "src": "/images/gallery/aslam-hayat-salma-dubai-2015.jpg",
+      "alt": "Aslam Hayat with Salma Hayat and great-grandchildren in Dubai, New Year's Day 2015",
+      "caption": "With Salma Hayat and great-grandchildren, Dubai, New Year's Day 2015",
+      "date": "1 January 2015",
+      "location": "Dubai, United Arab Emirates",
+      "category": "family",
+      "description": "Aslam Hayat with Salma Hayat and great-grandchildren in Dubai on New Year's Day 2015, with the Burj Khalifa visible in the background.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-017",
+      "src": "/images/gallery/aslam-hayat-london-flight-2017.jpg",
+      "alt": "Aslam Hayat on the flight from Vancouver to London, 2017",
+      "caption": "On the flight from Vancouver to London, 2017",
+      "date": "2017",
+      "location": "In flight — Vancouver to London",
+      "category": "canada",
+      "description": "Aslam Hayat on board the flight from Vancouver to London in 2017.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-018",
+      "src": "/images/gallery/aslam-hayat-family-2017.jpg",
+      "alt": "Aslam Hayat with family, January 2017",
+      "caption": "With family, January 2017",
+      "date": "January 2017",
+      "location": "To be confirmed by family",
+      "category": "family",
+      "description": "Aslam Hayat with family members, January 2017.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-019",
+      "src": "/images/gallery/aslam-hayat-zaira-wedding-2021.jpg",
+      "alt": "Aslam Hayat with Junaid Alam and Zeeshan Hayat at Zaira Hayat's wedding, July 2021",
+      "caption": "With Junaid Alam and Zeeshan Hayat at Zaira Hayat's wedding, July 2021",
+      "date": "July 2021",
+      "location": "To be confirmed by family",
+      "category": "family",
+      "description": "Aslam Hayat with Junaid Alam and his grandson Zeeshan Hayat at Zaira Hayat's wedding in July 2021.",
+      "featured": true
     }
   ]
 }
