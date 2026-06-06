@@ -27,7 +27,7 @@ export default function HomePage() {
             style={{ width: '50%' }}
           >
             <img
-              src="/images/hero-portrait-v2.jpg"
+              src="/images/hero-portrait-v3.jpg"
               alt="Aslam Hayat"
               style={{
                 position: 'absolute',
@@ -35,7 +35,7 @@ export default function HomePage() {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
-                objectPosition: '55% 5%',
+                objectPosition: '55% top',
                 filter: 'brightness(1.08) contrast(1.02)',
               }}
             />
@@ -68,7 +68,7 @@ export default function HomePage() {
           {/* ── Mobile: full-width image stacked above text ── */}
           <div className="lg:hidden relative" style={{ height: '380px' }}>
             <img
-              src="/images/hero-portrait-v2.jpg"
+              src="/images/hero-portrait-v3.jpg"
               alt="Aslam Hayat"
               style={{
                 position: 'absolute',
@@ -76,7 +76,7 @@ export default function HomePage() {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
-                objectPosition: '55% 5%',
+                objectPosition: '55% top',
                 filter: 'brightness(1.06)',
               }}
             />
