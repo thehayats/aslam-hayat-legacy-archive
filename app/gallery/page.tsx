@@ -106,24 +106,42 @@ export default function GalleryPage() {
                     key={photo.id}
                     className="bg-parchment border border-cream-dark rounded-lg overflow-hidden card-hover"
                   >
-                    <div
-                      className="w-full aspect-video flex items-center justify-center relative"
-                      style={{
-                        backgroundColor:
-                          {
-                            family: '#2d5c42',
-                            pakistan: '#1a3a2a',
-                            canada: '#0f2318',
-                            professional: '#a8893a',
-                            documents: '#c9a84c',
-                            community: '#4a7c5f',
-                            'final-years': '#1a3a2a',
-                          }[photo.category] ?? '#1a3a2a',
-                      }}
-                    >
-                      <span className="font-playfair text-5xl text-cream-dark opacity-20 font-bold">
-                        {photo.caption.trim().charAt(0).toUpperCase()}
-                      </span>
+                    <div className="w-full aspect-video relative overflow-hidden bg-green">
+                      {photo.src && !photo.src.includes('placeholder') ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          src={photo.src}
+                          alt={photo.alt ?? photo.caption}
+                          style={{
+                            position: 'absolute',
+                            inset: 0,
+                            width: '100%',
+                            height: '100%',
+                            objectFit: 'cover',
+                            objectPosition: 'center 20%',
+                          }}
+                        />
+                      ) : (
+                        <div
+                          className="w-full h-full flex items-center justify-center"
+                          style={{
+                            backgroundColor:
+                              ({
+                                family: '#2d5c42',
+                                pakistan: '#1a3a2a',
+                                canada: '#0f2318',
+                                professional: '#a8893a',
+                                documents: '#c9a84c',
+                                community: '#4a7c5f',
+                                'final-years': '#1a3a2a',
+                              } as Record<string, string>)[photo.category] ?? '#1a3a2a',
+                          }}
+                        >
+                          <span className="font-playfair text-5xl text-cream-dark opacity-20 font-bold">
+                            {photo.caption.trim().charAt(0).toUpperCase()}
+                          </span>
+                        </div>
+                      )}
                       <div className="absolute top-2 right-2 w-6 h-6 rounded-full bg-gold flex items-center justify-center">
                         <span className="text-green-dark text-xs">★</span>
                       </div>
