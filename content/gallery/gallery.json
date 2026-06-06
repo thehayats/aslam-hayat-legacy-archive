@@ -1,115 +1,135 @@
 {
   "categories": [
     { "id": "family", "label": "Family", "description": "Family moments and gatherings" },
-    { "id": "pakistan", "label": "Pakistan", "description": "Years in Pakistan" },
+    { "id": "faith", "label": "Faith & Pilgrimage", "description": "Spiritual journeys and places of worship" },
+    { "id": "professional", "label": "Professional Life", "description": "Professional years" },
     { "id": "canada", "label": "Canada", "description": "Life in Vancouver, Canada" },
-    { "id": "professional", "label": "Professional Life", "description": "Professional years — details to be added by the family" },
+    { "id": "pakistan", "label": "Pakistan", "description": "Years in Pakistan" },
     { "id": "documents", "label": "Writings & Documents", "description": "Letters, writings, and personal records" },
     { "id": "community", "label": "Community", "description": "Community and social occasions" },
     { "id": "final-years", "label": "Final Years", "description": "Later years and family time" }
   ],
   "photos": [
     {
-      "id": "ph-real-002",
-      "src": "/images/gallery/aslam-hayat-home-portrait.jpg",
-      "alt": "Aslam Hayat at home in his later years",
-      "caption": "Aslam Hayat at home — later years",
+      "id": "ph-real-003",
+      "src": "/images/gallery/aslam-hayat-professional-portrait.jpg",
+      "alt": "Aslam Hayat — formal professional portrait",
+      "caption": "Aslam Hayat — formal portrait",
       "date": "To be confirmed by family",
-      "location": "Vancouver, British Columbia, Canada",
-      "category": "final-years",
-      "description": "A quiet portrait of Aslam Hayat at home in his later years, wearing a traditional topi. Date to be confirmed by the family.",
+      "location": "Pakistan",
+      "category": "professional",
+      "description": "A formal professional portrait of Aslam Hayat, likely taken during his years of public service in Pakistan. Date to be confirmed by the family.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-004",
+      "src": "/images/gallery/aslam-hayat-mecca-1.jpg",
+      "alt": "Aslam Hayat at the Masjid al-Haram, Mecca, with the Kaaba in the background",
+      "caption": "At the Masjid al-Haram, Mecca",
+      "date": "To be confirmed by family",
+      "location": "Mecca, Saudi Arabia",
+      "category": "faith",
+      "description": "Aslam Hayat at the Masjid al-Haram in Mecca, with the Kaaba and thousands of pilgrims visible behind him. Date to be confirmed by the family.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-005",
+      "src": "/images/gallery/aslam-hayat-mecca-2.jpg",
+      "alt": "Aslam Hayat at the Masjid al-Haram, Mecca",
+      "caption": "At the Masjid al-Haram, Mecca",
+      "date": "To be confirmed by family",
+      "location": "Mecca, Saudi Arabia",
+      "category": "faith",
+      "description": "Aslam Hayat at the Masjid al-Haram, Mecca. Date to be confirmed by the family.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-009",
+      "src": "/images/gallery/aslam-hayat-mecca-family.jpg",
+      "alt": "Aslam Hayat with family inside the Masjid al-Haram, Mecca",
+      "caption": "With family at the Masjid al-Haram, Mecca",
+      "date": "To be confirmed by family",
+      "location": "Mecca, Saudi Arabia",
+      "category": "faith",
+      "description": "Aslam Hayat with family members inside the Masjid al-Haram, Mecca. Date to be confirmed by the family.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-006",
+      "src": "/images/gallery/aslam-hayat-with-grandchild.jpg",
+      "alt": "Aslam Hayat smiling with a young grandchild",
+      "caption": "With a grandchild",
+      "date": "To be confirmed by family",
+      "location": "To be confirmed by family",
+      "category": "family",
+      "description": "Aslam Hayat smiling with a young grandchild. Date and location to be confirmed by the family.",
       "featured": true
     },
     {
       "id": "ph-real-001",
       "src": "/images/gallery/aslam-hayat-formal-event.jpg",
       "alt": "Aslam Hayat at a formal occasion",
-      "caption": "Aslam Hayat at a formal occasion",
+      "caption": "At a formal occasion",
       "date": "To be confirmed by family",
       "location": "To be confirmed by family",
       "category": "family",
       "description": "Aslam Hayat at a formal family or community occasion. Date and details to be confirmed by the family.",
-      "featured": true
+      "featured": false
     },
     {
-      "id": "ph-001",
-      "src": "/images/gallery/placeholder-family-1.jpg",
-      "caption": "Family photograph",
-      "date": "To be dated by family",
-      "location": "To be confirmed",
+      "id": "ph-real-008",
+      "src": "/images/gallery/aslam-hayat-family-celebration.jpg",
+      "alt": "Aslam Hayat at a family celebration",
+      "caption": "At a family celebration",
+      "date": "To be confirmed by family",
+      "location": "To be confirmed by family",
       "category": "family",
-      "description": "Family-approved photographs will be added soon.",
-      "featured": true
-    },
-    {
-      "id": "ph-002",
-      "src": "/images/gallery/placeholder-family-2.jpg",
-      "caption": "Family photograph",
-      "date": "To be dated by family",
-      "location": "To be confirmed",
-      "category": "family",
-      "description": "Family-approved photographs will be added soon.",
+      "description": "Aslam Hayat at a family celebration or wedding. Date and details to be confirmed by the family.",
       "featured": false
     },
     {
-      "id": "ph-003",
-      "src": "/images/gallery/placeholder-family-3.jpg",
-      "caption": "Family photograph",
-      "date": "To be dated by family",
-      "location": "To be confirmed",
-      "category": "family",
-      "description": "Family-approved photographs will be added soon.",
-      "featured": false
-    },
-    {
-      "id": "ph-004",
-      "src": "/images/gallery/placeholder-pakistan-1.jpg",
-      "caption": "Years in Pakistan",
-      "date": "To be dated by family",
-      "location": "Pakistan",
-      "category": "pakistan",
-      "description": "Family-approved photographs will be added soon.",
-      "featured": false
-    },
-    {
-      "id": "ph-005",
-      "src": "/images/gallery/placeholder-pakistan-2.jpg",
-      "caption": "Lahore, Pakistan",
-      "date": "To be dated by family",
-      "location": "Lahore, Pakistan",
-      "category": "pakistan",
-      "description": "Family-approved photographs will be added soon.",
-      "featured": false
-    },
-    {
-      "id": "ph-006",
-      "src": "/images/gallery/placeholder-canada-1.jpg",
-      "caption": "Life in Vancouver",
-      "date": "After 1989",
+      "id": "ph-real-007",
+      "src": "/images/gallery/aslam-hayat-casual.jpg",
+      "alt": "Aslam Hayat at a café or restaurant",
+      "caption": "A casual moment",
+      "date": "To be confirmed by family",
       "location": "Vancouver, British Columbia, Canada",
       "category": "canada",
-      "description": "Family-approved photographs will be added soon.",
-      "featured": true
+      "description": "Aslam Hayat at a café or restaurant during his Vancouver years. Date to be confirmed by the family.",
+      "featured": false
     },
     {
-      "id": "ph-007",
-      "src": "/images/gallery/placeholder-canada-2.jpg",
+      "id": "ph-real-004b",
+      "src": "/images/gallery/aslam-hayat-restaurant.jpg",
+      "alt": "Aslam Hayat at a restaurant",
+      "caption": "At a restaurant",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "canada",
+      "description": "Aslam Hayat at a restaurant during his Vancouver years. Date to be confirmed by the family.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-005b",
+      "src": "/images/gallery/aslam-hayat-vancouver.jpg",
+      "alt": "Aslam Hayat relaxed, Vancouver",
       "caption": "Vancouver years",
-      "date": "After 1989",
+      "date": "To be confirmed by family",
       "location": "Vancouver, British Columbia, Canada",
       "category": "canada",
-      "description": "Family-approved photographs will be added soon.",
+      "description": "Aslam Hayat at ease during his Vancouver years. Date to be confirmed by the family.",
       "featured": false
     },
     {
-      "id": "ph-008",
-      "src": "/images/gallery/placeholder-professional-1.jpg",
-      "caption": "Professional photograph",
-      "date": "To be dated by family",
-      "location": "To be confirmed",
-      "category": "professional",
-      "description": "Family-approved photographs and professional details will be added soon.",
-      "featured": false
+      "id": "ph-real-002",
+      "src": "/images/gallery/aslam-hayat-home-portrait.jpg",
+      "alt": "Aslam Hayat at home in his later years",
+      "caption": "At home — later years",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "final-years",
+      "description": "A quiet portrait of Aslam Hayat at home in his later years, wearing a traditional topi. Date to be confirmed by the family.",
+      "featured": true
     },
     {
       "id": "ph-009",
@@ -119,36 +139,6 @@
       "location": "To be confirmed",
       "category": "documents",
       "description": "Original documents and writings will be added after family review.",
-      "featured": false
-    },
-    {
-      "id": "ph-010",
-      "src": "/images/gallery/placeholder-community-1.jpg",
-      "caption": "Community occasion",
-      "date": "To be dated by family",
-      "location": "Vancouver, BC",
-      "category": "community",
-      "description": "Family-approved photographs will be added soon.",
-      "featured": false
-    },
-    {
-      "id": "ph-011",
-      "src": "/images/gallery/placeholder-final-1.jpg",
-      "caption": "Later years",
-      "date": "To be dated by family",
-      "location": "Vancouver, British Columbia, Canada",
-      "category": "final-years",
-      "description": "Family-approved photographs will be added soon.",
-      "featured": true
-    },
-    {
-      "id": "ph-012",
-      "src": "/images/gallery/placeholder-final-2.jpg",
-      "caption": "With family",
-      "date": "To be dated by family",
-      "location": "Vancouver, British Columbia, Canada",
-      "category": "final-years",
-      "description": "Family-approved photographs will be added soon.",
       "featured": false
     }
   ]
