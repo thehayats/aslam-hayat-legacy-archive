@@ -10,6 +10,17 @@
   ],
   "photos": [
     {
+      "id": "ph-real-002",
+      "src": "/images/gallery/aslam-hayat-home-portrait.jpg",
+      "alt": "Aslam Hayat at home in his later years",
+      "caption": "Aslam Hayat at home — later years",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "final-years",
+      "description": "A quiet portrait of Aslam Hayat at home in his later years, wearing a traditional topi. Date to be confirmed by the family.",
+      "featured": true
+    },
+    {
       "id": "ph-real-001",
       "src": "/images/gallery/aslam-hayat-formal-event.jpg",
       "alt": "Aslam Hayat at a formal occasion",
