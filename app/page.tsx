@@ -16,62 +16,48 @@ export default function HomePage() {
   return (
     <>
       {/* ── Hero ─────────────────────────────────────────────────── */}
-      <section className="relative bg-parchment border-b border-cream-dark overflow-hidden">
-        <div
-          className="absolute inset-0 opacity-5"
-          style={{
-            backgroundImage:
-              'radial-gradient(circle at 20% 50%, #1a3a2a 1px, transparent 1px), radial-gradient(circle at 80% 50%, #c9a84c 1px, transparent 1px)',
-            backgroundSize: '60px 60px',
-          }}
+      <section className="relative min-h-[620px] md:min-h-[720px] lg:min-h-[780px] overflow-hidden flex items-center">
+        {/* Background photo */}
+        <img
+          src="/images/gallery/aslam-hayat-hero-formal-event.jpg"
+          alt=""
+          aria-hidden="true"
+          className="absolute inset-0 w-full h-full object-cover"
+          style={{ objectPosition: 'center 18%' }}
         />
-        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
-          <div className="flex flex-col-reverse md:flex-row items-center gap-10 md:gap-16">
+        {/* Green-tinted gradient overlay — dark at bottom for text, lighter at top to show photo */}
+        <div className="absolute inset-0" style={{
+          background: 'linear-gradient(to bottom, rgba(10,25,18,0.45) 0%, rgba(10,25,18,0.62) 45%, rgba(10,25,18,0.88) 100%)'
+        }} />
+        {/* Subtle side vignette */}
+        <div className="absolute inset-0" style={{
+          background: 'radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.35) 100%)'
+        }} />
 
-            {/* Text */}
-            <div className="flex-1 text-center md:text-left">
-              <p className="arabic-text text-green text-2xl md:text-3xl mb-5 font-urdu">
-                بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
-              </p>
-              <div className="gold-divider mb-6" />
-              <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-green font-bold leading-tight mb-5">
-                The Aslam Hayat
-                <span className="block text-gold mt-1">Legacy Archive</span>
-              </h1>
-              <p className="font-lora text-lg md:text-xl text-gray-600 italic leading-relaxed mb-4">
-                Chartered Accountant &middot; Civil Aviation Executive &middot; Writer &middot; Family Elder
-              </p>
-              <div className="gold-divider mb-6" />
-              <p className="font-lora text-base md:text-lg text-gray-700 leading-relaxed mb-8">
-                Aslam Hayat (23 March 1933 – 2026) was a Pakistani-Canadian chartered accountant,
-                civil aviation executive, writer, and student of Islamic spirituality. Over more than
-                twenty-five years he authored more than 650 articles in Vancouver&apos;s Pakistani
-                community newspaper. This archive is maintained by his family to preserve his life,
-                writings, and legacy for future generations.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                <Link href="/about" className="btn-primary">Read His Biography</Link>
-                <Link href="/articles" className="btn-gold">Browse the Articles</Link>
-              </div>
-            </div>
-
-            {/* Portrait */}
-            <div className="flex-shrink-0 flex flex-col items-center gap-3">
-              <div className="relative">
-                <div className="absolute -inset-1.5 rounded-lg bg-gradient-to-b from-gold via-gold-dark to-gold opacity-60" />
-                <div className="relative rounded-lg overflow-hidden shadow-2xl w-56 md:w-72 lg:w-80">
-                  <img
-                    src="/images/gallery/aslam-hayat-professional-portrait.jpg"
-                    alt="Aslam Hayat — formal portrait"
-                    className="w-full object-cover"
-                  />
-                </div>
-              </div>
-              <p className="font-lora text-xs text-gray-500 italic text-center">
-                Aslam Hayat &nbsp;&middot;&nbsp; 1933 – 2026
-              </p>
-            </div>
-
+        {/* Content */}
+        <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+          <p className="arabic-text text-gold text-2xl md:text-3xl mb-5 font-urdu drop-shadow-lg">
+            بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
+          </p>
+          <div className="gold-divider mb-7" />
+          <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl text-white font-bold leading-tight mb-5 drop-shadow-xl">
+            The Aslam Hayat
+            <span className="block text-gold mt-2">Legacy Archive</span>
+          </h1>
+          <p className="font-lora text-lg md:text-xl text-cream-light italic leading-relaxed max-w-2xl mx-auto mb-4 drop-shadow">
+            Chartered Accountant &middot; Civil Aviation Executive &middot; Writer &middot; Family Elder
+          </p>
+          <div className="gold-divider mb-7" />
+          <p className="font-lora text-base md:text-lg text-cream-dark leading-relaxed max-w-3xl mx-auto mb-10">
+            Aslam Hayat (23 March 1933 – 2026) was a Pakistani-Canadian chartered accountant,
+            civil aviation executive, writer, and student of Islamic spirituality. Over more than
+            twenty-five years he authored more than 650 articles in Vancouver&apos;s Pakistani
+            community newspaper. This archive is maintained by his family to preserve his life,
+            writings, and legacy for future generations.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/about" className="btn-primary">Read His Biography</Link>
+            <Link href="/articles" className="btn-gold">Browse the Articles</Link>
           </div>
         </div>
       </section>
