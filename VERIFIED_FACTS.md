@@ -27,7 +27,13 @@ Nothing is added, inferred, or embellished beyond what the biography or family h
 | Family origins: Subhan Pur, Kapurthala, Punjab | ✅ Family verified | |
 | Witnessed Partition of India, 1947, in Lahore | ✅ Family verified | |
 | Faith: Islam | ✅ Family verified | |
-| Student of Sufism and the works of Ibn Arabi | ✅ Family verified | |
+| Student of Sufism and Islamic spirituality | ✅ Family verified | |
+| Studied works of Ibn Arabi extensively | ✅ Family verified | |
+| Islamic scholars studied: Shaykh Abdul Qadir al-Jilani, Imam al-Ghazali, Rumi, Ali Hujwiri, Lal Shahbaz Qalandar, Baba Farid, Shaykh Zakariya Kandhlawi, Fakhr al-Din al-Razi, Ibn Arabi | ✅ Family verified | |
+| Also read: Dalai Lama, Karen Armstrong, Neil Douglas-Klotz, Kabir Helminski, Deepak Chopra | ✅ Family verified | Comparative religion and world thought |
+| Read works of Albert Einstein and Stephen Hawking | ✅ Family verified | Interest in science and cosmology |
+| Viewed science and spirituality as complementary | ✅ Family verified | |
+| Article topics: history, current affairs, community issues, personal reflections, Islamic scholarship, spiritual development, ethics, science and religion, immigration, interfaith understanding | ✅ Family verified | |
 | School: Muslim Model High School, Lahore | ✅ Family verified | |
 | Qualified as Chartered Accountant in London, England | ✅ Family verified | Timeframe: late 1950s and early 1960s (from biography). Specific institute not named. |
 | Served at Pakistan Civil Aviation Authority (PCAA) | ✅ Family verified | |

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import SectionHeader from '@/components/ui/SectionHeader';
 import TimelineEntry from '@/components/ui/TimelineEntry';
 import { buildMetadata } from '@/components/seo/MetaTags';
@@ -61,6 +62,19 @@ export default function TimelinePage() {
           {entries.map((entry, index) => (
             <TimelineEntry key={`${entry.year}-${entry.title}`} entry={entry} index={index} />
           ))}
+        </div>
+
+        {/* Cross-link */}
+        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mt-10 mb-4">
+          <div>
+            <p className="font-playfair text-base text-green font-bold mb-1">Scholarship &amp; Spirituality</p>
+            <p className="font-lora text-sm text-gray-600">
+              Beyond the milestones — the scholars, mystics, and thinkers who shaped his intellectual life.
+            </p>
+          </div>
+          <Link href="/scholarship-and-spirituality" className="btn-gold text-sm flex-shrink-0">
+            Explore
+          </Link>
         </div>
 
         {/* End marker */}

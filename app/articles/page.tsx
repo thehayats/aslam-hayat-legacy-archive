@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Link from 'next/link';
 import SectionHeader from '@/components/ui/SectionHeader';
 import { buildMetadata } from '@/components/seo/MetaTags';
 import { getAllArticles } from '@/lib/mdx';
@@ -41,6 +42,19 @@ export default function ArticlesPage() {
           urduArticles={urduArticles}
           englishArticles={englishArticles}
         />
+
+        {/* Cross-link */}
+        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mt-12">
+          <div>
+            <p className="font-playfair text-base text-green font-bold mb-1">Scholarship &amp; Spiritual Influences</p>
+            <p className="font-lora text-sm text-gray-600">
+              Understand the scholars, mystics, and thinkers whose ideas shaped his writing over 25 years.
+            </p>
+          </div>
+          <Link href="/scholarship-and-spirituality" className="btn-gold text-sm flex-shrink-0">
+            Explore
+          </Link>
+        </div>
       </div>
     </div>
   );

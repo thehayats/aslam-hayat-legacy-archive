@@ -140,6 +140,19 @@ export default function PersonalPage() {
           </div>
         </section>
 
+        {/* Scholarship cross-link */}
+        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-14">
+          <div>
+            <p className="font-playfair text-base text-green font-bold mb-1">Scholarship &amp; Spirituality</p>
+            <p className="font-lora text-sm text-gray-600">
+              The scholars, mystics, scientists, and world thinkers who shaped his intellectual life.
+            </p>
+          </div>
+          <Link href="/scholarship-and-spirituality" className="btn-gold text-sm flex-shrink-0">
+            Explore
+          </Link>
+        </div>
+
         {/* Writer */}
         <section className="mb-14">
           <SectionHeader title="Writer &amp; Community Voice" goldDivider />
