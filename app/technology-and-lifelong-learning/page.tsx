@@ -1,0 +1,287 @@
+import type { Metadata } from 'next';
+import Link from 'next/link';
+import SectionHeader from '@/components/ui/SectionHeader';
+import { buildMetadata } from '@/components/seo/MetaTags';
+
+export const metadata: Metadata = buildMetadata({
+  title: 'Technology & Lifelong Learning — Aslam Hayat',
+  description:
+    'Aslam Hayat embraced every new technology from the first colour television to artificial intelligence — always learning independently, always the first in the family to own the newest device.',
+  canonical: '/technology-and-lifelong-learning',
+  ogType: 'article',
+});
+
+const devices = [
+  { label: 'First colour television', era: 'Early decades' },
+  { label: 'Personal computer', era: 'Early computing era' },
+  { label: 'Laptop computer', era: 'Portable computing' },
+  { label: 'Mobile phone', era: 'Early mobile era' },
+  { label: 'Smartphone', era: 'Digital age' },
+  { label: 'Tablet computer', era: 'Post-2010' },
+  { label: 'Smartwatch', era: 'Final years' },
+];
+
+const eras = [
+  { label: 'Radio', period: 'Born into' },
+  { label: 'Black-and-white television', period: 'Youth' },
+  { label: 'Commercial aviation', period: 'Career era' },
+  { label: 'Personal computers', period: 'Vancouver years' },
+  { label: 'The internet', period: 'Vancouver years' },
+  { label: 'Smartphones', period: 'Later life' },
+  { label: 'Artificial intelligence', period: 'Final years' },
+];
+
+export default function TechnologyPage() {
+  return (
+    <div className="min-h-screen">
+
+      {/* Hero */}
+      <div className="bg-green py-16 md:py-20">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="font-playfair text-4xl md:text-5xl text-cream-light font-bold mb-4">
+            Technology &amp; Lifelong Learning
+          </h1>
+          <p className="font-lora text-lg text-cream-dark italic max-w-2xl mx-auto">
+            Born in 1933 — curious about artificial intelligence in his nineties
+          </p>
+          <div className="gold-divider mt-6" />
+        </div>
+      </div>
+
+      {/* Intro */}
+      <section className="bg-parchment border-b border-cream-dark py-12 md:py-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="prose-archive text-center max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl leading-relaxed text-gray-700">
+              One of the most remarkable aspects of Aslam Hayat&apos;s personality was his lifelong
+              enthusiasm for technology and innovation. Although born in 1933, long before the age of
+              computers, the internet, and artificial intelligence, he never allowed age to become a
+              barrier to learning.
+            </p>
+            <p className="text-base leading-relaxed text-gray-600 mt-4">
+              Instead, he approached each new technological advancement with curiosity and excitement
+              — a quality that remained with him from the first colour television he brought home to
+              his conversations about artificial intelligence in the final years of his life.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-16">
+
+        {/* ── 1. Always the First ── */}
+        <section>
+          <SectionHeader
+            title="Always the First in the Family"
+            subtitle="A reputation for owning the newest device before anyone else"
+            goldDivider
+          />
+          <div className="prose-archive mb-8">
+            <p>
+              Throughout his life, Aslam Hayat eagerly adopted new technologies as they emerged.
+              Family members often joked that he always seemed to own the newest device before anyone
+              else in the family. There was something characteristically him about it — a combination
+              of genuine curiosity and the pleasure of understanding how things worked.
+            </p>
+            <p>
+              Whether it was the first colour television, an early personal computer, a laptop, a
+              mobile phone, a smartphone, a tablet, or a smartwatch, he wanted to understand how
+              it worked and how it could improve everyday life. Each new device represented a new
+              opportunity to learn something the world had not known before.
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+            {devices.map(({ label, era }) => (
+              <div
+                key={label}
+                className="bg-parchment border border-cream-dark rounded-lg p-5 hover:border-gold-dark transition-colors"
+              >
+                <p className="font-playfair text-sm text-green font-bold mb-1">{label}</p>
+                <p className="font-lora text-xs text-gray-500">{era}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* ── 2. Learning Independently ── */}
+        <section>
+          <SectionHeader
+            title="Learning Independently"
+            subtitle="He preferred to teach himself — from books, manuals, and patient practice"
+            goldDivider
+          />
+          <div className="bg-green rounded-lg p-8 md:p-10 mb-8">
+            <div className="max-w-3xl mx-auto text-center">
+              <p className="font-playfair text-3xl text-gold opacity-60 mb-3">&ldquo;</p>
+              <blockquote className="font-lora text-lg md:text-xl text-cream-light leading-relaxed italic mb-4">
+                Whenever he acquired a new device, he would often purchase instructional books and
+                manuals and spend hours teaching himself how to use it. He believed that learning
+                should never stop, regardless of age.
+              </blockquote>
+              <div className="gold-divider" />
+            </div>
+          </div>
+          <div className="prose-archive">
+            <p>
+              What made his interest in technology unique was that he rarely relied on others to
+              teach him. He preferred to learn independently. This was consistent with the broader
+              intellectual discipline that characterised his life — the same approach he brought to
+              the study of Islamic scholarship, world history, politics, and science.
+            </p>
+            <p>
+              For Aslam Hayat, picking up a new device was no different from picking up a new book.
+              Both were invitations to understand something new about the world. His method was
+              methodical and patient: he would read, practise, experiment, and return to the manual
+              until he had genuinely understood what he was working with.
+            </p>
+          </div>
+        </section>
+
+        {/* ── 3. A Philosophy of Openness ── */}
+        <section>
+          <SectionHeader
+            title="A Philosophy of Openness"
+            subtitle="Technology as an expression of his belief that knowledge is always expanding"
+            goldDivider
+          />
+          <div className="prose-archive">
+            <p>
+              His fascination with technology reflected a broader philosophy that knowledge was
+              always expanding and that a person should remain open to new ideas throughout life.
+              He did not view new technologies as intimidating or disruptive. He viewed them as
+              evidence that the world was continuing to grow, discover, and create — and that was
+              something to welcome.
+            </p>
+            <p>
+              This outlook was inseparable from his faith. He understood the Quranic imperative
+              to seek knowledge as a commandment that admitted no age limit and no final point of
+              arrival. Learning was not a phase of life but a way of life.
+            </p>
+          </div>
+          <div className="border-l-4 border-gold pl-6 py-3 bg-parchment rounded-r-lg pr-6 mt-6">
+            <p className="font-lora text-base md:text-lg text-green italic leading-relaxed">
+              &ldquo;He believed that learning should never stop, regardless of age.&rdquo;
+            </p>
+          </div>
+        </section>
+
+        {/* ── 4. Artificial Intelligence ── */}
+        <section>
+          <SectionHeader
+            title="Artificial Intelligence — His Final Frontier"
+            subtitle="Watching the early stages of the AI revolution with fascination"
+            goldDivider
+          />
+          <div className="bg-parchment border border-cream-dark rounded-lg p-6 md:p-8 mb-8">
+            <div className="prose-archive">
+              <p>
+                Even into his nineties, Aslam Hayat continued to follow developments in technology.
+                During the final years of his life, he became increasingly interested in artificial
+                intelligence and frequently discussed how AI might transform communication, education,
+                business, and society.
+              </p>
+              <p>
+                He witnessed the early stages of the AI revolution and often reflected on how
+                dramatically the world had changed during his lifetime. These were not passive
+                observations. He engaged with questions about AI seriously — what it could do, what
+                it could not do, and what its arrival meant for human beings.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* ── 5. A Lifetime of Change ── */}
+        <section>
+          <SectionHeader
+            title="A Lifetime of Technological Change"
+            subtitle="From radio to artificial intelligence — one of history's greatest technological spans"
+            goldDivider
+          />
+          <div className="prose-archive mb-8">
+            <p>
+              Having lived through the era of radio, black-and-white television, commercial aviation,
+              computers, the internet, smartphones, and artificial intelligence, Aslam Hayat
+              experienced one of the greatest periods of technological change in human history. Few
+              individuals have witnessed a span of innovation as sweeping as the one that unfolded
+              across his ninety-three years.
+            </p>
+            <p>
+              Rather than resisting those changes, he embraced them with curiosity and optimism. Each
+              new era was not a threat to what came before but an addition — another layer of
+              possibility added to an already remarkable world.
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-8">
+            {eras.map(({ label, period }) => (
+              <div
+                key={label}
+                className="flex items-start gap-3 bg-parchment border border-cream-dark rounded-lg p-4"
+              >
+                <span className="text-gold font-playfair text-lg leading-none mt-0.5 flex-shrink-0">·</span>
+                <div>
+                  <p className="font-lora text-sm text-gray-700 leading-relaxed font-medium">{label}</p>
+                  <p className="font-lora text-xs text-gray-500 mt-0.5">{period}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* ── 6. Legacy ── */}
+        <section>
+          <div className="bg-green rounded-lg p-8 md:p-12 text-center">
+            <div className="text-gold text-5xl font-playfair mb-4 opacity-60">&ldquo;</div>
+            <blockquote className="font-playfair text-2xl md:text-3xl text-cream-light font-bold leading-snug mb-4 max-w-3xl mx-auto">
+              For his family, he became a powerful example that learning is not limited by age
+              and that intellectual curiosity can remain alive throughout an entire lifetime.
+            </blockquote>
+            <div className="gold-divider mb-4" />
+            <cite className="font-lora text-sm text-cream-dark not-italic">
+              — The family of Aslam Hayat
+            </cite>
+          </div>
+        </section>
+
+        {/* Cross-links */}
+        <div className="grid sm:grid-cols-2 gap-4">
+          <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
+            <div>
+              <p className="font-playfair text-base text-green font-bold mb-1">Scholarship &amp; Intellectual Influences</p>
+              <p className="font-lora text-sm text-gray-600">
+                The scholars, scientists, and world thinkers who shaped his intellectual life.
+              </p>
+            </div>
+            <Link href="/scholarship-and-spirituality" className="btn-gold text-sm text-center">Explore</Link>
+          </div>
+          <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
+            <div>
+              <p className="font-playfair text-base text-green font-bold mb-1">Politics, Economics &amp; World Affairs</p>
+              <p className="font-lora text-sm text-gray-600">
+                His lifelong engagement with public affairs, global news, and international events.
+              </p>
+            </div>
+            <Link href="/politics-economics-and-world-affairs" className="btn-gold text-sm text-center">Explore</Link>
+          </div>
+        </div>
+
+      </div>
+
+      {/* Footer CTA */}
+      <section className="bg-parchment border-t border-cream-dark py-12">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="font-playfair text-2xl text-green font-bold mb-3">Explore Further</h2>
+          <p className="font-lora text-base text-gray-600 leading-relaxed mb-6">
+            His curiosity about technology was one thread in a much larger intellectual life.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+            <Link href="/about" className="btn-primary">Read His Biography</Link>
+            <Link href="/articles" className="btn-gold">Browse His Articles</Link>
+            <Link href="/timeline" className="btn-gold">View Life Timeline</Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

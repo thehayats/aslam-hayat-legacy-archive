@@ -77,6 +77,31 @@ export default function TimelinePage() {
           </Link>
         </div>
 
+        {/* Cross-links to new deep-dive sections */}
+        <div className="grid sm:grid-cols-3 gap-4 mt-4">
+          <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
+            <div>
+              <p className="font-playfair text-sm text-green font-bold mb-1">Technology &amp; Lifelong Learning</p>
+              <p className="font-lora text-xs text-gray-600">From colour television to artificial intelligence.</p>
+            </div>
+            <Link href="/technology-and-lifelong-learning" className="btn-gold text-xs text-center py-2">Explore</Link>
+          </div>
+          <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
+            <div>
+              <p className="font-playfair text-sm text-green font-bold mb-1">Politics &amp; World Affairs</p>
+              <p className="font-lora text-xs text-gray-600">Pakistan, international news, and public life.</p>
+            </div>
+            <Link href="/politics-economics-and-world-affairs" className="btn-gold text-xs text-center py-2">Explore</Link>
+          </div>
+          <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
+            <div>
+              <p className="font-playfair text-sm text-green font-bold mb-1">Travels &amp; Pilgrimage</p>
+              <p className="font-lora text-xs text-gray-600">Sea voyage to London, Makkah, Turkey, and beyond.</p>
+            </div>
+            <Link href="/travels-pilgrimage-and-exploration" className="btn-gold text-xs text-center py-2">Explore</Link>
+          </div>
+        </div>
+
         {/* End marker */}
         <div className="text-center mt-8">
           <div className="inline-flex items-center gap-3">

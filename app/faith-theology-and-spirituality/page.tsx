@@ -321,6 +321,30 @@ export default function FaithPage() {
 
       </div>
 
+      {/* Cross-links to new sections */}
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-14">
+        <div className="grid sm:grid-cols-2 gap-4">
+          <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
+            <div>
+              <p className="font-playfair text-base text-green font-bold mb-1">Travels, Pilgrimage &amp; Exploration</p>
+              <p className="font-lora text-sm text-gray-600">
+                The pilgrimages to Makkah and Madinah and the journeys that deepened his faith.
+              </p>
+            </div>
+            <Link href="/travels-pilgrimage-and-exploration" className="btn-gold text-sm text-center">Explore</Link>
+          </div>
+          <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
+            <div>
+              <p className="font-playfair text-base text-green font-bold mb-1">Technology &amp; Lifelong Learning</p>
+              <p className="font-lora text-sm text-gray-600">
+                His curiosity about technology — an expression of the same drive to understand the world.
+              </p>
+            </div>
+            <Link href="/technology-and-lifelong-learning" className="btn-gold text-sm text-center">Explore</Link>
+          </div>
+        </div>
+      </div>
+
       {/* ── Explore further ── */}
       <section className="bg-parchment border-t border-cream-dark py-12">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

@@ -205,6 +205,41 @@ export default function PersonalPage() {
           </div>
         </section>
 
+        {/* New sections cross-links */}
+        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+          <div>
+            <p className="font-playfair text-base text-green font-bold mb-1">Technology &amp; Lifelong Learning</p>
+            <p className="font-lora text-sm text-gray-600">
+              His lifelong enthusiasm for technology — always the first in the family to own the newest device.
+            </p>
+          </div>
+          <Link href="/technology-and-lifelong-learning" className="btn-gold text-sm flex-shrink-0">
+            Explore
+          </Link>
+        </div>
+        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+          <div>
+            <p className="font-playfair text-base text-green font-bold mb-1">Politics, Economics &amp; World Affairs</p>
+            <p className="font-lora text-sm text-gray-600">
+              His lifelong engagement with Pakistan, international news, and public affairs.
+            </p>
+          </div>
+          <Link href="/politics-economics-and-world-affairs" className="btn-gold text-sm flex-shrink-0">
+            Explore
+          </Link>
+        </div>
+        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+          <div>
+            <p className="font-playfair text-base text-green font-bold mb-1">Travels, Pilgrimage &amp; Exploration</p>
+            <p className="font-lora text-sm text-gray-600">
+              The voyages, pilgrimages, and international journeys that shaped his understanding of the world.
+            </p>
+          </div>
+          <Link href="/travels-pilgrimage-and-exploration" className="btn-gold text-sm flex-shrink-0">
+            Explore
+          </Link>
+        </div>
+
         {/* Tributes cross-link */}
         <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
           <div>

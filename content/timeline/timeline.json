@@ -16,9 +16,17 @@
     "location": "Lahore, Pakistan"
   },
   {
+    "year": "Late 1950s",
+    "title": "Voyage to London by Sea",
+    "description": "His first journey outside Pakistan — a voyage by sea lasting several weeks. He passed through the Strait of Gibraltar and saw the coast of Morocco near Tangier, an experience he remembered and spoke of throughout his life.",
+    "category": "travel",
+    "icon": "⚓",
+    "location": "London, United Kingdom (via Strait of Gibraltar)"
+  },
+  {
     "year": "1950s–60s",
     "title": "Qualified as Chartered Accountant, London",
-    "description": "He travelled to London, United Kingdom, where he qualified as a Chartered Accountant — the professional foundation for his subsequent public-sector career.",
+    "description": "He travelled to London, United Kingdom, where he qualified as a Chartered Accountant — the professional foundation for his subsequent public-sector career. London also exposed him to new cultures, ideas, and international journalism, habits that remained with him for life.",
     "category": "professional",
     "icon": "🎓",
     "location": "London, United Kingdom"
@@ -32,12 +40,28 @@
     "location": "Pakistan"
   },
   {
+    "year": "Multiple",
+    "title": "Pilgrimages to Makkah and Madinah",
+    "description": "Among the most treasured experiences of his life were multiple pilgrimages to the holy cities of Makkah and Madinah. These sacred journeys held profound spiritual significance and reflected the depth of his faith.",
+    "category": "faith",
+    "icon": "🕌",
+    "location": "Makkah and Madinah, Saudi Arabia"
+  },
+  {
     "year": "1989",
     "title": "Arrived in Canada",
     "description": "Aslam Hayat arrived in Canada in 1989 and settled in Vancouver, British Columbia, where he would remain for the rest of his life.",
     "category": "migration",
     "icon": "🍁",
     "location": "Vancouver, British Columbia, Canada"
+  },
+  {
+    "year": "2008",
+    "title": "Turkey — Istanbul",
+    "description": "One of his favourite international trips. He was particularly fascinated by Istanbul's rich history — visiting the Blue Mosque, Topkapi Palace, and the Topkapi Museum. The intersection of Islamic civilisation, Ottoman history, and world culture made a lasting impression on him.",
+    "category": "travel",
+    "icon": "🕌",
+    "location": "Istanbul, Turkey"
   },
   {
     "year": "25 yrs",
