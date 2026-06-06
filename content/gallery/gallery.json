@@ -165,12 +165,13 @@
     },
     {
       "id": "ph-009",
-      "src": "/images/gallery/placeholder-documents-1.jpg",
-      "caption": "Personal document or writing",
-      "date": "To be dated by family",
-      "location": "To be confirmed",
-      "category": "documents",
-      "description": "Original documents and writings will be added after family review.",
+      "src": "/images/gallery/aslam-hayat-surrey-formal-2018.jpg",
+      "alt": "Aslam Hayat at a formal gala dinner in Surrey, BC, 2018",
+      "caption": "Formal gala dinner, Surrey, BC, 2018",
+      "date": "2018",
+      "location": "Surrey, British Columbia, Canada",
+      "category": "community",
+      "description": "Aslam Hayat at a formal gala dinner in Surrey, BC in 2018 — a Shahid Afridi Foundation fundraising event in support of a hospital project in Kohat, KPK, Pakistan.",
       "featured": false
     },
     {
@@ -452,11 +453,55 @@
       "id": "ph-real-032",
       "src": "/images/gallery/aslam-hayat-family-gathering-vancouver.jpg",
       "alt": "Aslam Hayat seated with family at a restaurant gathering",
-      "caption": "A family gathering — with children and grandchildren",
+      "caption": "A family gathering in Vancouver",
       "date": "To be confirmed by family",
-      "location": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
       "category": "family",
-      "description": "Aslam Hayat seated at a restaurant, surrounded by children and grandchildren — a relaxed family gathering that speaks to the warmth and closeness of the Hayat family.",
+      "description": "Aslam Hayat at a family gathering in Vancouver — seated at a restaurant, surrounded by children and grandchildren.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-033",
+      "src": "/images/gallery/aslam-hayat-birthday-at-home.jpg",
+      "alt": "Aslam Hayat cutting his birthday cake at home in Vancouver, surrounded by family",
+      "caption": "Cutting the birthday cake at home, Vancouver",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "Aslam Hayat in his white shalwar kameez, cutting his birthday cake at home in Vancouver as family and grandchildren gather around him.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-034",
+      "src": "/images/gallery/aslam-hayat-birthday-cake-cutting.jpg",
+      "alt": "Aslam Hayat cutting the birthday cake, front-centre, surrounded by family",
+      "caption": "The birthday cake — a moment of celebration",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "A close view of Aslam Hayat cutting his birthday cake at home in Vancouver, family filling the room behind him.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-035",
+      "src": "/images/gallery/aslam-hayat-birthday-home-celebration.jpg",
+      "alt": "Aslam Hayat with hands together, joyful, at his home birthday celebration",
+      "caption": "A joyful moment at the birthday celebration",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "Aslam Hayat with hands clasped in a moment of joy and gratitude at his birthday celebration at home, surrounded by family.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-036",
+      "src": "/images/gallery/aslam-hayat-book-signing-vancouver.jpg",
+      "alt": "Aslam Hayat holding a copy of The President is Missing at a book event in Vancouver",
+      "caption": "At a Bill Clinton & James Patterson book event, Vancouver",
+      "date": "2018",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "canada",
+      "description": "Aslam Hayat at a book event in Vancouver, holding a copy of The President is Missing by Bill Clinton and James Patterson — a reflection of his lifelong love of literature and current affairs.",
       "featured": true
     }
   ]
