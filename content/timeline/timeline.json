@@ -1,80 +1,176 @@
 [
   {
     "year": "1933",
-    "title": "Born in Lahore, Pakistan",
-    "description": "Aslam Hayat was born on 23 March 1933 in Lahore, Pakistan, with family roots in Subhan Pur, Kapurthala, Punjab.",
+    "title": "Born in Lahore, Punjab",
+    "description": "Aslam Hayat was born on 23 March 1933 in Lahore, Punjab, with family roots in Subhan Pur, Kapurthala, Punjab — a life that would span nine decades and cross four continents.",
     "category": "personal",
     "icon": "🌙",
     "location": "Lahore, Pakistan"
   },
   {
     "year": "1947",
-    "title": "Partition of India",
-    "description": "Aslam Hayat witnessed the Partition of India as a teenager in Lahore — an experience that shaped his writing and historical outlook throughout his life.",
+    "title": "Witnessed the Partition of India",
+    "description": "Aslam Hayat was fourteen years old when the Partition of India reshaped the subcontinent. The historic events he witnessed in Lahore remained an important part of his personal memories throughout his life and informed much of his later writing on history and identity.",
     "category": "historical",
     "icon": "📜",
     "location": "Lahore, Pakistan"
   },
   {
-    "year": "Late 1950s",
+    "year": "1950s",
+    "title": "Muslim Model High School, Lahore",
+    "description": "Aslam Hayat completed his school education at Muslim Model High School in Lahore — one of the oldest and most distinguished schools in the city.",
+    "category": "education",
+    "icon": "📚",
+    "location": "Lahore, Pakistan"
+  },
+  {
+    "year": "Mid-1950s",
     "title": "Voyage to London by Sea",
-    "description": "His first journey outside Pakistan — a voyage by sea lasting several weeks. He passed through the Strait of Gibraltar and saw the coast of Morocco near Tangier, an experience he remembered and spoke of throughout his life.",
+    "description": "In the mid-1950s, Aslam Hayat made his first overseas journey — a voyage by sea from Pakistan to England to pursue professional accountancy studies in London. He passed through the Strait of Gibraltar and saw the coast of Tangier, Morocco from the vessel. He spoke of this journey throughout his life as one of the defining experiences of his early years.",
     "category": "travel",
     "icon": "⚓",
     "location": "London, United Kingdom (via Strait of Gibraltar)"
   },
   {
-    "year": "1950s–60s",
+    "year": "Late 1950s",
     "title": "Qualified as Chartered Accountant, London",
-    "description": "He travelled to London, United Kingdom, where he qualified as a Chartered Accountant — the professional foundation for his subsequent public-sector career. London also exposed him to new cultures, ideas, and international journalism, habits that remained with him for life.",
-    "category": "professional",
+    "description": "Aslam Hayat qualified as a Chartered Accountant in London in the late 1950s to early 1960s — a professional achievement that formed the foundation of his subsequent three-decade career in civil aviation. His years in London also exposed him to international journalism, world literature, and ideas that remained with him for life.",
+    "category": "education",
     "icon": "🎓",
     "location": "London, United Kingdom"
   },
   {
-    "year": "Career",
-    "title": "Director-level, Pakistan Civil Aviation Authority",
-    "description": "Over the course of several decades, Aslam Hayat served in increasingly senior leadership positions within the Pakistan Civil Aviation Authority (PCAA), ultimately rising to director-level responsibilities. His career was marked by dedication, integrity, and a commitment to public service.",
-    "category": "professional",
+    "year": "1960s",
+    "title": "Joined Pakistan Civil Aviation",
+    "description": "Following his return from London, Aslam Hayat joined the Pakistan Civil Aviation Authority — beginning a distinguished career in public service that would span more than two decades.",
+    "category": "career",
     "icon": "✈️",
     "location": "Pakistan"
   },
   {
-    "year": "Multiple",
-    "title": "Pilgrimages to Makkah and Madinah",
-    "description": "Among the most treasured experiences of his life were multiple pilgrimages to the holy cities of Makkah and Madinah. These sacred journeys held profound spiritual significance and reflected the depth of his faith.",
-    "category": "faith",
-    "icon": "🕌",
-    "location": "Makkah and Madinah, Saudi Arabia"
+    "year": "1960s–70s",
+    "title": "Posted in Karachi — First Decade of Service",
+    "description": "Aslam Hayat was posted in Karachi for more than a decade during the 1960s and 1970s. During this period he participated in the growth and modernisation of Pakistan's aviation sector while developing extensive professional experience in civil aviation administration.",
+    "category": "career",
+    "icon": "✈️",
+    "location": "Karachi, Pakistan"
+  },
+  {
+    "year": "1970s–80s",
+    "title": "Transferred to Islamabad — Senior Leadership",
+    "description": "In the 1970s and 1980s, Aslam Hayat was transferred to Islamabad where he served in increasingly senior management and leadership positions within the Pakistan Civil Aviation Authority, ultimately rising to director-level responsibilities.",
+    "category": "career",
+    "icon": "✈️",
+    "location": "Islamabad, Pakistan"
+  },
+  {
+    "year": "Late 1980s",
+    "title": "Retired from Public Service",
+    "description": "After more than two decades of distinguished service in civil aviation administration, Aslam Hayat retired from the Pakistan Civil Aviation Authority in Lahore. His career was marked by dedication, integrity, and a lifelong commitment to public service.",
+    "category": "career",
+    "icon": "🏛️",
+    "location": "Lahore, Pakistan"
   },
   {
     "year": "1989",
-    "title": "Arrived in Canada",
-    "description": "Aslam Hayat arrived in Canada in 1989 and settled in Vancouver, British Columbia, where he would remain for the rest of his life.",
+    "title": "Immigrated to Vancouver, Canada",
+    "description": "In 1989, Aslam Hayat immigrated to Vancouver, British Columbia, Canada — beginning a new chapter centred on family, writing, scholarship, community involvement, and lifelong learning. He left behind the life he had built in Pakistan so that future generations could have opportunity. He remained in Vancouver for the rest of his life.",
     "category": "migration",
     "icon": "🍁",
     "location": "Vancouver, British Columbia, Canada"
   },
   {
-    "year": "2008",
-    "title": "Turkey — Istanbul",
-    "description": "One of his favourite international trips. He was particularly fascinated by Istanbul's rich history — visiting the Blue Mosque, Topkapi Palace, and the Topkapi Museum. The intersection of Islamic civilisation, Ottoman history, and world culture made a lasting impression on him.",
-    "category": "travel",
-    "icon": "🕌",
-    "location": "Istanbul, Turkey"
-  },
-  {
-    "year": "25 yrs",
-    "title": "Columnist, The Miracle Newspaper",
-    "description": "For more than twenty-five years, Aslam Hayat maintained a regular column in The Miracle, Vancouver's Pakistani community newspaper, authoring over 650 articles covering history, current affairs, community issues, personal reflections, and the experiences of the South Asian diaspora.",
+    "year": "1990s+",
+    "title": "Columnist at The Miracle Newspaper",
+    "description": "From the 1990s until 2026, Aslam Hayat published more than 650 articles in The Miracle, Vancouver's Pakistani community newspaper. His writings explored Islam, Sufism, history, current affairs, science, literature, community issues, and personal reflections — a body of work spanning more than twenty-five years.",
     "category": "writing",
     "icon": "✍️",
     "location": "Vancouver, British Columbia, Canada"
   },
   {
+    "year": "1993",
+    "title": "First Hajj Pilgrimage to Makkah",
+    "description": "In 1993, Aslam Hayat fulfilled the fifth pillar of Islam and completed his first Hajj pilgrimage to Makkah — one of the most important spiritual milestones of his life.",
+    "category": "faith",
+    "icon": "🕌",
+    "location": "Makkah, Saudi Arabia"
+  },
+  {
+    "year": "1997",
+    "title": "Second Hajj Pilgrimage to Makkah",
+    "description": "In 1997, Aslam Hayat completed his second Hajj pilgrimage to Makkah, deepening a spiritual relationship with the holy cities that would continue through five Umrah pilgrimages in the years that followed.",
+    "category": "faith",
+    "icon": "🕌",
+    "location": "Makkah, Saudi Arabia"
+  },
+  {
+    "year": "2003",
+    "title": "First Umrah Pilgrimage",
+    "description": "Completed Umrah pilgrimage to Makkah and Madinah in 2003 — the first of five Umrah journeys he would make over the following years.",
+    "category": "faith",
+    "icon": "🕌",
+    "location": "Makkah and Madinah, Saudi Arabia"
+  },
+  {
+    "year": "2005",
+    "title": "Second Umrah Pilgrimage",
+    "description": "Completed his second Umrah pilgrimage to Makkah and Madinah in 2005.",
+    "category": "faith",
+    "icon": "🕌",
+    "location": "Makkah and Madinah, Saudi Arabia"
+  },
+  {
+    "year": "2008",
+    "title": "Journey to Istanbul, Turkey",
+    "description": "A major family journey to Istanbul, Turkey with grandson Zeeshan Hayat and family. He visited Topkapi Palace, the Blue Mosque, and the historic sites of Istanbul — and frequently described this as one of his favourite international journeys. Over his lifetime he also travelled to Saudi Arabia, the United Kingdom, Cyprus, Egypt, France, the United Arab Emirates, Pakistan, and the United States.",
+    "category": "travel",
+    "icon": "🏛️",
+    "location": "Istanbul, Turkey"
+  },
+  {
+    "year": "2010",
+    "title": "Third Umrah Pilgrimage",
+    "description": "Completed his third Umrah pilgrimage to Makkah and Madinah in 2010.",
+    "category": "faith",
+    "icon": "🕌",
+    "location": "Makkah and Madinah, Saudi Arabia"
+  },
+  {
+    "year": "2013",
+    "title": "Fourth Umrah Pilgrimage",
+    "description": "Completed his fourth Umrah pilgrimage to Makkah and Madinah in 2013.",
+    "category": "faith",
+    "icon": "🕌",
+    "location": "Makkah and Madinah, Saudi Arabia"
+  },
+  {
+    "year": "2017",
+    "title": "Journey to Egypt — Shrine of Imam Hussain",
+    "description": "In 2017, Aslam Hayat travelled to Egypt, visiting Cairo and the historic shrine associated with Hazrat Imam Hussain. He often spoke about this visit as a profound spiritual experience and considered it an honour to have visited one of the most revered sites in Islamic history.",
+    "category": "faith",
+    "icon": "🕌",
+    "location": "Cairo, Egypt"
+  },
+  {
+    "year": "2019",
+    "title": "Fifth Umrah Pilgrimage",
+    "description": "In 2019, Aslam Hayat completed his fifth Umrah pilgrimage to Makkah and Madinah — completing a lifetime of sacred journeys that totalled 2 Hajj pilgrimages and 5 Umrah pilgrimages.",
+    "category": "faith",
+    "icon": "🕌",
+    "location": "Makkah and Madinah, Saudi Arabia"
+  },
+  {
+    "year": "Lifelong",
+    "title": "Lifelong Student of Knowledge",
+    "description": "Throughout his life, Aslam Hayat maintained a deep personal library and commitment to learning. He studied Quran and Tafsir, Hadith, Islamic history, Sufism, comparative religion, philosophy, physics, cosmology, world politics, and economics. He read extensively the works of Ibn Arabi, Abdul Qadir Jilani, Imam Al-Ghazali, Jalaluddin Rumi, Data Ganj Bakhsh, Baba Farid, Al-Razi, Kabir Helminski, Karen Armstrong, and Neil Douglas-Klotz.",
+    "category": "education",
+    "icon": "📚",
+    "location": "Vancouver, British Columbia, Canada"
+  },
+  {
     "year": "2026",
-    "title": "Passed Away in Vancouver",
-    "description": "Aslam Hayat passed away on 30 May 2026 in Vancouver, British Columbia, Canada, aged 93. إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+    "title": "Passed Away in Vancouver, aged 93",
+    "description": "Aslam Hayat passed away in Vancouver, British Columbia, Canada at the age of 93. His legacy continues through his family, his 650+ published articles, his scholarship, and the preservation of his life story in The Aslam Hayat Legacy Archive. إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
     "category": "personal",
     "icon": "🌹",
     "location": "Vancouver, British Columbia, Canada"

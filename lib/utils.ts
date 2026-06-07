@@ -56,11 +56,16 @@ export function truncate(text: string, maxLength: number): string {
  */
 export function getCategoryColor(category: string): string {
   const map: Record<string, string> = {
-    personal: 'bg-green-light text-cream',
-    education: 'bg-gold text-green-dark',
-    career: 'bg-green text-cream',
-    family: 'bg-gold-dark text-cream',
+    personal:    'bg-green-light text-cream',
+    education:   'bg-gold text-green-dark',
+    career:      'bg-green text-cream',
+    family:      'bg-gold-dark text-cream',
     recognition: 'bg-green-dark text-gold-light',
+    faith:       'bg-gold text-green-dark',
+    travel:      'bg-green-dark text-gold-light',
+    historical:  'bg-gold-dark text-cream',
+    migration:   'bg-green-light text-cream',
+    writing:     'bg-green-dark text-cream',
   };
   return map[category] ?? 'bg-green text-cream';
 }
