@@ -291,10 +291,10 @@ export default function HomePage() {
       {/* ── Gallery Preview ───────────────────────────────────────── */}
       <section className="py-16 md:py-20 bg-cream">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
             <SectionHeader
-              title="Photo Gallery"
-              subtitle="Photographs from across the decades — family, travels, community, and celebration."
+              title="Five Defining Images"
+              subtitle="Professional · Spiritual · Writer · Scholar · Elder — the arc of a remarkable life."
             />
             <Link
               href="/gallery"
@@ -306,39 +306,71 @@ export default function HomePage() {
               </svg>
             </Link>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 md:gap-4">
             {[
-              { src: '/images/gallery/aslam-hayat-85th-birthday-vancouver.jpg', label: '85th Birthday', position: 'center 30%' },
-              { src: '/images/gallery/aslam-hayat-85th-birthday-dinner.jpg', label: 'With Family', position: 'center 20%' },
-              { src: '/images/gallery/aslam-hayat-85th-birthday-cake.jpg', label: 'Birthday Celebration', position: 'center 25%' },
-              { src: '/images/gallery/aslam-hayat-three-generations.jpg', label: 'Three Generations', position: 'center 20%' },
-              { src: '/images/gallery/aslam-hayat-family-gathering-vancouver.jpg', label: 'Family Gathering', position: 'center 25%' },
-            ].map(({ src, label, position }) => (
+              {
+                src: '/images/gallery/aslam-hayat-professional-portrait.jpg',
+                caption: 'Aslam Hayat during his professional years',
+                position: 'center 12%',
+                filter: 'brightness(1.04) contrast(1.07) saturate(1.04)',
+              },
+              {
+                src: '/images/gallery/aslam-hayat-mecca-1.jpg',
+                caption: 'Pilgrimage to Makkah',
+                position: 'center 20%',
+                filter: 'brightness(1.05) contrast(1.06) saturate(1.05)',
+              },
+              {
+                src: '/images/gallery/aslam-hayat-miracle-award-surrey.jpg',
+                caption: 'Recognition for contributions to community journalism',
+                position: 'center 12%',
+                filter: 'brightness(1.08) contrast(1.08) saturate(1.04)',
+              },
+              {
+                src: '/images/gallery/aslam-hayat-home-portrait.jpg',
+                caption: 'At home in Vancouver',
+                position: 'center 12%',
+                filter: 'brightness(1.07) contrast(1.09) saturate(1.04)',
+              },
+              {
+                src: '/images/gallery/aslam-hayat-hero-formal-event.jpg',
+                caption: 'A life of dignity and service',
+                position: 'center 18%',
+                filter: 'brightness(1.08) contrast(1.08) saturate(1.04)',
+              },
+            ].map(({ src, caption, position, filter }) => (
               <Link
-                key={label}
+                key={src}
                 href="/gallery"
-                className="group relative aspect-square rounded-lg overflow-hidden card-hover"
+                className="group flex flex-col"
               >
-                <img
-                  src={src}
-                  alt={label}
-                  style={{
-                    position: 'absolute',
-                    inset: 0,
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    objectPosition: position,
-                    transition: 'transform 0.4s ease',
-                  }}
-                  className="group-hover:scale-105"
-                />
                 <div
-                  className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity flex items-end"
-                  style={{ background: 'linear-gradient(to top, rgba(4,24,15,0.75) 0%, transparent 60%)' }}
+                  className="relative w-full overflow-hidden"
+                  style={{ aspectRatio: '3/4', borderRadius: '6px' }}
                 >
-                  <span className="font-lora text-xs text-cream-light px-3 pb-2.5">{label}</span>
+                  <img
+                    src={src}
+                    alt={caption}
+                    loading="lazy"
+                    style={{
+                      position: 'absolute',
+                      inset: 0,
+                      width: '100%',
+                      height: '100%',
+                      objectFit: 'cover',
+                      objectPosition: position,
+                      filter,
+                      transition: 'transform 0.5s cubic-bezier(0.25,0.46,0.45,0.94)',
+                    }}
+                    className="group-hover:scale-[1.04]"
+                  />
                 </div>
+                <p
+                  className="font-lora mt-2 leading-snug"
+                  style={{ fontSize: '0.68rem', color: 'rgba(30,55,40,0.65)', lineHeight: 1.4 }}
+                >
+                  {caption}
+                </p>
               </Link>
             ))}
           </div>
