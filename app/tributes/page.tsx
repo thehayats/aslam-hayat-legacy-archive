@@ -126,6 +126,79 @@ export default function TributesPage() {
           </div>
         </section>
 
+        {/* ── Zeeshan Hayat — Tribute ── */}
+        <section>
+          <div className="bg-green rounded-2xl overflow-hidden shadow-xl">
+
+            {/* Header */}
+            <div className="px-8 pt-10 pb-6 text-center border-b border-green-dark">
+              <p className="font-lora text-xs text-cream-dark italic opacity-60 mb-2">
+                May 30, 2026
+              </p>
+              <h2 className="font-playfair text-2xl md:text-3xl text-cream-light font-bold">
+                Until We Meet Again, Nanaji
+              </h2>
+            </div>
+
+            {/* Excerpt */}
+            <div className="px-8 md:px-12 py-10">
+              <div className="max-w-2xl mx-auto space-y-5 font-lora text-cream-light leading-relaxed">
+
+                <p className="text-sm text-cream-dark italic text-center opacity-75">
+                  Bismillahir Rahmanir Rahim. Assalamu Alaikum wa Rahmatullahi wa Barakatuh.
+                </p>
+
+                <div className="gold-divider" />
+
+                <p className="text-base md:text-lg leading-relaxed">
+                  Today, I want to speak about my grandfather, Aslam Hayat. Although calling him
+                  my grandfather never feels completely accurate, because he was so much more than
+                  that to me.
+                </p>
+
+                <div className="text-center space-y-1 py-1">
+                  <p className="font-playfair text-base text-gold-light font-semibold">
+                    He was my father. He was my mentor. He was my teacher.
+                  </p>
+                  <p className="font-playfair text-base text-gold-light font-semibold">
+                    He was my spiritual guide. He was my protector. He was my best friend.
+                  </p>
+                </div>
+
+                <p className="text-base leading-relaxed">
+                  Allah blessed me with many things in this life, but one of the greatest blessings
+                  Allah ever gave me was the gift of being raised by Aslam Hayat.
+                </p>
+
+                <div className="gold-divider" />
+
+                <p className="text-base text-cream-dark italic leading-relaxed">
+                  If I have shown patience, I learned it from him. If I have shown perseverance,
+                  I learned it from him. If I have shown compassion, I learned it from him&hellip;
+                </p>
+
+                <div className="text-center pt-2">
+                  <Link href="/tributes/zeeshan-hayat" className="btn-gold">
+                    Read Full Tribute
+                  </Link>
+                </div>
+
+              </div>
+            </div>
+
+            {/* Attribution */}
+            <div className="bg-green-dark px-8 py-5 text-center">
+              <cite className="font-playfair text-base text-gold not-italic font-bold">
+                Zeeshan Hayat
+              </cite>
+              <p className="font-lora text-xs text-cream-dark mt-1 opacity-70">
+                Grandchild of Aslam Hayat
+              </p>
+            </div>
+
+          </div>
+        </section>
+
         {/* ── Invite more tributes ── */}
         <section>
           <div className="bg-parchment border border-cream-dark rounded-xl p-8 md:p-10 text-center">
