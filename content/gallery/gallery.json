@@ -503,6 +503,72 @@
       "category": "canada",
       "description": "Aslam Hayat at a book event in Vancouver, holding a copy of The President is Missing by Bill Clinton and James Patterson — a reflection of his lifelong love of literature and current affairs.",
       "featured": true
+    },
+    {
+      "id": "ph-real-037",
+      "src": "/images/gallery/aslam-hayat-mecca-2019.jpg",
+      "alt": "Aslam Hayat in Mecca during the 2019 pilgrimage",
+      "caption": "In Mecca, 2019",
+      "date": "2019",
+      "location": "Mecca, Saudi Arabia",
+      "category": "faith",
+      "description": "Aslam Hayat during his 2019 pilgrimage to Mecca.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-038",
+      "src": "/images/gallery/aslam-hayat-madinah-2019.jpg",
+      "alt": "Aslam Hayat at Riyad al-Jannah, Masjid al-Nabawi, Madinah, 2019",
+      "caption": "At Riyad al-Jannah, Madinah, 2019",
+      "date": "2019",
+      "location": "Madinah, Saudi Arabia",
+      "category": "faith",
+      "description": "At the shrine of the Prophet Muhammad سلم, Riyad al-Jannah — the Garden of Paradise — within Masjid al-Nabawi, Madinah, 2019.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-039",
+      "src": "/images/gallery/aslam-hayat-jeddah-2019-1.jpg",
+      "alt": "Aslam Hayat in Jeddah, 2019",
+      "caption": "In Jeddah, 2019",
+      "date": "2019",
+      "location": "Jeddah, Saudi Arabia",
+      "category": "faith",
+      "description": "In Jeddah during the 2019 pilgrimage.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-040",
+      "src": "/images/gallery/aslam-hayat-jeddah-2019-2.jpg",
+      "alt": "Aslam Hayat in Jeddah, 2019",
+      "caption": "In Jeddah, 2019",
+      "date": "2019",
+      "location": "Jeddah, Saudi Arabia",
+      "category": "faith",
+      "description": "In Jeddah during the 2019 pilgrimage.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-041",
+      "src": "/images/gallery/aslam-hayat-jeddah-2019-3.jpg",
+      "alt": "Aslam Hayat in Jeddah, 2019",
+      "caption": "In Jeddah, 2019",
+      "date": "2019",
+      "location": "Jeddah, Saudi Arabia",
+      "category": "faith",
+      "description": "In Jeddah during the 2019 pilgrimage.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-042",
+      "src": "/images/gallery/aslam-hayat-jeddah-2019-4.jpg",
+      "alt": "Aslam Hayat during the 2019 pilgrimage",
+      "caption": "2019 Pilgrimage",
+      "date": "2019",
+      "location": "Saudi Arabia",
+      "category": "faith",
+      "description": "During the 2019 pilgrimage to Saudi Arabia.",
+      "featured": false
     }
   ]
 }

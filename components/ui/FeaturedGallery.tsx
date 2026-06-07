@@ -33,6 +33,12 @@ const IMG_FILTER: Record<string, string> = {
   'aslam-hayat-family-gathering-vancouver':   'brightness(1.11) contrast(1.09) saturate(1.04)',
   'aslam-hayat-vancouver-with-zeeshan':       'brightness(1.11) contrast(1.09) saturate(1.05)',
   'aslam-hayat-surrey-formal-2018':           'brightness(1.20) contrast(1.14) saturate(1.06)',
+  'aslam-hayat-mecca-2019':                   'brightness(1.05) contrast(1.06) saturate(1.05)',
+  'aslam-hayat-madinah-2019':                 'brightness(1.06) contrast(1.07) saturate(1.05)',
+  'aslam-hayat-jeddah-2019-1':                'brightness(1.05) contrast(1.06) saturate(1.05)',
+  'aslam-hayat-jeddah-2019-2':                'brightness(1.05) contrast(1.06) saturate(1.05)',
+  'aslam-hayat-jeddah-2019-3':                'brightness(1.05) contrast(1.06) saturate(1.05)',
+  'aslam-hayat-jeddah-2019-4':                'brightness(1.05) contrast(1.06) saturate(1.05)',
 };
 const DEFAULT_FILTER = 'brightness(1.06) contrast(1.07) saturate(1.04)';
 
@@ -68,6 +74,12 @@ const FACE_POS: Record<string, string> = {
   'aslam-hayat-surrey-formal-2018':            'center 35%',
   'aslam-hayat-vancouver-with-zeeshan':        'center 28%',
   'aslam-hayat-miracle-15th-anniversary':      'center 22%',
+  'aslam-hayat-mecca-2019':                    'center 22%',
+  'aslam-hayat-madinah-2019':                  'center 20%',
+  'aslam-hayat-jeddah-2019-1':                 'center 20%',
+  'aslam-hayat-jeddah-2019-2':                 'center 20%',
+  'aslam-hayat-jeddah-2019-3':                 'center 20%',
+  'aslam-hayat-jeddah-2019-4':                 'center 20%',
 };
 const DEFAULT_POS = 'center 20%';
 
