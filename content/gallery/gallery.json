@@ -866,6 +866,39 @@
       "category": "family",
       "description": "Aslam Hayat with his sons Imran Hayat and Kamran Hayat, photographed at the family home in Pakistan. Date to be confirmed by the family.",
       "featured": false
+    },
+    {
+      "id": "ph-real-070",
+      "src": "/images/gallery/mehboob-ali-portrait.jpg",
+      "alt": "Mehboob Ali — father of Aslam Hayat, formal portrait",
+      "caption": "Mehboob Ali — father of Aslam Hayat",
+      "date": "To be confirmed by family",
+      "location": "Punjab, Pakistan",
+      "category": "family",
+      "description": "A formal portrait of Mehboob Ali, the father of Aslam Hayat. A dignified man from Punjab whose legacy shaped the life and values of his son. Date to be confirmed by the family.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-071",
+      "src": "/images/gallery/riaz-bibi-portrait.jpg",
+      "alt": "Riaz Bibi — mother of Aslam Hayat, portrait photograph",
+      "caption": "Riaz Bibi — mother of Aslam Hayat",
+      "date": "To be confirmed by family",
+      "location": "Punjab, Pakistan",
+      "category": "family",
+      "description": "A portrait of Riaz Bibi, the mother of Aslam Hayat. Date to be confirmed by the family.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-072",
+      "src": "/images/gallery/aslam-hayat-93rd-birthday-kamran.jpg",
+      "alt": "Aslam Hayat on his 93rd birthday seated with son Kamran Hayat, birthday cake in front",
+      "caption": "Aslam Hayat — 93rd Birthday with son Kamran Hayat",
+      "date": "23 March 2026",
+      "location": "Canada",
+      "category": "final-years",
+      "description": "Aslam Hayat celebrating his 93rd birthday with his son Kamran Hayat. A warm and intimate family moment, with a birthday cake lit in his honour.",
+      "featured": false
     }
   ]
 }
