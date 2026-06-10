@@ -789,6 +789,50 @@
       "category": "family",
       "description": "A family celebration at home in Vancouver.",
       "featured": false
+    },
+    {
+      "id": "ph-real-063",
+      "src": "/images/gallery/aslam-hayat-young-garden-portrait.jpg",
+      "alt": "Aslam Hayat as a young man standing in a garden, wearing a suit and tie",
+      "caption": "Aslam Hayat — young man in a garden",
+      "date": "To be confirmed by family",
+      "location": "To be confirmed by family",
+      "category": "professional",
+      "description": "A restored photograph of a young Aslam Hayat standing in a garden, dressed in a smart suit and tie. The original photograph shows him at ease outdoors, with flowering plants in the background. Date and location to be confirmed by the family.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-064",
+      "src": "/images/gallery/aslam-hayat-suriya-family-1.jpg",
+      "alt": "Aslam Hayat with his wife Suriya Hayat and a young child outdoors",
+      "caption": "Aslam Hayat with Suriya Hayat and family",
+      "date": "To be confirmed by family",
+      "location": "Pakistan",
+      "category": "family",
+      "description": "Aslam Hayat with his wife Suriya Hayat and a young child, photographed outdoors in Pakistan. A warm family moment captured in the courtyard of their home.",
+      "featured": true
+    },
+    {
+      "id": "ph-real-065",
+      "src": "/images/gallery/aslam-hayat-suriya-together.jpg",
+      "alt": "Aslam Hayat and Suriya Hayat standing together outdoors",
+      "caption": "Aslam Hayat and Suriya Hayat",
+      "date": "To be confirmed by family",
+      "location": "Pakistan",
+      "category": "family",
+      "description": "Aslam Hayat and his wife Suriya Hayat standing together outdoors, smiling. Photographed in the courtyard of their home in Pakistan.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-066",
+      "src": "/images/gallery/aslam-hayat-children-grandchildren.jpg",
+      "alt": "Children and grandchildren of Aslam Hayat gathered together indoors",
+      "caption": "Children and grandchildren",
+      "date": "To be confirmed by family",
+      "location": "To be confirmed by family",
+      "category": "family",
+      "description": "A lively family gathering of Aslam Hayat's children and grandchildren, capturing the joy and energy of the next generations.",
+      "featured": false
     }
   ]
 }
