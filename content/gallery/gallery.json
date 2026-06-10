@@ -844,6 +844,28 @@
       "category": "family",
       "description": "Aslam Hayat with his sons Imran Hayat and Kamran Hayat, photographed seated outdoors at the family home in Pakistan. Date to be confirmed by the family.",
       "featured": false
+    },
+    {
+      "id": "ph-real-068",
+      "src": "/images/gallery/aslam-hayat-family-event-later-years.jpg",
+      "alt": "Aslam Hayat with a family member at a gathering in his later years",
+      "caption": "Aslam Hayat at a family gathering",
+      "date": "To be confirmed by family",
+      "location": "To be confirmed by family",
+      "category": "family",
+      "description": "Aslam Hayat with a family member at a gathering, photographed in his later years. Date and location to be confirmed by the family.",
+      "featured": false
+    },
+    {
+      "id": "ph-real-069",
+      "src": "/images/gallery/aslam-hayat-sons-group-pakistan.jpg",
+      "alt": "Group photograph with sons and family members, Pakistan",
+      "caption": "Family gathering — sons and family",
+      "date": "To be confirmed by family",
+      "location": "Pakistan",
+      "category": "family",
+      "description": "A group photograph of family members at the Hayat home in Pakistan. Date to be confirmed by the family.",
+      "featured": false
     }
   ]
 }
