@@ -75,16 +75,15 @@ export default function ScholarshipPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose-archive text-center max-w-3xl mx-auto">
             <p className="text-lg md:text-xl leading-relaxed text-gray-700">
-              Throughout his life, Aslam Hayat maintained a deep commitment to learning, reflection,
-              and intellectual exploration. While his professional career was built in accountancy and
-              civil aviation, his personal interests extended far beyond his formal occupations.
+              Aslam Hayat built his professional career in accountancy and civil aviation. He spent his
+              personal life building a library. By the time he passed away, he had accumulated thousands
+              of books spanning Islamic theology, Sufi philosophy, world history, comparative religion,
+              cosmology, and political thought.
             </p>
             <p className="text-base leading-relaxed text-gray-600 mt-4">
-              He was a lifelong reader, researcher, writer, and student of both classical and
-              contemporary thought. His library reflected an extraordinary range of interests that
-              crossed religious traditions, civilisations, and academic disciplines. He believed that
-              wisdom could be found through sincere study, thoughtful reflection, and respectful
-              engagement with ideas.
+              The books he surrounded himself with were not decoration. He read them. He marked them.
+              He returned to them. They fed directly into 650 published articles and a way of seeing
+              the world that everyone who knew him recognised.
             </p>
           </div>
         </div>

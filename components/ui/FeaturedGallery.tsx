@@ -246,6 +246,7 @@ function PhotoCard({ photo, onClick, variant }: PhotoCardProps) {
             src={photo.src}
             alt={photo.alt ?? photo.caption}
             loading="lazy"
+            decoding="async"
             style={{
               position: 'absolute',
               inset: 0,

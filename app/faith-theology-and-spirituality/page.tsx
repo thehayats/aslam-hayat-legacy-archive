@@ -72,16 +72,13 @@ export default function FaithPage() {
       <section className="bg-parchment border-b border-cream-dark py-12 md:py-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="font-lora text-lg md:text-xl text-gray-700 leading-relaxed text-center mb-6">
-            Among the many dimensions of Aslam Hayat&apos;s life, perhaps none was more important
-            to him than his lifelong pursuit of spiritual understanding. While he devoted his
-            professional career to public service and accountancy, much of his personal life was
-            devoted to the study of Islam, spirituality, philosophy, history, and the deeper
-            questions of human existence.
+            When Aslam Hayat passed away in May 2026, his home was full of books — on Quranic
+            exegesis, Islamic philosophy, Sufi metaphysics, comparative religion, and the
+            sciences. He had been reading them until very close to the end.
           </p>
           <p className="font-lora text-base text-gray-600 leading-relaxed text-center">
-            Family members often described him as a lifelong student. He believed that learning
-            was a form of worship and that the search for wisdom should continue throughout
-            one&apos;s entire life.
+            For him, faith was not separate from learning. It was the reason for it. The Quranic
+            command to read — <em>iqra</em> — was the instruction he spent his life following.
           </p>
         </div>
       </section>
@@ -91,7 +88,7 @@ export default function FaithPage() {
 
         {/* 1. A Lifelong Student */}
         <section>
-          <SectionHeader title="A Lifelong Student of Islamic Knowledge" goldDivider />
+          <SectionHeader title="Islamic Knowledge — A Personal Library" goldDivider />
           <div className="prose-archive">
             <p>
               For decades, Aslam Hayat immersed himself in the study of Islamic scholarship.

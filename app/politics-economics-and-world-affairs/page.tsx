@@ -40,7 +40,7 @@ export default function PoliticsPage() {
             Politics, Economics &amp; World Affairs
           </h1>
           <p className="font-lora text-lg text-cream-dark italic max-w-2xl mx-auto">
-            A lifelong student of public affairs — from Partition to the global age
+            An eyewitness to Partition — and a close reader of the world it created
           </p>
           <div className="gold-divider mt-6" />
         </div>
@@ -51,10 +51,10 @@ export default function PoliticsPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose-archive text-center max-w-3xl mx-auto">
             <p className="text-lg md:text-xl leading-relaxed text-gray-700">
-              Aslam Hayat maintained a lifelong interest in public affairs, politics, economics,
-              and international events. Although he spent much of his life outside Pakistan after
-              immigrating to Canada, his connection to his homeland never diminished — and his
-              curiosity about the wider world only deepened with time.
+              Pakistani news was always on in his home. <em>The Economist</em> and the BBC were
+              staples of his reading from his London years onward. He was a teenager in Lahore
+              when British India was partitioned in 1947 — an experience that gave him a
+              perspective on South Asian politics that no newspaper could fully reproduce.
             </p>
           </div>
         </div>

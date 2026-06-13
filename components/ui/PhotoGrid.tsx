@@ -296,6 +296,7 @@ export default function PhotoGrid({ photos, categories }: PhotoGridProps) {
                     src={photo.src}
                     alt={photo.alt ?? photo.caption}
                     loading="lazy"
+                    decoding="async"
                     style={{
                       position: 'absolute',
                       inset: 0,

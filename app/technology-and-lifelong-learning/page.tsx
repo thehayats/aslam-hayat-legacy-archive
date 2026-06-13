@@ -53,15 +53,14 @@ export default function TechnologyPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose-archive text-center max-w-3xl mx-auto">
             <p className="text-lg md:text-xl leading-relaxed text-gray-700">
-              One of the most remarkable aspects of Aslam Hayat&apos;s personality was his lifelong
-              enthusiasm for technology and innovation. Although born in 1933, long before the age of
-              computers, the internet, and artificial intelligence, he never allowed age to become a
-              barrier to learning.
+              Aslam Hayat was born in 1933 — before television, before computers, before the internet.
+              He died in 2026, having followed the development of artificial intelligence with active
+              curiosity. In between, he owned every significant device before almost anyone else in
+              the family did.
             </p>
             <p className="text-base leading-relaxed text-gray-600 mt-4">
-              Instead, he approached each new technological advancement with curiosity and excitement
-              — a quality that remained with him from the first colour television he brought home to
-              his conversations about artificial intelligence in the final years of his life.
+              It was not nostalgia that drove him — it was the opposite. He was always looking forward,
+              always asking what a new technology could do and how it worked. That quality never left him.
             </p>
           </div>
         </div>

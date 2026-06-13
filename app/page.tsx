@@ -29,6 +29,8 @@ export default function HomePage() {
             <img
               src="/images/hero-portrait-v3.jpg"
               alt="Aslam Hayat"
+              fetchPriority="high"
+              decoding="async"
               style={{
                 position: 'absolute',
                 inset: 0,
@@ -70,6 +72,8 @@ export default function HomePage() {
             <img
               src="/images/hero-portrait-v3.jpg"
               alt="Aslam Hayat"
+              fetchPriority="high"
+              decoding="async"
               style={{
                 position: 'absolute',
                 inset: 0,

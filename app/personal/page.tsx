@@ -166,21 +166,22 @@ export default function PersonalPage() {
           <SectionHeader title="Writer &amp; Community Voice" goldDivider />
           <div className="prose-archive">
             <p>
-              Aslam Hayat expressed himself in Urdu — the language of his culture and the
-              medium through which he engaged with history, faith, and community life. For more
-              than twenty-five years he maintained a regular column in{' '}
-              <em>The Miracle</em>, Vancouver&apos;s Pakistani community newspaper, authoring
-              over <strong>650 articles</strong>.
+              Writing was where Aslam Hayat put his most carefully worked-out thoughts. Urdu gave
+              him the precision and register he needed — a literary language with centuries of
+              intellectual tradition behind it. For more than twenty-five years, week after week,
+              he contributed a column to <em>The Miracle</em>, Vancouver&apos;s Pakistani community
+              newspaper, and in doing so produced a body of work that exceeds <strong>650 articles</strong>.
             </p>
             <p>
-              His writing ranged across history — particularly the history of the subcontinent
-              and the Partition era — Islamic thought, current affairs, and the experience of
-              living as part of the Pakistani-Canadian diaspora. He was known in the community
-              as a thoughtful, historically grounded voice.
+              Those articles weren&apos;t opinion pieces. They were researched, argued, historically
+              grounded. Partition. Islamic theology. The decline of Urdu in diaspora communities.
+              The relationship between science and faith. He treated a community newspaper column
+              with the seriousness of a scholar — because that is what he was.
             </p>
             <p>
-              In his later years he was also active on Facebook, where he continued to share
-              his thoughts, memories, and reflections with family, friends, and the wider community.
+              In his final years he used Facebook with the same intent: to share ideas, pass on
+              knowledge, stay connected with family spread across continents, and keep writing until
+              he could no longer.
             </p>
           </div>
         </section>
@@ -202,7 +203,7 @@ export default function PersonalPage() {
           <div>
             <p className="font-playfair text-base text-green font-bold mb-1">Technology &amp; Lifelong Learning</p>
             <p className="font-lora text-sm text-gray-600">
-              His lifelong enthusiasm for technology — always the first in the family to own the newest device.
+              Born in 1933, curious about AI in his nineties — he was always the first to own the newest device.
             </p>
           </div>
           <Link href="/technology-and-lifelong-learning" className="btn-gold text-sm flex-shrink-0">
@@ -213,7 +214,7 @@ export default function PersonalPage() {
           <div>
             <p className="font-playfair text-base text-green font-bold mb-1">Politics, Economics &amp; World Affairs</p>
             <p className="font-lora text-sm text-gray-600">
-              His lifelong engagement with Pakistan, international news, and public affairs.
+              Pakistani news was always on in his home. He followed events with care and had strong views.
             </p>
           </div>
           <Link href="/politics-economics-and-world-affairs" className="btn-gold text-sm flex-shrink-0">
@@ -224,7 +225,7 @@ export default function PersonalPage() {
           <div>
             <p className="font-playfair text-base text-green font-bold mb-1">Travels, Pilgrimage &amp; Exploration</p>
             <p className="font-lora text-sm text-gray-600">
-              The voyages, pilgrimages, and international journeys that shaped his understanding of the world.
+              He sailed to London as a young man past Gibraltar, and performed Hajj multiple times.
             </p>
           </div>
           <Link href="/travels-pilgrimage-and-exploration" className="btn-gold text-sm flex-shrink-0">
