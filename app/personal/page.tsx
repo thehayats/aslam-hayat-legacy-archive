@@ -79,10 +79,6 @@ export default function PersonalPage() {
               place of warmth, learning, and faith. He encouraged those around him to value
               education, to live by strong moral principles, and to care for one another.
             </p>
-            <p className="text-sm italic text-gray-500 bg-cream border border-cream-dark rounded p-4">
-              Further memories and stories from family members will be added to this section
-              as the archive grows.
-            </p>
           </div>
         </section>
 
@@ -185,10 +181,6 @@ export default function PersonalPage() {
             <p>
               In his later years he was also active on Facebook, where he continued to share
               his thoughts, memories, and reflections with family, friends, and the wider community.
-            </p>
-            <p className="text-sm italic text-gray-500 bg-parchment border border-cream-dark rounded p-4">
-              Original articles and writings will be added to this archive as they are reviewed
-              and approved by the family.
             </p>
           </div>
         </section>

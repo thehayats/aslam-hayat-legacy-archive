@@ -105,7 +105,6 @@ export default function FaithPage() {
               the outward teachings of Islam but also their deeper spiritual meanings.
             </p>
           </div>
-          <PullQuote text="He believed that knowledge should transform character, deepen faith, and bring a person closer to Allah." />
         </section>
 
         {/* 2. The Quran */}
@@ -124,7 +123,6 @@ export default function FaithPage() {
               application.
             </p>
           </div>
-          <PullQuote text="He believed that every verse contained layers of meaning and that a sincere student could spend a lifetime uncovering new wisdom within the same passages." />
           <div className="prose-archive">
             <p>
               For him, the Quran was not simply a book of religious instruction. It was a guide
@@ -158,7 +156,6 @@ export default function FaithPage() {
               relying solely upon contemporary opinions.
             </p>
           </div>
-          <PullQuote text="His commitment to the Sunnah shaped his understanding of family, community, humility, patience, gratitude, and service to others." />
         </section>
 
         {/* 4. Sufism */}
@@ -186,7 +183,6 @@ export default function FaithPage() {
               </div>
             ))}
           </div>
-          <PullQuote text="He was particularly drawn to the idea that true religion involved not only outward practice but also inward transformation." />
         </section>
 
         {/* 5. Divine Names */}
@@ -205,7 +201,6 @@ export default function FaithPage() {
               gratitude, and deepen awareness of the Divine Presence.
             </p>
           </div>
-          <PullQuote text="He believed that sincere remembrance (dhikr), performed with conviction and consistency, possessed the power to reshape a person's inner world and bring them closer to Allah." />
         </section>
 
         {/* 6. Ibn Arabi */}
@@ -255,7 +250,6 @@ export default function FaithPage() {
               creation that the Quran had encouraged believers to contemplate centuries earlier.
             </p>
           </div>
-          <PullQuote text="Rather than viewing science and religion as conflicting pursuits, he regarded both as different paths toward understanding reality." />
         </section>
 
         {/* 8. Comparative Religion */}
@@ -306,17 +300,6 @@ export default function FaithPage() {
             </p>
           </div>
 
-          {/* Featured quote block */}
-          <div className="bg-green rounded-lg p-8 md:p-12 text-center">
-            <div className="text-gold text-5xl font-playfair mb-4 opacity-60">&ldquo;</div>
-            <blockquote className="font-playfair text-2xl md:text-3xl text-cream-light font-bold leading-snug mb-6 max-w-xl mx-auto">
-              He never stopped being a student.
-            </blockquote>
-            <div className="gold-divider mb-4" />
-            <cite className="font-lora text-sm text-cream-dark not-italic">
-              — The family of Aslam Hayat
-            </cite>
-          </div>
         </section>
 
       </div>
@@ -345,22 +328,6 @@ export default function FaithPage() {
         </div>
       </div>
 
-      {/* ── Explore further ── */}
-      <section className="bg-parchment border-t border-cream-dark py-12">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-playfair text-2xl text-green font-bold mb-3">Explore Further</h2>
-          <p className="font-lora text-base text-gray-600 leading-relaxed mb-6">
-            His faith and scholarship are inseparable from everything else he did — his writing,
-            his family life, and his legacy.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center flex-wrap">
-            <Link href="/scholarship-and-spirituality" className="btn-primary">Scholarship &amp; Influences</Link>
-            <Link href="/articles" className="btn-gold">Read His Articles</Link>
-            <Link href="/about" className="btn-gold">Biography</Link>
-            <Link href="/contact" className="btn-gold">Share a Memory</Link>
-          </div>
-        </div>
-      </section>
 
     </div>
   );

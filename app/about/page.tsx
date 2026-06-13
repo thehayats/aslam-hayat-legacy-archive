@@ -165,10 +165,6 @@ export default function AboutPage() {
                   <strong>Pakistan Civil Aviation Authority (PCAA)</strong>. His professional career
                   was marked by dedication, integrity, and a commitment to public service.
                 </p>
-                <p className="text-sm italic text-gray-500 bg-parchment border border-cream-dark rounded p-4">
-                  Further details about his career — including specific roles and dates — will be
-                  added as the family archive is reviewed.
-                </p>
               </div>
             </section>
 
@@ -191,10 +187,6 @@ export default function AboutPage() {
                 <p>
                   He was also active on Facebook in his later years, sharing thoughts, memories,
                   and reflections with family, friends, and his wider community.
-                </p>
-                <p className="text-sm italic text-gray-500 bg-parchment border border-cream-dark rounded p-4">
-                  Original Urdu articles and English translations will be added to this archive
-                  as they are reviewed and approved by the family.
                 </p>
               </div>
             </section>

@@ -154,12 +154,6 @@ export default function PoliticsPage() {
               </div>
             ))}
           </div>
-          <div className="border-l-4 border-gold pl-6 py-3 bg-parchment rounded-r-lg pr-6">
-            <p className="font-lora text-base md:text-lg text-green italic leading-relaxed">
-              &ldquo;His broad reading habits allowed him to compare perspectives from different
-              countries and different schools of thought.&rdquo;
-            </p>
-          </div>
         </section>
 
         {/* ── 4. Conversations on World Affairs ── */}
@@ -198,22 +192,6 @@ export default function PoliticsPage() {
           </div>
         </section>
 
-        {/* ── 5. Patriot with Global Vision ── */}
-        <section>
-          <div className="bg-green rounded-lg p-8 md:p-12 text-center">
-            <div className="text-gold text-5xl font-playfair mb-4 opacity-60">&ldquo;</div>
-            <blockquote className="font-playfair text-2xl md:text-3xl text-cream-light font-bold leading-snug mb-4 max-w-3xl mx-auto">
-              His patriotism for Pakistan remained strong throughout his life, but it was balanced
-              by a broader interest in humanity, global affairs, and the interconnected nature of
-              modern society.
-            </blockquote>
-            <div className="gold-divider mb-4" />
-            <cite className="font-lora text-sm text-cream-dark not-italic">
-              — The family of Aslam Hayat
-            </cite>
-          </div>
-        </section>
-
         {/* Cross-links */}
         <div className="grid sm:grid-cols-2 gap-4">
           <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
@@ -238,17 +216,6 @@ export default function PoliticsPage() {
 
       </div>
 
-      {/* Footer CTA */}
-      <section className="bg-parchment border-t border-cream-dark py-12">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-playfair text-2xl text-green font-bold mb-3">Explore Further</h2>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="/about" className="btn-primary">Read His Biography</Link>
-            <Link href="/articles" className="btn-gold">Browse His Articles</Link>
-            <Link href="/timeline" className="btn-gold">View Life Timeline</Link>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

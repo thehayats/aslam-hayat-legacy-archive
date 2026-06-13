@@ -84,10 +84,6 @@ export default function ProfessionalPage() {
                   <strong>Pakistan Civil Aviation Authority (PCAA)</strong>. His professional career
                   was marked by dedication, integrity, and a commitment to public service.
                 </p>
-                <p className="font-lora text-sm italic text-gray-500 bg-cream border border-cream-dark rounded p-3">
-                  Further details about his specific roles and service dates will be added as
-                  the family archive is reviewed.
-                </p>
               </div>
             </div>
           </div>

@@ -229,21 +229,6 @@ export default function TechnologyPage() {
           </div>
         </section>
 
-        {/* ── 6. Legacy ── */}
-        <section>
-          <div className="bg-green rounded-lg p-8 md:p-12 text-center">
-            <div className="text-gold text-5xl font-playfair mb-4 opacity-60">&ldquo;</div>
-            <blockquote className="font-playfair text-2xl md:text-3xl text-cream-light font-bold leading-snug mb-4 max-w-3xl mx-auto">
-              For his family, he became a powerful example that learning is not limited by age
-              and that intellectual curiosity can remain alive throughout an entire lifetime.
-            </blockquote>
-            <div className="gold-divider mb-4" />
-            <cite className="font-lora text-sm text-cream-dark not-italic">
-              — The family of Aslam Hayat
-            </cite>
-          </div>
-        </section>
-
         {/* Cross-links */}
         <div className="grid sm:grid-cols-2 gap-4">
           <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
@@ -268,20 +253,6 @@ export default function TechnologyPage() {
 
       </div>
 
-      {/* Footer CTA */}
-      <section className="bg-parchment border-t border-cream-dark py-12">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-playfair text-2xl text-green font-bold mb-3">Explore Further</h2>
-          <p className="font-lora text-base text-gray-600 leading-relaxed mb-6">
-            His curiosity about technology was one thread in a much larger intellectual life.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="/about" className="btn-primary">Read His Biography</Link>
-            <Link href="/articles" className="btn-gold">Browse His Articles</Link>
-            <Link href="/timeline" className="btn-gold">View Life Timeline</Link>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

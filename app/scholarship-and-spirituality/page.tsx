@@ -223,14 +223,6 @@ export default function ScholarshipPage() {
               </div>
             ))}
           </div>
-          {/* Pull quote */}
-          <div className="border-l-4 border-gold pl-6 py-2 bg-parchment rounded-r-lg pr-6">
-            <p className="font-lora text-base md:text-lg text-green italic leading-relaxed">
-              &ldquo;Rather than viewing science and spirituality as opposing forces, he often
-              regarded them as complementary efforts to understand reality from different
-              perspectives.&rdquo;
-            </p>
-          </div>
         </section>
 
         {/* ── 5. Writing and Intellectual Legacy ── */}
@@ -286,50 +278,16 @@ export default function ScholarshipPage() {
             title="A Lifelong Pursuit of Wisdom"
             goldDivider
           />
-          {/* Featured quote */}
-          <div className="bg-green rounded-lg p-8 md:p-12 text-center mb-8">
-            <div className="text-gold text-5xl font-playfair mb-4 opacity-60">&ldquo;</div>
-            <blockquote className="font-playfair text-2xl md:text-3xl text-cream-light font-bold leading-snug mb-4 max-w-3xl mx-auto">
-              More than any particular title or profession, Aslam Hayat viewed himself as a student.
-            </blockquote>
-            <div className="gold-divider mb-4" />
-            <cite className="font-lora text-sm text-cream-dark not-italic">
-              — The family of Aslam Hayat
-            </cite>
-          </div>
           <div className="prose-archive">
             <p>
-              His lifelong pursuit of knowledge connected ancient Islamic scholarship with modern
-              scientific inquiry, Eastern spirituality with Western philosophy, and historical memory
-              with contemporary experience.
-            </p>
-            <p>
-              Those who knew him often remembered his curiosity, his humility, and his eagerness to
-              learn. His intellectual legacy continues through the books he read, the articles he
-              wrote, the ideas he shared, and the generations he inspired to value knowledge,
-              reflection, and wisdom.
+              Those who knew him remembered above all his curiosity, his humility, and his
+              eagerness to learn — qualities he modelled until the very end of his life.
             </p>
           </div>
         </section>
 
       </div>
 
-      {/* Footer CTA */}
-      <section className="bg-parchment border-t border-cream-dark py-12">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-playfair text-2xl text-green font-bold mb-3">Explore Further</h2>
-          <p className="font-lora text-base text-gray-600 leading-relaxed mb-6">
-            Aslam Hayat&apos;s intellectual life is best understood through his own words.
-            His articles — preserved in this archive — are the fullest record of how he read,
-            thought, and wrote.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="/articles" className="btn-primary">Read His Articles</Link>
-            <Link href="/timeline" className="btn-gold">View Life Timeline</Link>
-            <Link href="/contact" className="btn-gold">Share a Memory</Link>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
