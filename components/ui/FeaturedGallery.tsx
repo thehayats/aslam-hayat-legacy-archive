@@ -4,7 +4,7 @@ import { useState } from 'react';
 import GalleryViewer from './GalleryViewer';
 import type { GalleryPhoto, GalleryCategory } from '@/lib/articles';
 
-const LEGACY_IDS = ['ph-real-003','ph-real-004','ph-real-002','ph-real-027','ph-real-031','ph-real-036'];
+const LEGACY_IDS = ['ph-real-003','ph-real-004','ph-real-002','ph-real-027','ph-real-031','ph-new-002','ph-new-015','ph-new-026'];
 
 const IMG_FILTER: Record<string, string> = {
   'aslam-hayat-professional-portrait':        'brightness(1.04) contrast(1.07) saturate(1.04)',
@@ -58,7 +58,33 @@ const IMG_FILTER: Record<string, string> = {
   'aslam-hayat-family-celebration-1':         'brightness(1.09) contrast(1.08) saturate(1.04)',
   'aslam-hayat-family-celebration-2':         'brightness(1.09) contrast(1.08) saturate(1.04)',
   'aslam-hayat-family-celebration-3':         'brightness(1.09) contrast(1.08) saturate(1.04)',
-  'aslam-hayat-family-celebration-4':         'brightness(1.09) contrast(1.08) saturate(1.04)',
+  'aslam-hayat-family-celebration-4':          'brightness(1.09) contrast(1.08) saturate(1.04)',
+  'aslam-hayat-with-children-formal-event':    'brightness(1.06) contrast(1.07) saturate(1.04)',
+  'aslam-hayat-suriya-young-portrait':         'brightness(1.30) contrast(1.35) grayscale(1)',
+  'aslam-hayat-sindhi-topi-portrait':          'brightness(1.08) contrast(1.10) saturate(1.03)',
+  'aslam-hayat-with-nina-nauman-amina':        'brightness(1.15) contrast(1.12) saturate(1.06)',
+  'aslam-hayat-young-pakistan-bw':             'brightness(1.30) contrast(1.35) grayscale(1)',
+  'aslam-hayat-with-son-imran-england':        'brightness(1.25) contrast(1.30) grayscale(1)',
+  'aslam-hayat-kamran-shaiza-eid':             'brightness(1.06) contrast(1.07) saturate(1.04)',
+  'aslam-hayat-with-naimait-khan':             'brightness(1.08) contrast(1.08) saturate(1.04)',
+  'aslam-hayat-yvr-arrival':                   'brightness(1.06) contrast(1.07) saturate(1.04)',
+  'aslam-hayat-birthday-cake-home-2':          'brightness(1.10) contrast(1.08) saturate(1.04)',
+  'aslam-hayat-eid-hayat-family':              'brightness(1.06) contrast(1.07) saturate(1.05)',
+  'aslam-hayat-eid-family-group-2':            'brightness(1.06) contrast(1.07) saturate(1.05)',
+  'aslam-hayat-eid-prayers-friend':            'brightness(1.06) contrast(1.07) saturate(1.05)',
+  'aslam-hayat-with-aleem':                    'brightness(1.08) contrast(1.08) saturate(1.04)',
+  'aslam-hayat-pirzada-miracle-award':         'brightness(1.10) contrast(1.09) saturate(1.04)',
+  'aslam-hayat-miracle-award-ceremony':        'brightness(1.10) contrast(1.09) saturate(1.04)',
+  'aslam-hayat-miracle-award-solo':            'brightness(1.12) contrast(1.10) saturate(1.04)',
+  'aslam-hayat-miracle-award-pirzada-group':   'brightness(1.10) contrast(1.09) saturate(1.04)',
+  'aslam-hayat-tim-hortons-cafe':              'brightness(1.06) contrast(1.07) saturate(1.04)',
+  'aslam-hayat-birthday-home-sons':            'brightness(1.15) contrast(1.10) saturate(1.04)',
+  'aslam-hayat-with-brother-imtiaz-pakistan':  'brightness(1.35) contrast(1.40) grayscale(1)',
+  'aslam-hayat-wedding-ceremony-sweets':       'brightness(1.06) contrast(1.07) saturate(1.04)',
+  'aslam-hayat-family-portrait-2002':          'brightness(1.15) contrast(1.12) saturate(1.05)',
+  'aslam-hayat-birthday-kamran-sofa':          'brightness(1.06) contrast(1.07) saturate(1.04)',
+  'aslam-hayat-kaaba-night-mecca':             'brightness(1.05) contrast(1.08) saturate(1.05)',
+  'aslam-hayat-madinah-wheelchair':            'brightness(1.06) contrast(1.07) saturate(1.04)',
 };
 const DEFAULT_FILTER = 'brightness(1.06) contrast(1.07) saturate(1.04)';
 
@@ -119,7 +145,33 @@ const FACE_POS: Record<string, string> = {
   'aslam-hayat-family-celebration-1':          'center 22%',
   'aslam-hayat-family-celebration-2':          'center 20%',
   'aslam-hayat-family-celebration-3':          'center 20%',
-  'aslam-hayat-family-celebration-4':          'center 20%',
+  'aslam-hayat-family-celebration-4':           'center 20%',
+  'aslam-hayat-with-children-formal-event':    'center 20%',
+  'aslam-hayat-suriya-young-portrait':         'center 18%',
+  'aslam-hayat-sindhi-topi-portrait':          'center 14%',
+  'aslam-hayat-with-nina-nauman-amina':        'center 20%',
+  'aslam-hayat-young-pakistan-bw':             'center 24%',
+  'aslam-hayat-with-son-imran-england':        'center 28%',
+  'aslam-hayat-kamran-shaiza-eid':             'center 18%',
+  'aslam-hayat-with-naimait-khan':             'center 22%',
+  'aslam-hayat-yvr-arrival':                   'center 20%',
+  'aslam-hayat-birthday-cake-home-2':          'center 16%',
+  'aslam-hayat-eid-hayat-family':              'center 22%',
+  'aslam-hayat-eid-family-group-2':            'center 20%',
+  'aslam-hayat-eid-prayers-friend':            'center 22%',
+  'aslam-hayat-with-aleem':                    'center 24%',
+  'aslam-hayat-pirzada-miracle-award':         'center 20%',
+  'aslam-hayat-miracle-award-ceremony':        'center 22%',
+  'aslam-hayat-miracle-award-solo':            'center 14%',
+  'aslam-hayat-miracle-award-pirzada-group':   'center 18%',
+  'aslam-hayat-tim-hortons-cafe':              'center 16%',
+  'aslam-hayat-birthday-home-sons':            'center 26%',
+  'aslam-hayat-with-brother-imtiaz-pakistan':  'center 30%',
+  'aslam-hayat-wedding-ceremony-sweets':       'center 26%',
+  'aslam-hayat-family-portrait-2002':          'center 22%',
+  'aslam-hayat-birthday-kamran-sofa':          'center 24%',
+  'aslam-hayat-kaaba-night-mecca':             'center 16%',
+  'aslam-hayat-madinah-wheelchair':            'center 18%',
 };
 const DEFAULT_POS = 'center 20%';
 

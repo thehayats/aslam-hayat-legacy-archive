@@ -502,7 +502,7 @@
       "location": "Vancouver, British Columbia, Canada",
       "category": "canada",
       "description": "Aslam Hayat at a book event in Vancouver, holding a copy of The President is Missing by Bill Clinton and James Patterson — a reflection of his lifelong love of literature and current affairs.",
-      "featured": true
+      "featured": false
     },
     {
       "id": "ph-real-037",
@@ -899,6 +899,292 @@
       "category": "final-years",
       "description": "Aslam Hayat celebrating his 93rd birthday with his son Kamran Hayat. A warm and intimate family moment, with a birthday cake lit in his honour.",
       "featured": false
+    },
+    {
+      "id": "ph-new-001",
+      "src": "/images/gallery/aslam-hayat-with-children-formal-event.jpg",
+      "alt": "Aslam Hayat with his children at a formal occasion",
+      "caption": "Aslam Hayat with his children",
+      "date": "To be confirmed by family",
+      "location": "To be confirmed by family",
+      "category": "family",
+      "description": "Aslam Hayat with his children at a formal family occasion. Date and location to be confirmed by the family.",
+      "featured": true
+    },
+    {
+      "id": "ph-new-002",
+      "src": "/images/gallery/aslam-hayat-suriya-young-portrait.png",
+      "alt": "A young Aslam Hayat with his wife Suriya Hayat — a classic portrait",
+      "caption": "Aslam Hayat with his wife Suriya Hayat",
+      "date": "To be confirmed by family",
+      "location": "Pakistan",
+      "category": "family",
+      "description": "A timeless black-and-white portrait of a young Aslam Hayat with his wife Suriya Hayat. A treasured family keepsake.",
+      "featured": true
+    },
+    {
+      "id": "ph-new-003",
+      "src": "/images/gallery/aslam-hayat-sindhi-topi-portrait.png",
+      "alt": "Aslam Hayat wearing a traditional red Sindhi topi, seated at home",
+      "caption": "Portrait — in traditional Sindhi topi",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "final-years",
+      "description": "A warm portrait of Aslam Hayat wearing a traditional red Sindhi embroidered topi, seated at home in his final years.",
+      "featured": true
+    },
+    {
+      "id": "ph-new-004",
+      "src": "/images/gallery/aslam-hayat-with-nina-nauman-amina.png",
+      "alt": "Aslam Hayat with daughter Nina, granddaughter Amina and Nauman",
+      "caption": "With daughter Nina, granddaughter Amina and Nauman",
+      "date": "To be confirmed by family",
+      "location": "To be confirmed by family",
+      "category": "family",
+      "description": "Aslam Hayat with his daughter Nina Elahi, granddaughter Amina, and Nauman. Date and location to be confirmed by the family.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-005",
+      "src": "/images/gallery/aslam-hayat-young-pakistan-bw.png",
+      "alt": "A young Aslam Hayat photographed in Pakistan",
+      "caption": "A young Aslam Hayat — Pakistan",
+      "date": "To be confirmed by family",
+      "location": "Pakistan",
+      "category": "pakistan",
+      "description": "A black-and-white photograph of a young Aslam Hayat taken in Pakistan. An early glimpse of the man who would go on to serve in civil aviation and become a celebrated Urdu writer.",
+      "featured": true
+    },
+    {
+      "id": "ph-new-006",
+      "src": "/images/gallery/aslam-hayat-with-son-imran-england.png",
+      "alt": "Aslam Hayat with his son Imran Hayat in England",
+      "caption": "With son Imran Hayat — England",
+      "date": "To be confirmed by family",
+      "location": "England, United Kingdom",
+      "category": "professional",
+      "description": "Aslam Hayat with his son Imran Hayat in England. Date to be confirmed by the family.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-007",
+      "src": "/images/gallery/aslam-hayat-kamran-shaiza-eid.png",
+      "alt": "Aslam Hayat with son Kamran Hayat and daughter-in-law Shaiza Hayat",
+      "caption": "With son Kamran and daughter-in-law Shaiza",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "Aslam Hayat with his son Kamran Hayat and daughter-in-law Shaiza Hayat, photographed together at home.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-008",
+      "src": "/images/gallery/aslam-hayat-with-naimait-khan.png",
+      "alt": "Aslam Hayat with Naimait Khan",
+      "caption": "With Naimait Khan",
+      "date": "To be confirmed by family",
+      "location": "To be confirmed by family",
+      "category": "community",
+      "description": "Aslam Hayat with Naimait Khan. Date and location to be confirmed by the family.",
+      "featured": true
+    },
+    {
+      "id": "ph-new-009",
+      "src": "/images/gallery/aslam-hayat-yvr-arrival.png",
+      "alt": "Aslam Hayat at Vancouver International Airport (YVR)",
+      "caption": "At Vancouver International Airport (YVR)",
+      "date": "To be confirmed by family",
+      "location": "Vancouver International Airport, Canada",
+      "category": "canada",
+      "description": "Aslam Hayat at Vancouver International Airport (YVR). Date to be confirmed by the family.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-010",
+      "src": "/images/gallery/aslam-hayat-birthday-cake-home-2.png",
+      "alt": "Aslam Hayat cutting his birthday cake at home",
+      "caption": "Birthday — cutting the cake at home",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "Aslam Hayat cutting his birthday cake at home, dressed in his shalwar kameez.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-011",
+      "src": "/images/gallery/aslam-hayat-eid-hayat-family.jpg",
+      "alt": "Aslam Hayat with the Hayat family at Eid prayers",
+      "caption": "Eid prayers with the Hayat Family",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "Aslam Hayat surrounded by the extended Hayat family at Eid prayers — a joyful gathering of generations.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-012",
+      "src": "/images/gallery/aslam-hayat-eid-family-group-2.jpg",
+      "alt": "Aslam Hayat with family at Eid prayers",
+      "caption": "Family at Eid prayers",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "Aslam Hayat with family members at Eid prayers.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-013",
+      "src": "/images/gallery/aslam-hayat-eid-prayers-friend.jpg",
+      "alt": "Aslam Hayat at Eid prayers",
+      "caption": "At Eid prayers",
+      "date": "To be confirmed by family",
+      "location": "To be confirmed by family",
+      "category": "community",
+      "description": "Aslam Hayat at Eid prayers. Date and location to be confirmed by the family.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-014",
+      "src": "/images/gallery/aslam-hayat-with-aleem.png",
+      "alt": "Aslam Hayat with Aleem",
+      "caption": "With Aleem",
+      "date": "To be confirmed by family",
+      "location": "To be confirmed by family",
+      "category": "community",
+      "description": "Aslam Hayat with Aleem. Date and location to be confirmed by the family.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-015",
+      "src": "/images/gallery/aslam-hayat-pirzada-miracle-award.png",
+      "alt": "Aslam Hayat being recognised by Mr. Pirzada of Miracle News for his years of contribution",
+      "caption": "Recognised by Miracle News — years of contribution",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "community",
+      "description": "Aslam Hayat being recognised by Mr. Pirzada of Miracle News for his outstanding and sustained contribution to Urdu writing and journalism over many years.",
+      "featured": true
+    },
+    {
+      "id": "ph-new-016",
+      "src": "/images/gallery/aslam-hayat-miracle-award-ceremony.png",
+      "alt": "Aslam Hayat at the Miracle News awards ceremony",
+      "caption": "Miracle News awards ceremony",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "community",
+      "description": "Aslam Hayat at the Miracle News awards ceremony, recognised for his contributions to community journalism.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-017",
+      "src": "/images/gallery/aslam-hayat-miracle-award-solo.png",
+      "alt": "Aslam Hayat holding the Miracle Media Group award",
+      "caption": "Holding the Miracle Media Group award",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "community",
+      "description": "Aslam Hayat holding the Miracle Media Group Appreciation Award — recognition of over two decades of dedicated Urdu writing.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-018",
+      "src": "/images/gallery/aslam-hayat-miracle-award-pirzada-group.png",
+      "alt": "Aslam Hayat with Mr. Pirzada and guests at the Miracle award ceremony",
+      "caption": "With Mr. Pirzada — Miracle award ceremony",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "community",
+      "description": "Aslam Hayat with Mr. Pirzada and guests at the Miracle News award ceremony.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-019",
+      "src": "/images/gallery/aslam-hayat-tim-hortons-cafe.png",
+      "alt": "Aslam Hayat at a café in Vancouver",
+      "caption": "At a café in Vancouver",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "canada",
+      "description": "Aslam Hayat enjoying a moment at a local café in Vancouver — a gentle portrait of his daily life in Canada.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-020",
+      "src": "/images/gallery/aslam-hayat-birthday-home-sons.png",
+      "alt": "Aslam Hayat at his birthday celebration at home with family",
+      "caption": "Birthday celebration at home — with family",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "Aslam Hayat at his birthday celebration at home, surrounded by family members.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-021",
+      "src": "/images/gallery/aslam-hayat-with-brother-imtiaz-pakistan.png",
+      "alt": "Aslam Hayat with his brother Imtiaz Hayat in Pakistan",
+      "caption": "With brother Imtiaz Hayat — Pakistan",
+      "date": "To be confirmed by family",
+      "location": "Pakistan",
+      "category": "pakistan",
+      "description": "A black-and-white photograph of Aslam Hayat with his brother Imtiaz Hayat in Pakistan — a treasured early family portrait.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-022",
+      "src": "/images/gallery/aslam-hayat-wedding-ceremony-sweets.jpg",
+      "alt": "Aslam Hayat at a family wedding ceremony",
+      "caption": "At a family wedding ceremony",
+      "date": "To be confirmed by family",
+      "location": "To be confirmed by family",
+      "category": "family",
+      "description": "Aslam Hayat at a family wedding ceremony. Date and location to be confirmed by the family.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-023",
+      "src": "/images/gallery/aslam-hayat-family-portrait-2002.png",
+      "alt": "Aslam Hayat with family — January 2002",
+      "caption": "Family portrait — January 2002",
+      "date": "January 2002",
+      "location": "To be confirmed by family",
+      "category": "family",
+      "description": "A family portrait with Aslam Hayat, dated January 2002.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-024",
+      "src": "/images/gallery/aslam-hayat-birthday-kamran-sofa.png",
+      "alt": "Aslam Hayat with son Kamran Hayat at his birthday",
+      "caption": "Birthday — with son Kamran Hayat",
+      "date": "To be confirmed by family",
+      "location": "To be confirmed by family",
+      "category": "family",
+      "description": "Aslam Hayat with his son Kamran Hayat at his birthday celebration, seated together with the birthday cake.",
+      "featured": false
+    },
+    {
+      "id": "ph-new-026",
+      "src": "/images/gallery/aslam-hayat-kaaba-night-mecca.png",
+      "alt": "Aslam Hayat standing before the Holy Kaaba at the Masjid al-Haram, Mecca, at night",
+      "caption": "Before the Holy Kaaba — Masjid al-Haram, Mecca",
+      "date": "To be confirmed by family",
+      "location": "Mecca, Saudi Arabia",
+      "category": "faith",
+      "description": "Aslam Hayat standing before the Holy Kaaba at the Masjid al-Haram in Mecca — an iconic image of a man whose faith was at the very centre of his life.",
+      "featured": true
+    },
+    {
+      "id": "ph-new-027",
+      "src": "/images/gallery/aslam-hayat-madinah-wheelchair.png",
+      "alt": "Aslam Hayat seated in a wheelchair inside the Masjid al-Nabawi, Madinah",
+      "caption": "At the Masjid al-Nabawi — Madinah",
+      "date": "To be confirmed by family",
+      "location": "Madinah, Saudi Arabia",
+      "category": "faith",
+      "description": "Aslam Hayat seated in a wheelchair inside the Masjid al-Nabawi in Madinah, near the Raudhah — the sacred garden said to be a portion of Paradise. A deeply moving image from his pilgrimage years.",
+      "featured": true
     }
   ]
 }
