@@ -86,6 +86,8 @@ const IMG_FILTER: Record<string, string> = {
   'aslam-hayat-kaaba-night-mecca':             'brightness(1.05) contrast(1.08) saturate(1.05)',
   'aslam-hayat-madinah-wheelchair':            'brightness(1.06) contrast(1.07) saturate(1.04)',
   'aslam-hayat-suriya-family-1':               'brightness(1.12) contrast(1.13) saturate(1.06)',
+  'aslam-hayat-with-family-outdoor-bc':        'brightness(1.04) contrast(1.06) saturate(1.05)',
+  'aslam-hayat-family-wedding-ceremony':       'brightness(1.08) contrast(1.08) saturate(1.04)',
 };
 const DEFAULT_FILTER = 'brightness(1.06) contrast(1.07) saturate(1.04)';
 
@@ -174,6 +176,8 @@ const FACE_POS: Record<string, string> = {
   'aslam-hayat-kaaba-night-mecca':             'center 16%',
   'aslam-hayat-madinah-wheelchair':            'center 18%',
   'aslam-hayat-suriya-family-1':               'center 16%',
+  'aslam-hayat-with-family-outdoor-bc':        'center 20%',
+  'aslam-hayat-family-wedding-ceremony':       'center 35%',
 };
 const DEFAULT_POS = 'center 20%';
 

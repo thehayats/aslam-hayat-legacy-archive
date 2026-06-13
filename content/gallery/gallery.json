@@ -1174,6 +1174,28 @@
       "category": "faith",
       "description": "Aslam Hayat seated in a wheelchair inside the Masjid al-Nabawi in Madinah, near the Raudhah — the sacred garden said to be a portion of Paradise. A deeply moving image from his pilgrimage years.",
       "featured": true
+    },
+    {
+      "id": "ph-new-028",
+      "src": "/images/gallery/aslam-hayat-with-family-outdoor-bc.jpg",
+      "alt": "Aslam Hayat standing outdoors on a deck with a family member, British Columbia coast in the background",
+      "caption": "With family — British Columbia",
+      "date": "To be confirmed by family",
+      "location": "British Columbia, Canada",
+      "category": "canada",
+      "description": "Aslam Hayat with a family member on a sunny day outdoors in British Columbia, with the coast and trees in the background.",
+      "featured": true
+    },
+    {
+      "id": "ph-new-029",
+      "src": "/images/gallery/aslam-hayat-family-wedding-ceremony.jpg",
+      "alt": "Aslam Hayat feeding sweets to a young man at a family wedding ceremony",
+      "caption": "At a family wedding ceremony",
+      "date": "To be confirmed by family",
+      "location": "Vancouver, British Columbia, Canada",
+      "category": "family",
+      "description": "Aslam Hayat at a family wedding celebration, offering sweets in the traditional manner at what appears to be a mehndi or wedding ceremony.",
+      "featured": true
     }
   ]
 }
