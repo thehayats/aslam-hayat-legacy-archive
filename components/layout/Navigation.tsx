@@ -49,6 +49,7 @@ const navGroups: NavGroup[] = [
     children: [
       { label: 'Gallery', href: '/gallery' },
       { label: 'Tributes', href: '/tributes' },
+      { label: 'Living Legacy', href: '/living-legacy' },
       { label: 'Submit Memory', href: '/contact' },
     ],
   },
