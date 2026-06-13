@@ -80,14 +80,14 @@ export default function TributesPage() {
 
                 <p className="text-base leading-relaxed text-cream-light">
                   A lover of literature and poetry &mdash; English, Urdu and Persian. He leaves us
-                  with the hoards of books that he surrounded himself with 24/7, tasb&imacr;hs
+                  with the hoards of books that he surrounded himself with 24/7, tasbihs
                   (prayer beads) that constantly intertwined in his fingers. He leaves us with
                   stories of partition, of growing up in the walled city of Lahore, of his travels
                   abroad, and all of life&apos;s endeavours over his 93 years. He leaves us mundane
                   yet sweet memories of him humming ghazals, of his voice reciting Qur&apos;an in
                   the early hours of the morning, of enjoying afternoon tea. He leaves us with
                   lessons, guidance and life advice that we cherish. He leaves us with seeds of
-                  &imacr;man (faith), planted with love and care. He leaves us with an inexplicable
+                  iman (faith), planted with love and care. He leaves us with an inexplicable
                   void, yet immense gratitude to have known him.
                 </p>
 
