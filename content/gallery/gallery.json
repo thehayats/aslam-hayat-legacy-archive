@@ -84,7 +84,7 @@
       "location": "Mecca, Saudi Arabia",
       "category": "faith",
       "description": "Aslam Hayat with family members inside the Masjid al-Haram, Mecca. Date to be confirmed by the family.",
-      "featured": true
+      "featured": false
     },
     {
       "id": "ph-real-006",
@@ -1041,7 +1041,7 @@
       "location": "To be confirmed by family",
       "category": "community",
       "description": "Aslam Hayat at Eid prayers. Date and location to be confirmed by the family.",
-      "featured": false
+      "featured": true
     },
     {
       "id": "ph-new-014",
@@ -1074,7 +1074,7 @@
       "location": "Vancouver, British Columbia, Canada",
       "category": "community",
       "description": "Aslam Hayat at the Miracle News awards ceremony, recognised for his contributions to community journalism.",
-      "featured": false
+      "featured": true
     },
     {
       "id": "ph-new-017",

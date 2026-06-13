@@ -4,7 +4,7 @@ import { useState } from 'react';
 import GalleryViewer from './GalleryViewer';
 import type { GalleryPhoto, GalleryCategory } from '@/lib/articles';
 
-const LEGACY_IDS = ['ph-real-003','ph-real-004','ph-real-002','ph-real-027','ph-real-031','ph-new-002','ph-new-015','ph-new-026'];
+const LEGACY_IDS = ['ph-real-003','ph-real-004','ph-real-002','ph-real-027','ph-real-031','ph-new-002','ph-new-013','ph-new-015','ph-new-026'];
 
 const IMG_FILTER: Record<string, string> = {
   'aslam-hayat-professional-portrait':        'brightness(1.04) contrast(1.07) saturate(1.04)',
@@ -85,6 +85,7 @@ const IMG_FILTER: Record<string, string> = {
   'aslam-hayat-birthday-kamran-sofa':          'brightness(1.06) contrast(1.07) saturate(1.04)',
   'aslam-hayat-kaaba-night-mecca':             'brightness(1.05) contrast(1.08) saturate(1.05)',
   'aslam-hayat-madinah-wheelchair':            'brightness(1.06) contrast(1.07) saturate(1.04)',
+  'aslam-hayat-suriya-family-1':               'brightness(1.12) contrast(1.13) saturate(1.06)',
 };
 const DEFAULT_FILTER = 'brightness(1.06) contrast(1.07) saturate(1.04)';
 
@@ -150,7 +151,7 @@ const FACE_POS: Record<string, string> = {
   'aslam-hayat-suriya-young-portrait':         'center 18%',
   'aslam-hayat-sindhi-topi-portrait':          'center 14%',
   'aslam-hayat-with-nina-nauman-amina':        'center 20%',
-  'aslam-hayat-young-pakistan-bw':             'center 24%',
+  'aslam-hayat-young-pakistan-bw':             '45% 30%',
   'aslam-hayat-with-son-imran-england':        'center 28%',
   'aslam-hayat-kamran-shaiza-eid':             'center 18%',
   'aslam-hayat-with-naimait-khan':             'center 22%',
@@ -172,6 +173,7 @@ const FACE_POS: Record<string, string> = {
   'aslam-hayat-birthday-kamran-sofa':          'center 24%',
   'aslam-hayat-kaaba-night-mecca':             'center 16%',
   'aslam-hayat-madinah-wheelchair':            'center 18%',
+  'aslam-hayat-suriya-family-1':               'center 16%',
 };
 const DEFAULT_POS = 'center 20%';
 
