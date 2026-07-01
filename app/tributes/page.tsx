@@ -199,6 +199,82 @@ export default function TributesPage() {
           </div>
         </section>
 
+        {/* ── Shazia Hayat — Tribute ── */}
+        <section>
+          <div className="bg-green rounded-2xl overflow-hidden shadow-xl">
+
+            {/* Header */}
+            <div className="px-8 pt-10 pb-6 text-center border-b border-green-dark">
+              <h2 className="font-playfair text-2xl md:text-3xl text-cream-light font-bold">
+                For Dada
+              </h2>
+              <p className="font-lora text-sm text-cream-dark italic mt-2 opacity-75">
+                From a daughter-in-law who shared 36 years by his side
+              </p>
+            </div>
+
+            {/* Excerpt */}
+            <div className="px-8 md:px-12 py-10">
+              <div className="max-w-2xl mx-auto space-y-5 font-lora text-cream-light leading-relaxed">
+
+                <p className="text-base md:text-lg leading-relaxed">
+                  With a heavy heart, I say goodbye to my beloved father-in-law, a man who was
+                  much more than a relative to me. For 36 years, I had the honour of sharing a
+                  home and life with him and during those years he became a father figure, a
+                  mentor and a source of strength and knowledge for our own family.
+                </p>
+
+                <div className="gold-divider" />
+
+                <p className="text-base text-cream-dark italic leading-relaxed text-center">
+                  There are people who leave memories and people who leave lasting impacts on
+                  your soul. He was one of those rare people.
+                </p>
+
+                <div className="gold-divider" />
+
+                <p className="text-base leading-relaxed">
+                  His presence made our home blessed, his words brought comfort in difficult
+                  times. Through every stage of life, he stood as a pillar of support, and
+                  taught values of honesty, patience, humility and faith.
+                </p>
+
+                <div className="text-center pt-2">
+                  <Link href="/tributes/shazia-hayat" className="btn-gold">
+                    Read Full Tribute
+                  </Link>
+                </div>
+
+              </div>
+            </div>
+
+            {/* Photos */}
+            <div className="grid grid-cols-2 gap-1 border-t border-green-dark">
+              <img
+                src="/images/tributes/shazia-hayat-portrait.jpeg"
+                alt="Aslam Hayat and Shazia Hayat"
+                className="w-full object-cover aspect-[4/5]"
+              />
+              <img
+                src="/images/tributes/shazia-hayat-theater.jpeg"
+                alt="Shazia Hayat and Aslam Hayat at the theater"
+                className="w-full object-cover aspect-[4/5]"
+              />
+            </div>
+
+            {/* Attribution */}
+            <div className="bg-green-dark px-8 py-5 text-center">
+              <cite className="font-playfair text-base text-gold not-italic font-bold">
+                Shazia Hayat
+              </cite>
+              <p className="font-lora text-xs text-cream-dark mt-1 opacity-70">
+                Daughter-in-Law of Aslam Hayat
+              </p>
+            </div>
+
+          </div>
+        </section>
+
         {/* ── Invite more tributes ── */}
         <section>
           <div className="bg-parchment border border-cream-dark rounded-xl p-8 md:p-10 text-center">
