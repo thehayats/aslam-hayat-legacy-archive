@@ -22,14 +22,21 @@ export default function SectionHeader({
           {arabicTitle}
         </p>
       )}
-      <h2 className="font-playfair text-3xl md:text-4xl text-green font-bold leading-tight">
+      <h2 className="font-playfair text-2xl md:text-3xl text-green font-bold leading-tight">
         {title}
       </h2>
       {goldDivider && (
-        <div className={`mt-3 h-0.5 w-16 bg-gold ${centered ? 'mx-auto' : ''}`} />
+        <div
+          className={`mt-4 h-px w-16 ${centered ? 'mx-auto' : ''}`}
+          style={{
+            background: centered
+              ? 'linear-gradient(90deg, transparent, #c9a84c 35%, #c9a84c 65%, transparent)'
+              : 'linear-gradient(90deg, #c9a84c, rgba(201,168,77,0.1))',
+          }}
+        />
       )}
       {subtitle && (
-        <p className="font-lora text-base md:text-lg text-gray-600 mt-4 leading-relaxed max-w-2xl">
+        <p className={`font-lora text-sm text-gray-500 mt-3 leading-relaxed ${centered ? '' : 'max-w-2xl'}`}>
           {subtitle}
         </p>
       )}

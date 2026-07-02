@@ -298,7 +298,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
             <SectionHeader
               title="Five Defining Images"
-              subtitle="Professional · Spiritual · Writer · Scholar · Elder — the arc of a remarkable life."
+              subtitle="Professional · Spiritual · Writer · Scholar · Elder"
             />
             <Link
               href="/gallery"
