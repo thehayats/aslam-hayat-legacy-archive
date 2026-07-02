@@ -11,7 +11,7 @@ const archiveLinks = [
 
 const contentLinks = [
   { label: 'Articles', href: '/articles' },
-  { label: 'Blog', href: '/blog' },
+  { label: 'Archive Notes', href: '/blog' },
   { label: 'Gallery', href: '/gallery' },
   { label: 'Facebook Archive', href: '/facebook-archive' },
   { label: 'Faith & Theology', href: '/faith-theology-and-spirituality' },

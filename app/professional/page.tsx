@@ -25,101 +25,94 @@ export default function ProfessionalPage() {
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-12">
 
         {/* Education */}
-        <section className="mb-12">
+        <section>
           <SectionHeader title="Education" goldDivider />
-          <div className="bg-parchment border border-cream-dark rounded-lg p-6 md:p-8">
-            <div className="space-y-5">
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-2 bg-gold rounded-full mt-1" style={{ alignSelf: 'stretch', maxHeight: '100%' }} />
-                <div>
-                  <h3 className="font-playfair text-lg text-green font-bold mb-1">
-                    Muslim Model High School
-                  </h3>
-                  <p className="font-lora text-sm text-gray-500 mb-2">Lahore, Pakistan</p>
-                  <p className="font-lora text-base text-gray-700 leading-relaxed">
-                    Aslam Hayat received his early education at Muslim Model High School in Lahore —
-                    an institution with a distinguished history in Pakistan&apos;s educational
-                    landscape.
-                  </p>
-                </div>
-              </div>
-              <div className="flex gap-4">
-                <div className="flex-shrink-0 w-2 bg-gold rounded-full mt-1" style={{ alignSelf: 'stretch', maxHeight: '100%' }} />
-                <div>
-                  <h3 className="font-playfair text-lg text-green font-bold mb-1">
-                    Chartered Accountant
-                  </h3>
-                  <p className="font-lora text-sm text-gray-500 mb-2">London, England — late 1950s and early 1960s</p>
-                  <p className="font-lora text-base text-gray-700 leading-relaxed">
-                    In the late 1950s and early 1960s, Aslam Hayat travelled to London, England,
-                    where he pursued advanced accountancy studies and qualified as a Chartered
-                    Accountant — a significant personal achievement that provided the foundation
-                    for his subsequent public-service career.
-                  </p>
-                </div>
+          <div className="space-y-6">
+
+            <div className="bg-parchment border border-cream-dark rounded-lg p-6 md:p-8">
+              <div className="border-l-2 border-gold/50 pl-5">
+                <h3 className="font-playfair text-lg text-green font-bold mb-1">
+                  Muslim Model High School
+                </h3>
+                <p className="font-lora text-xs text-gray-400 uppercase tracking-wide mb-3">
+                  Lahore, Pakistan
+                </p>
+                <p className="font-lora text-base text-gray-700 leading-relaxed">
+                  Aslam Hayat received his early education at Muslim Model High School in Lahore.
+                </p>
               </div>
             </div>
+
+            <div className="bg-parchment border border-cream-dark rounded-lg p-6 md:p-8">
+              <div className="border-l-2 border-gold/50 pl-5">
+                <h3 className="font-playfair text-lg text-green font-bold mb-1">
+                  Chartered Accountant
+                </h3>
+                <p className="font-lora text-xs text-gray-400 uppercase tracking-wide mb-3">
+                  London, England &mdash; late 1950s / early 1960s
+                </p>
+                <p className="font-lora text-base text-gray-700 leading-relaxed">
+                  In the late 1950s and early 1960s, Aslam Hayat travelled to London and qualified
+                  as a Chartered Accountant — a qualification he then applied in public service on
+                  his return to Pakistan.
+                </p>
+              </div>
+            </div>
+
           </div>
         </section>
 
         {/* Career */}
-        <section className="mb-12">
+        <section>
           <SectionHeader title="Career in Civil Aviation" goldDivider />
           <div className="bg-parchment border border-cream-dark rounded-lg p-6 md:p-8">
-            <div className="flex gap-4">
-              <div className="flex-shrink-0 w-2 bg-gold rounded-full mt-1" style={{ alignSelf: 'stretch', maxHeight: '100%' }} />
-              <div>
-                <h3 className="font-playfair text-lg text-green font-bold mb-1">
-                  Pakistan Civil Aviation Authority
-                </h3>
-                <p className="font-lora text-sm text-gray-500 mb-2">Pakistan</p>
-                <p className="font-lora text-base text-gray-700 leading-relaxed mb-3">
-                  Upon returning to Pakistan, Aslam Hayat entered public service and built a
-                  distinguished career in civil aviation. Over the course of several decades, he
-                  served in increasingly senior leadership positions and ultimately rose to
-                  director-level responsibilities within the{' '}
-                  <strong>Pakistan Civil Aviation Authority (PCAA)</strong>. His professional career
-                  was marked by dedication, integrity, and a commitment to public service.
-                </p>
-              </div>
+            <div className="border-l-2 border-gold/50 pl-5">
+              <h3 className="font-playfair text-lg text-green font-bold mb-1">
+                Pakistan Civil Aviation Authority
+              </h3>
+              <p className="font-lora text-xs text-gray-400 uppercase tracking-wide mb-3">
+                Pakistan
+              </p>
+              <p className="font-lora text-base text-gray-700 leading-relaxed">
+                Upon returning to Pakistan, Aslam Hayat entered public service. He served in the{' '}
+                <strong>Pakistan Civil Aviation Authority (PCAA)</strong> for several decades,
+                rising to director-level responsibilities.
+              </p>
             </div>
           </div>
         </section>
 
-        {/* Writing Career */}
-        <section className="mb-12">
-          <SectionHeader title="Writing Career" goldDivider />
+        {/* Writing */}
+        <section>
+          <SectionHeader title="Writing" goldDivider />
           <div className="bg-parchment border border-cream-dark rounded-lg p-6 md:p-8">
-            <div className="flex gap-4">
-              <div className="flex-shrink-0 w-2 bg-gold rounded-full mt-1" style={{ alignSelf: 'stretch', maxHeight: '100%' }} />
-              <div>
-                <h3 className="font-playfair text-lg text-green font-bold mb-1">
-                  Columnist, <em>The Miracle</em>
-                </h3>
-                <p className="font-lora text-sm text-gray-500 mb-2">Vancouver, British Columbia, Canada &mdash; 25+ years</p>
-                <p className="font-lora text-base text-gray-700 leading-relaxed">
-                  After retiring and settling in Vancouver, Aslam Hayat became one of the most
-                  prolific voices in the Pakistani-Canadian community. For more than twenty-five
-                  years he maintained a regular column in <em>The Miracle</em>, Vancouver&apos;s
-                  Pakistani community newspaper, authoring over{' '}
-                  <strong>650 articles</strong> on history, current affairs, community life,
-                  Islamic thought, and the experiences of the South Asian diaspora in Canada.
-                </p>
-              </div>
+            <div className="border-l-2 border-gold/50 pl-5">
+              <h3 className="font-playfair text-lg text-green font-bold mb-1">
+                Columnist, <em>The Miracle</em>
+              </h3>
+              <p className="font-lora text-xs text-gray-400 uppercase tracking-wide mb-3">
+                Vancouver, British Columbia — 25+ years
+              </p>
+              <p className="font-lora text-base text-gray-700 leading-relaxed">
+                After settling in Vancouver, Aslam Hayat maintained a regular column in{' '}
+                <em>The Miracle</em>, the Pakistani community newspaper. Over more than twenty-five
+                years he authored over <strong>650 articles</strong> on history, current affairs,
+                Islamic thought, and the experiences of the South Asian diaspora in Canada.
+              </p>
             </div>
           </div>
         </section>
 
-        {/* CTA */}
+        {/* Invitation */}
         <div className="bg-green rounded-lg p-6 text-center">
           <p className="font-lora text-base text-cream-dark leading-relaxed mb-4">
             If you knew Aslam Hayat professionally and would like to contribute verified
             information to this section, the family would be grateful to hear from you.
           </p>
-          <Link href="/contact" className="btn-gold inline-block">
+          <Link href="/contact" className="btn-gold">
             Share What You Know
           </Link>
         </div>

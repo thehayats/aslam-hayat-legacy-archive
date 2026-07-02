@@ -25,8 +25,7 @@ export default function ArticlesPage() {
             Articles
           </h1>
           <p className="font-lora text-lg text-cream-dark italic max-w-xl mx-auto">
-            Original Urdu writings and their English translations — a window into the mind of
-            Aslam Hayat.
+            Original Urdu writings and their English translations, preserved as he published them.
           </p>
           <div className="gold-divider mt-6" />
         </div>

@@ -25,25 +25,16 @@ export default function FacebookArchivePage() {
       </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-        <section className="mb-12">
+        <section>
           <SectionHeader title="About This Archive" goldDivider />
           <div className="bg-parchment border border-cream-dark rounded-lg p-6 md:p-8">
             <p className="font-lora text-base text-gray-700 leading-relaxed mb-4">
-              Aslam Hayat was active on Facebook, where he shared his thoughts, memories, and
+              Aslam Hayat was active on Facebook, where he shared thoughts, memories, and
               writings with family, friends, and his wider community.
             </p>
-            <p className="font-lora text-base text-gray-700 leading-relaxed">
-              Selected posts will be reviewed by the family and archived here with their approval.
-              This section will grow as the family reviews his digital writings.
-            </p>
-          </div>
-        </section>
-
-        <section>
-          <SectionHeader title="Posts" goldDivider />
-          <div className="bg-parchment border border-cream-dark rounded-lg p-8 text-center">
             <p className="font-lora text-base text-gray-500 italic leading-relaxed">
-              Facebook posts are being reviewed and will be added here with family approval.
+              Selected posts are being reviewed by the family and will be added here with
+              their approval.
             </p>
           </div>
         </section>

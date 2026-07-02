@@ -40,7 +40,7 @@ const navGroups: NavGroup[] = [
     label: 'Writings',
     children: [
       { label: 'Articles', href: '/articles' },
-      { label: 'Blog', href: '/blog' },
+      { label: 'Archive Notes', href: '/blog' },
       { label: 'Facebook Archive', href: '/facebook-archive' },
     ],
   },

@@ -14,7 +14,7 @@ export const metadata: Metadata = buildMetadata({
 export default function AboutPage() {
   return (
     <div className="min-h-screen">
-      {/* Hero Banner */}
+      {/* Hero */}
       <div className="bg-green py-16 md:py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="arabic-text text-gold text-2xl md:text-3xl mb-4 font-urdu">
@@ -24,12 +24,12 @@ export default function AboutPage() {
             Aslam Hayat
           </h1>
           <p className="font-lora text-lg text-cream-dark italic mb-2">
-            23 March 1933 &ndash; 2026
+            23 March 1933 &ndash; 30 May 2026
           </p>
-          <p className="font-lora text-base text-cream-dark opacity-80">
-            Lahore, Pakistan &nbsp;·&nbsp; Vancouver, British Columbia, Canada
+          <p className="font-lora text-sm text-cream-dark opacity-70">
+            Lahore, Pakistan &nbsp;&middot;&nbsp; Vancouver, British Columbia, Canada
           </p>
-          <p className="font-lora text-sm text-cream-dark opacity-70 mt-1">
+          <p className="font-lora text-xs text-cream-dark opacity-60 mt-1 tracking-wide uppercase">
             Chartered Accountant &middot; Civil Aviation Executive &middot; Writer &middot; Family Elder
           </p>
           <p className="arabic-text text-gold-light text-xl mt-4 mb-2 font-urdu">
@@ -41,24 +41,25 @@ export default function AboutPage() {
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid lg:grid-cols-3 gap-10">
+
           {/* Sidebar */}
           <aside className="lg:col-span-1 order-2 lg:order-1">
             <div className="bg-parchment border border-cream-dark rounded-lg p-6 sticky top-24">
-              <h2 className="font-playfair text-xl text-green font-bold mb-5">At a Glance</h2>
+              <h2 className="font-playfair text-lg text-green font-bold mb-5">At a Glance</h2>
               <dl className="space-y-4">
                 {[
                   { label: 'Born', value: '23 March 1933' },
                   { label: 'Birthplace', value: 'Lahore, Pakistan' },
-                  { label: 'Family Origins', value: 'Subhan Pur, Kapurthala, Punjab' },
+                  { label: 'Family origins', value: 'Subhan Pur, Kapurthala, Punjab' },
                   { label: 'Education', value: 'Muslim Model High School, Lahore; Chartered Accountant, London' },
                   { label: 'Career', value: 'Pakistan Civil Aviation Authority — director-level' },
                   { label: 'Writing', value: '650+ articles, The Miracle, Vancouver' },
                   { label: 'Faith', value: 'Islam; student of Sufism and Ibn Arabi' },
                   { label: 'Arrived Canada', value: '1989' },
-                  { label: 'Resided', value: 'Vancouver, BC, Canada' },
-                  { label: 'Passed Away', value: 'May 30, 2026, Vancouver, BC, Canada' },
+                  { label: 'Resided', value: 'Vancouver, BC' },
+                  { label: 'Died', value: '30 May 2026, Vancouver, aged 93' },
                 ].map(({ label, value }) => (
-                  <div key={label} className="border-b border-cream-dark pb-3 last:border-0">
+                  <div key={label} className="border-b border-cream-dark pb-3 last:border-0 last:pb-0">
                     <dt className="font-lora text-xs font-medium text-green uppercase tracking-wide mb-0.5">
                       {label}
                     </dt>
@@ -68,17 +69,17 @@ export default function AboutPage() {
               </dl>
 
               <div className="mt-6 space-y-2">
-                <Link href="/timeline" className="block text-center btn-primary text-sm py-2">
+                <Link href="/timeline" className="block text-center btn-primary text-sm py-2.5">
                   View Life Timeline
                 </Link>
-                <Link href="/contact" className="block text-center btn-gold text-sm py-2">
+                <Link href="/contact" className="block text-center btn-gold text-sm py-2.5">
                   Submit a Memory
                 </Link>
               </div>
             </div>
           </aside>
 
-          {/* Main Biography */}
+          {/* Main biography */}
           <main className="lg:col-span-2 order-1 lg:order-2">
 
             <section className="mb-10">
@@ -92,22 +93,22 @@ export default function AboutPage() {
                   Born in Lahore, with family roots in Subhan Pur, Kapurthala, Punjab, he witnessed
                   the Partition of India in 1947 — an experience that shaped his writing and
                   historical outlook throughout his life. In the late 1950s and early 1960s he
-                  travelled to London, England, to pursue advanced accountancy studies and qualify as
-                  a Chartered Accountant. Upon returning to Pakistan, he entered public service and
-                  built a distinguished career in civil aviation, ultimately rising to director-level
-                  responsibilities at the Pakistan Civil Aviation Authority.
+                  travelled to London to qualify as a Chartered Accountant. On returning to
+                  Pakistan, he entered public service and rose to director-level responsibilities
+                  at the Pakistan Civil Aviation Authority.
                 </p>
                 <p>
-                  After his retirement he settled in Vancouver, British Columbia, where he became a
-                  respected voice in the Pakistani-Canadian community. For more than twenty-five years
-                  he maintained a regular column in <em>The Miracle</em> newspaper, authoring over
-                  650 articles on history, current affairs, community life, and the experiences of
-                  the South Asian diaspora.
+                  After retiring he settled in Vancouver, British Columbia, where he became a
+                  respected voice in the Pakistani-Canadian community. For more than twenty-five
+                  years he maintained a regular column in <em>The Miracle</em> newspaper, authoring
+                  over 650 articles on history, current affairs, community life, and the experiences
+                  of the South Asian diaspora.
                 </p>
                 <p>
-                  He was a devoted Muslim and a deep student of Islamic spirituality — particularly
-                  the Sufi tradition and the works of Ibn Arabi. A beloved father, grandfather,
-                  and great-grandfather, he passed away in Vancouver in 2026 at the age of 93.
+                  He was a devoted Muslim and a serious student of Islamic spirituality —
+                  particularly the Sufi tradition and the works of Ibn Arabi. A devoted father,
+                  grandfather, and great-grandfather, he passed away on 30 May 2026 in Vancouver,
+                  aged 93.
                 </p>
               </div>
             </section>
@@ -120,7 +121,7 @@ export default function AboutPage() {
                 <p>
                   Aslam Hayat was born on 23 March 1933 in Lahore, in what was then British India.
                   His family&apos;s roots lay in Subhan Pur, Kapurthala, Punjab — a region whose
-                  history and culture would remain a source of deep personal significance throughout
+                  history and culture remained a source of deep personal significance throughout
                   his life.
                 </p>
                 <p>
@@ -139,13 +140,9 @@ export default function AboutPage() {
               <SectionHeader title="Education" goldDivider />
               <div className="prose-archive">
                 <p>
-                  Aslam Hayat received his early education at <strong>Muslim Model High School</strong>{' '}
-                  in Lahore, Pakistan.
-                </p>
-                <p>
-                  In the late 1950s and early 1960s, he travelled to London, England, where he
-                  pursued advanced accountancy studies and qualified as a{' '}
-                  <strong>Chartered Accountant</strong>.
+                  He received his early education at <strong>Muslim Model High School</strong>{' '}
+                  in Lahore. In the late 1950s and early 1960s he travelled to London, where he
+                  qualified as a <strong>Chartered Accountant</strong>.
                 </p>
               </div>
             </section>
@@ -156,11 +153,9 @@ export default function AboutPage() {
               <SectionHeader title="Professional Career" goldDivider />
               <div className="prose-archive">
                 <p>
-                  Upon returning to Pakistan, Aslam Hayat entered public service and built a
-                  distinguished career in civil aviation. Over the course of several decades, he
-                  served in increasingly senior leadership positions and ultimately rose to
-                  director-level responsibilities within the{' '}
-                  <strong>Pakistan Civil Aviation Authority (PCAA)</strong>.
+                  Upon returning to Pakistan, Aslam Hayat entered public service at the{' '}
+                  <strong>Pakistan Civil Aviation Authority (PCAA)</strong>. Over several decades
+                  he served in increasingly senior roles, rising to director-level responsibilities.
                 </p>
               </div>
             </section>
@@ -168,22 +163,18 @@ export default function AboutPage() {
             <hr className="section-divider" />
 
             <section className="mb-10">
-              <SectionHeader title="Writer &amp; Community Voice" goldDivider />
+              <SectionHeader title="Writing" goldDivider />
               <div className="prose-archive">
                 <p>
                   After settling in Vancouver, Aslam Hayat became one of the most prolific voices
                   in the Pakistani-Canadian community. For more than twenty-five years he maintained
                   a regular column in <em>The Miracle</em>, Vancouver&apos;s Pakistani community
-                  newspaper.
+                  newspaper — authoring more than <strong>650 articles</strong> covering history,
+                  current affairs, Islamic thought, and the experiences of the South Asian diaspora.
                 </p>
                 <p>
-                  During that period he authored more than <strong>650 articles</strong> covering
-                  history, current affairs, community issues, personal reflections, and the
-                  experiences of the South Asian diaspora in Canada.
-                </p>
-                <p>
-                  He was also active on Facebook in his later years, sharing thoughts, memories,
-                  and reflections with family, friends, and his wider community.
+                  He was also active on Facebook in his later years, sharing thoughts and
+                  reflections with family, friends, and his wider community.
                 </p>
               </div>
             </section>
@@ -197,15 +188,14 @@ export default function AboutPage() {
                   Aslam Hayat was a devoted Muslim who lived his faith deeply and consistently.
                   Beyond practice, he was a serious student of Islamic spirituality — particularly
                   the Sufi tradition and the writings of{' '}
-                  <strong>Ibn Arabi</strong>, the renowned Andalusian philosopher and mystic, whose
-                  works he studied extensively.
+                  <strong>Ibn Arabi</strong>, the Andalusian philosopher and mystic, whose works
+                  he studied extensively.
                 </p>
                 <p>
-                  His faith was not separate from his intellectual life — it was its foundation.
-                  It informed his writing, his sense of history, and the way he understood the
-                  human condition. He brought the same seriousness to spiritual study that he
-                  brought to his professional work, and he sought to pass that love of learning
-                  and depth of faith on to his children, grandchildren, and great-grandchildren.
+                  His faith informed his writing, his sense of history, and the way he understood
+                  the human condition. He brought the same seriousness to spiritual study that he
+                  brought to his professional work, and sought to pass that depth of faith on to
+                  his children, grandchildren, and great-grandchildren.
                 </p>
                 <p>
                   He taught those closest to him to read the Quran in Arabic, to make their prayers
@@ -215,79 +205,22 @@ export default function AboutPage() {
               </div>
             </section>
 
-            <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
-              <div>
-                <p className="font-playfair text-base text-green font-bold mb-1">Faith, Theology &amp; Spiritual Worldview</p>
-                <p className="font-lora text-sm text-gray-600">
-                  The Quran, Sunnah, Sufism, and his lifelong pursuit of spiritual understanding.
-                </p>
-              </div>
-              <Link href="/faith-theology-and-spirituality" className="btn-gold text-sm flex-shrink-0">
-                Read More
-              </Link>
-            </div>
-            <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
-              <div>
-                <p className="font-playfair text-base text-green font-bold mb-1">Scholarship &amp; Intellectual Influences</p>
-                <p className="font-lora text-sm text-gray-600">
-                  The scholars, mystics, and thinkers who shaped his intellectual world.
-                </p>
-              </div>
-              <Link href="/scholarship-and-spirituality" className="btn-gold text-sm flex-shrink-0">
-                Read More
-              </Link>
-            </div>
-            <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
-              <div>
-                <p className="font-playfair text-base text-green font-bold mb-1">Technology &amp; Lifelong Learning</p>
-                <p className="font-lora text-sm text-gray-600">
-                  His lifelong enthusiasm for technology — from the first colour television to AI.
-                </p>
-              </div>
-              <Link href="/technology-and-lifelong-learning" className="btn-gold text-sm flex-shrink-0">
-                Read More
-              </Link>
-            </div>
-            <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
-              <div>
-                <p className="font-playfair text-base text-green font-bold mb-1">Politics, Economics &amp; World Affairs</p>
-                <p className="font-lora text-sm text-gray-600">
-                  His lifelong engagement with Pakistan, international news, and public affairs.
-                </p>
-              </div>
-              <Link href="/politics-economics-and-world-affairs" className="btn-gold text-sm flex-shrink-0">
-                Read More
-              </Link>
-            </div>
-            <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-10">
-              <div>
-                <p className="font-playfair text-base text-green font-bold mb-1">Travels, Pilgrimage &amp; Exploration</p>
-                <p className="font-lora text-sm text-gray-600">
-                  The voyages, pilgrimages, and international journeys of a lifetime.
-                </p>
-              </div>
-              <Link href="/travels-pilgrimage-and-exploration" className="btn-gold text-sm flex-shrink-0">
-                Read More
-              </Link>
-            </div>
-
             <hr className="section-divider" />
 
             <section className="mb-10">
-              <SectionHeader title="Family &amp; Legacy" goldDivider />
+              <SectionHeader title="Family" goldDivider />
               <div className="prose-archive">
                 <p>
                   At the heart of everything was his family. Aslam Hayat was a devoted father,
                   grandfather, and great-grandfather.
                 </p>
                 <p>
-                  He had a uniquely close and profound relationship with his grandson{' '}
+                  He had a uniquely close relationship with his grandson{' '}
                   <strong>Zeeshan Hayat</strong>. To Zeeshan, he was far more than a grandfather:
-                  he was a father figure, mentor, teacher, spiritual guide, protector, and closest
-                  lifelong companion. When Zeeshan lost his mother at a young age, it was Aslam
-                  Hayat who stepped forward — helping to raise him, guiding him, and providing
-                  the love and stability a child needs. He taught Zeeshan to read the Quran, and
-                  instilled in him the values of education, faith, patience, humility, and service.
+                  a father figure, mentor, teacher, spiritual guide, and closest lifelong companion.
+                  When Zeeshan lost his mother at a young age, it was Aslam Hayat who stepped
+                  forward — raising him, guiding him, and instilling in him the values of
+                  education, faith, patience, and service.
                 </p>
               </div>
             </section>
@@ -299,14 +232,12 @@ export default function AboutPage() {
               <div className="prose-archive">
                 <p>
                   Aslam Hayat arrived in Canada in 1989 and settled in Vancouver, British Columbia.
+                  He passed away on <strong>30 May 2026</strong> in Vancouver, aged 93.
                 </p>
-                <p>
-                  He passed away on <strong>May 30, 2026</strong>, in Vancouver, aged 93.
-                </p>
-                <p>
+                <p className="text-lg text-center text-green font-playfair italic">
                   إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ
                 </p>
-                <p className="text-sm italic text-gray-600">
+                <p className="text-sm italic text-gray-500 text-center">
                   &ldquo;Indeed, we belong to Allah, and indeed to Him we shall return.&rdquo;
                 </p>
               </div>
@@ -314,6 +245,30 @@ export default function AboutPage() {
 
           </main>
         </div>
+
+        {/* Cross-links — at the end, after full biography */}
+        <div className="mt-6 pt-10 border-t border-cream-dark">
+          <p className="font-playfair text-base text-green font-bold mb-5">Explore Further</p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {[
+              { title: 'Faith, Theology & Spirituality', href: '/faith-theology-and-spirituality', desc: 'The Quran, Sunnah, Sufism, and his lifelong pursuit of spiritual understanding.' },
+              { title: 'Scholarship & Intellectual Influences', href: '/scholarship-and-spirituality', desc: 'The scholars, mystics, and thinkers who shaped his intellectual world.' },
+              { title: 'Technology & Lifelong Learning', href: '/technology-and-lifelong-learning', desc: 'From the first colour television to artificial intelligence.' },
+              { title: 'Politics, Economics & World Affairs', href: '/politics-economics-and-world-affairs', desc: 'His lifelong engagement with Pakistan, international news, and public affairs.' },
+              { title: 'Travels, Pilgrimage & Exploration', href: '/travels-pilgrimage-and-exploration', desc: 'The voyages, pilgrimages, and international journeys of a lifetime.' },
+              { title: 'Family Tributes', href: '/tributes', desc: 'Remembrances from those who loved him most — in their own words.' },
+            ].map(({ title, href, desc }) => (
+              <div key={href} className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
+                <div>
+                  <p className="font-playfair text-sm text-green font-bold mb-1 leading-snug">{title}</p>
+                  <p className="font-lora text-xs text-gray-500 leading-relaxed">{desc}</p>
+                </div>
+                <Link href={href} className="btn-gold text-sm text-center">Explore</Link>
+              </div>
+            ))}
+          </div>
+        </div>
+
       </div>
     </div>
   );

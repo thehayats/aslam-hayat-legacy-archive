@@ -25,35 +25,19 @@ export default function GalleryPage() {
   return (
     <div className="min-h-screen">
       {/* Page Header */}
-      <div className="bg-green py-14 md:py-18">
+      <div className="bg-green py-16 md:py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-playfair text-4xl md:text-5xl text-cream-light font-bold mb-4">
             Photo Gallery
           </h1>
           <p className="font-lora text-base text-cream-dark italic max-w-xl mx-auto opacity-80">
-            Moments from a life richly lived — family gatherings, public service, personal joys,
-            and the quiet dignity of a man who gave his best to all who knew him.
+            Photographs from across his life — Pakistan, London, Canada, Makkah, and Istanbul.
           </p>
           <div className="gold-divider mt-5" />
         </div>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        {/* Stats bar */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-12">
-          {[
-            { value: photos.filter((p) => !p.src.includes('placeholder')).length, label: 'Photographs' },
-            { value: categories.length, label: 'Categories' },
-            { value: featuredPhotos.length, label: 'Featured' },
-            { value: '4+', label: 'Countries' },
-          ].map(({ value, label }) => (
-            <div key={label} className="bg-parchment border border-cream-dark rounded-lg p-4 text-center">
-              <p className="font-playfair text-3xl text-green font-bold">{value}</p>
-              <p className="font-lora text-xs text-gray-500 mt-1">{label}</p>
-            </div>
-          ))}
-        </div>
-
         {/* Featured Photographs — premium two-tier layout */}
         {featuredPhotos.length > 0 && (
           <section className="mb-14">

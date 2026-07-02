@@ -20,7 +20,7 @@ export default function ContactPage() {
             Submit a Memory
           </h1>
           <p className="font-lora text-lg text-cream-dark italic max-w-xl mx-auto">
-            Every memory matters. Help us preserve the complete picture of a remarkable life.
+            Every memory matters. Help preserve the record of his life.
           </p>
           <div className="gold-divider mt-6" />
         </div>

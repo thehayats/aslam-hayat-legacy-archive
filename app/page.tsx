@@ -466,7 +466,7 @@ export default function HomePage() {
             community, through his years in public service in Pakistan, or simply as a beloved member
             of the family — every memory matters and every contribution enriches this archive.
           </p>
-          <Link href="/contact" className="btn-primary text-lg">Submit Your Memory</Link>
+          <Link href="/contact" className="btn-primary">Submit Your Memory</Link>
         </div>
       </section>
     </>

@@ -25,8 +25,7 @@ export default function TimelinePage() {
             Life Timeline
           </h1>
           <p className="font-lora text-lg text-cream-dark italic max-w-xl mx-auto">
-            A chronological journey through the milestones, achievements, and defining moments
-            of Aslam Hayat&apos;s life.
+            A chronology of his life — from Lahore to London to Vancouver.
           </p>
           <div className="gold-divider mt-6" />
         </div>
@@ -35,7 +34,7 @@ export default function TimelinePage() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <SectionHeader
           title="A Life in Full"
-          subtitle="From Pakistan to London to Canada — each entry marks a chapter in a remarkable life."
+          subtitle="From Pakistan to London to Canada — each entry marks a chapter of his life."
           centered
         />
 
@@ -47,7 +46,7 @@ export default function TimelinePage() {
             { label: 'Career', color: 'bg-green text-cream' },
             { label: 'Family', color: 'bg-gold-dark text-cream' },
           ].map(({ label, color }) => (
-            <span key={label} className={`text-xs font-lora px-3 py-1 rounded-full ${color}`}>
+            <span key={label} className={`text-xs font-lora px-3 py-1 rounded ${color}`}>
               {label}
             </span>
           ))}
@@ -84,21 +83,21 @@ export default function TimelinePage() {
               <p className="font-playfair text-sm text-green font-bold mb-1">Technology &amp; Lifelong Learning</p>
               <p className="font-lora text-xs text-gray-600">From colour television to artificial intelligence.</p>
             </div>
-            <Link href="/technology-and-lifelong-learning" className="btn-gold text-xs text-center py-2">Explore</Link>
+            <Link href="/technology-and-lifelong-learning" className="btn-gold text-sm text-center">Explore</Link>
           </div>
           <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
             <div>
               <p className="font-playfair text-sm text-green font-bold mb-1">Politics &amp; World Affairs</p>
               <p className="font-lora text-xs text-gray-600">Pakistan, international news, and public life.</p>
             </div>
-            <Link href="/politics-economics-and-world-affairs" className="btn-gold text-xs text-center py-2">Explore</Link>
+            <Link href="/politics-economics-and-world-affairs" className="btn-gold text-sm text-center">Explore</Link>
           </div>
           <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
             <div>
               <p className="font-playfair text-sm text-green font-bold mb-1">Travels &amp; Pilgrimage</p>
               <p className="font-lora text-xs text-gray-600">Sea voyage to London, Makkah, Turkey, and beyond.</p>
             </div>
-            <Link href="/travels-pilgrimage-and-exploration" className="btn-gold text-xs text-center py-2">Explore</Link>
+            <Link href="/travels-pilgrimage-and-exploration" className="btn-gold text-sm text-center">Explore</Link>
           </div>
         </div>
 

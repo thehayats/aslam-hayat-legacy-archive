@@ -20,7 +20,7 @@ export default function BlogPage() {
       <div className="bg-green py-16 md:py-20">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="font-playfair text-4xl md:text-5xl text-cream-light font-bold mb-4">
-            Blog
+            Archive Notes
           </h1>
           <p className="font-lora text-lg text-cream-dark italic max-w-xl mx-auto">
             Notes and reflections from the archive — on his life, his writing, and the project
@@ -31,10 +31,7 @@ export default function BlogPage() {
       </div>
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
-        <SectionHeader
-          title="All Posts"
-          subtitle={`${posts.length} post${posts.length !== 1 ? 's' : ''} in the archive`}
-        />
+        <SectionHeader title="All Posts" />
 
         {posts.length > 0 ? (
           <div className="grid md:grid-cols-2 gap-6">
