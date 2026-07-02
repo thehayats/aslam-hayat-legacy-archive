@@ -17,16 +17,10 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen">
       {/* Page Header */}
-      <div className="bg-green py-16 md:py-20">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-playfair text-4xl md:text-5xl text-cream-light font-bold mb-4">
-            Archive Notes
-          </h1>
-          <p className="font-lora text-lg text-cream-dark italic max-w-xl mx-auto">
-            Notes and reflections from the archive — on his life, his writing, and the project
-            of preservation itself.
-          </p>
-          <div className="gold-divider mt-6" />
+      <div className="border-b border-cream-dark">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+          <h1 className="font-playfair text-2xl text-green font-bold">Archive Notes</h1>
+          <p className="font-lora text-sm text-gray-500 mt-1">Notes and reflections on the archive and the life behind it.</p>
         </div>
       </div>
 

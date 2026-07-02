@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import SectionHeader from '@/components/ui/SectionHeader';
 import { buildMetadata } from '@/components/seo/MetaTags';
 
@@ -51,54 +50,34 @@ const writingTopics = [
 export default function ScholarshipPage() {
   return (
     <div className="min-h-screen">
-      {/* Hero */}
-      <div className="bg-green py-16 md:py-20">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="arabic-text text-gold text-2xl md:text-3xl mb-4 font-urdu">
+
+      <div className="bg-parchment border-b border-cream-dark">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6 text-center">
+          <p className="arabic-text text-gold text-xl font-urdu mb-2">
             اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ
           </p>
-          <p className="font-lora text-sm text-cream-dark italic mb-6 opacity-80">
-            &ldquo;Read in the name of your Lord who created.&rdquo; — Quran 96:1
+          <p className="font-lora text-xs text-gray-500 italic mb-3">
+            &ldquo;Read in the name of your Lord who created.&rdquo; &mdash; Quran 96:1
           </p>
-          <h1 className="font-playfair text-4xl md:text-5xl text-cream-light font-bold mb-4">
+          <h1 className="font-playfair text-2xl md:text-3xl text-green font-bold">
             Scholarship &amp; Spirituality
           </h1>
-          <p className="font-lora text-lg text-cream-dark italic max-w-2xl mx-auto">
-            A lifelong pursuit of wisdom — across Islamic tradition, world thought, and the sciences
-          </p>
-          <div className="gold-divider mt-6" />
         </div>
       </div>
 
-      {/* Intro */}
-      <section className="bg-parchment border-b border-cream-dark py-12 md:py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose-archive text-center max-w-3xl mx-auto">
-            <p className="text-lg md:text-xl leading-relaxed text-gray-700">
-              Aslam Hayat built his professional career in accountancy and civil aviation. He spent his
-              personal life building a library. By the time he passed away, he had accumulated thousands
-              of books spanning Islamic theology, Sufi philosophy, world history, comparative religion,
-              cosmology, and political thought.
-            </p>
-            <p className="text-base leading-relaxed text-gray-600 mt-4">
-              The books he surrounded himself with were not decoration. He read them. He marked them.
-              He returned to them. They fed directly into 650 published articles and a way of seeing
-              the world that everyone who knew him recognised.
-            </p>
-          </div>
-        </div>
-      </section>
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-16">
-
-        {/* ── 1. Islamic Scholarship & Sufism ── */}
         <section>
-          <SectionHeader
-            title="Islamic Scholarship &amp; Sufism"
-            subtitle="The scholars, saints, and mystics whose writings shaped his spiritual life"
-            goldDivider
-          />
+          <SectionHeader title="Islamic Scholarship &amp; Sufism" goldDivider />
           <div className="prose-archive mb-8">
+            <p>
+              Aslam Hayat built his professional career in accountancy and civil aviation. He spent
+              his personal life building a library. By the time he passed away, he had accumulated
+              thousands of books spanning Islamic theology, Sufi philosophy, world history,
+              comparative religion, cosmology, and political thought. The books were not decoration.
+              He read them. He marked them. He returned to them. They fed directly into 650 published
+              articles and a way of seeing the world that everyone who knew him recognised.
+            </p>
             <p>
               For decades he read the major figures in the Islamic tradition of Tasawwuf —
               scholars, saints, philosophers, and mystics who addressed the inner dimensions
@@ -118,13 +97,8 @@ export default function ScholarshipPage() {
           </div>
         </section>
 
-        {/* ── 2. Ibn Arabi and Spiritual Philosophy ── */}
         <section>
-          <SectionHeader
-            title="Ibn Arabi &amp; Spiritual Philosophy"
-            subtitle="The thinker who occupied the most central place in his studies"
-            goldDivider
-          />
+          <SectionHeader title="Ibn Arabi &amp; Spiritual Philosophy" goldDivider />
           <div className="bg-green rounded-lg p-8 md:p-10">
             <div className="max-w-3xl mx-auto text-center">
               <p className="font-playfair text-3xl text-gold opacity-60 mb-3">&ldquo;</p>
@@ -153,24 +127,15 @@ export default function ScholarshipPage() {
           </div>
         </section>
 
-        {/* ── 3. Comparative Religion & World Thought ── */}
         <section>
-          <SectionHeader
-            title="Comparative Religion &amp; World Thought"
-            subtitle="A mind open to wisdom across traditions"
-            goldDivider
-          />
+          <SectionHeader title="Comparative Religion &amp; World Thought" goldDivider />
           <div className="prose-archive mb-8">
             <p>
               Although deeply rooted in Islamic tradition, Aslam Hayat never limited himself to a
-              single intellectual framework. He believed that meaningful understanding often emerged
-              through dialogue between traditions and disciplines. As a result, he regularly explored
-              works written by thinkers from diverse religious, philosophical, and scientific
-              backgrounds.
-            </p>
-            <p>
-              These writers introduced perspectives on spirituality, comparative religion, compassion,
-              consciousness, and the shared ethical values that connect humanity across cultures.
+              single intellectual framework. He regularly explored works written by thinkers from
+              diverse religious, philosophical, and scientific backgrounds — writers who addressed
+              spirituality, compassion, consciousness, and the shared ethical values that connect
+              humanity across cultures.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -186,26 +151,17 @@ export default function ScholarshipPage() {
           </div>
         </section>
 
-        {/* ── 4. Science, Cosmology & Human Knowledge ── */}
         <section>
-          <SectionHeader
-            title="Science, Cosmology &amp; Human Knowledge"
-            subtitle="The questions that connect scientific discovery to spiritual understanding"
-            goldDivider
-          />
+          <SectionHeader title="Science, Cosmology &amp; Human Knowledge" goldDivider />
           <div className="prose-archive mb-8">
             <p>
-              Aslam Hayat was equally fascinated by scientific inquiry and humanity&apos;s search
-              to understand the universe. He was particularly interested in questions concerning the
-              origins of the universe, time, consciousness, human knowledge, and the relationship
-              between scientific discovery and spiritual understanding.
-            </p>
-            <p>
-              Rather than viewing science and spirituality as opposing forces, he often regarded them
-              as complementary efforts to understand reality from different perspectives.
+              He was particularly interested in questions concerning the origins of the universe,
+              time, consciousness, and the relationship between scientific discovery and spiritual
+              understanding. Rather than viewing science and spirituality as opposing forces, he
+              regarded them as complementary efforts to understand reality.
             </p>
           </div>
-          <div className="grid sm:grid-cols-2 gap-4 mb-8">
+          <div className="grid sm:grid-cols-2 gap-4">
             {scientificThinkers.map(({ name, note }) => (
               <div
                 key={name}
@@ -218,22 +174,17 @@ export default function ScholarshipPage() {
           </div>
         </section>
 
-        {/* ── 5. Writing and Intellectual Legacy ── */}
         <section>
-          <SectionHeader
-            title="Writing &amp; Intellectual Legacy"
-            subtitle="How a lifetime of reading shaped 650 published articles"
-            goldDivider
-          />
-          <div className="prose-archive mb-8">
+          <SectionHeader title="Writing &amp; Intellectual Legacy" goldDivider />
+          <div className="prose-archive mb-6">
             <p>
               The influence of these scholars and thinkers found direct expression in his own writing.
-              Over a period spanning more than twenty-five years, Aslam Hayat published over{' '}
+              Over more than twenty-five years, Aslam Hayat published over{' '}
               <strong>650 articles</strong> in Vancouver&apos;s Pakistani community newspaper,{' '}
               <em>The Miracle</em>. His writings frequently explored:
             </p>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {writingTopics.map((topic) => (
               <div
                 key={topic}
@@ -244,19 +195,7 @@ export default function ScholarshipPage() {
               </div>
             ))}
           </div>
-          <div className="mt-6 flex flex-col sm:flex-row gap-3">
-            <Link href="/articles" className="btn-primary text-center">
-              Browse His Articles
-            </Link>
-            <Link href="/faith-theology-and-spirituality" className="btn-gold text-center">
-              Faith &amp; Theology
-            </Link>
-            <Link href="/about" className="btn-gold text-center">
-              Biography
-            </Link>
-          </div>
         </section>
-
 
       </div>
 

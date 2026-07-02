@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import SectionHeader from '@/components/ui/SectionHeader';
 import { buildMetadata } from '@/components/seo/MetaTags';
 
@@ -35,59 +34,34 @@ export default function FaithPage() {
   return (
     <div className="min-h-screen">
 
-      {/* ── Hero ── */}
-      <div className="bg-green py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="arabic-text text-gold text-3xl md:text-4xl mb-3 font-urdu leading-loose">
+      <div className="bg-parchment border-b border-cream-dark">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6 text-center">
+          <p className="arabic-text text-gold text-2xl font-urdu mb-3 leading-loose">
             بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
           </p>
-          <p className="font-lora text-sm text-cream-dark italic mb-8 opacity-80">
-            In the name of Allah, the Most Gracious, the Most Merciful
-          </p>
-          <div className="gold-divider mb-8" />
-          <h1 className="font-playfair text-4xl md:text-5xl text-cream-light font-bold mb-5 leading-tight">
-            Faith, Theology &amp;<br className="hidden sm:block" /> Spiritual Worldview
+          <h1 className="font-playfair text-2xl md:text-3xl text-green font-bold">
+            Faith, Theology &amp; Spiritual Worldview
           </h1>
-          <p className="font-lora text-lg text-cream-dark italic max-w-2xl mx-auto leading-relaxed">
-            The Quran, the Sunnah, Islamic spirituality,
-            and the deeper questions of human existence
-          </p>
-          <div className="gold-divider mt-8" />
         </div>
       </div>
 
-      {/* ── Intro ── */}
-      <section className="bg-parchment border-b border-cream-dark py-12 md:py-16">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="font-lora text-lg md:text-xl text-gray-700 leading-relaxed text-center mb-6">
-            When Aslam Hayat passed away in May 2026, his home was full of books — on Quranic
-            exegesis, Islamic philosophy, Sufi metaphysics, comparative religion, and the
-            sciences. He had been reading them until very close to the end.
-          </p>
-          <p className="font-lora text-base text-gray-600 leading-relaxed text-center">
-            For him, faith was not separate from learning. It was the reason for it. The Quranic
-            command to read — <em>iqra</em> — was the instruction he spent his life following.
-          </p>
-        </div>
-      </section>
+      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
 
-      {/* ── Main content ── */}
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-16">
-
-        {/* 1. Library */}
         <section>
           <SectionHeader title="A Personal Library" goldDivider />
           <div className="prose-archive">
             <p>
-              For decades, Aslam Hayat built a personal library spanning theology, Quranic
-              interpretation, Sufi philosophy, prophetic traditions, history, and comparative
-              religion. Those who knew him recall finding him reading at almost any hour —
-              annotating texts, returning to the same books across years, keeping handwritten notes.
+              When Aslam Hayat passed away in May 2026, his home was full of books — on Quranic
+              exegesis, Islamic philosophy, Sufi metaphysics, comparative religion, and the
+              sciences. He had been reading them until very close to the end. For decades, he
+              had built a personal library spanning theology, Sufi philosophy, prophetic traditions,
+              history, and comparative religion. Those who knew him recall finding him reading at
+              almost any hour — annotating texts, returning to the same books across years,
+              keeping handwritten notes.
             </p>
           </div>
         </section>
 
-        {/* 2. The Quran */}
         <section>
           <SectionHeader title="The Quran" goldDivider />
           <div className="prose-archive">
@@ -101,7 +75,6 @@ export default function FaithPage() {
           </div>
         </section>
 
-        {/* 3. Sunnah */}
         <section>
           <SectionHeader title="The Sunnah" goldDivider />
           <div className="prose-archive">
@@ -114,7 +87,6 @@ export default function FaithPage() {
           </div>
         </section>
 
-        {/* 4. Sufism */}
         <section>
           <SectionHeader title="Sufism" goldDivider />
           <div className="prose-archive mb-6">
@@ -124,7 +96,7 @@ export default function FaithPage() {
               (dhikr), spiritual awareness, and the inner dimensions of practice.
             </p>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-8">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {sufiScholars.map((name) => (
               <div
                 key={name}
@@ -136,7 +108,6 @@ export default function FaithPage() {
           </div>
         </section>
 
-        {/* 5. Divine Names */}
         <section>
           <SectionHeader title="The Divine Names" goldDivider />
           <div className="prose-archive">
@@ -149,10 +120,9 @@ export default function FaithPage() {
           </div>
         </section>
 
-        {/* 6. Ibn Arabi */}
         <section>
           <SectionHeader title="Ibn Arabi" goldDivider />
-          <div className="bg-green rounded-lg p-7 md:p-10 mb-6">
+          <div className="bg-green rounded-lg p-7 md:p-10">
             <div className="max-w-2xl mx-auto">
               <p className="font-lora text-base md:text-lg text-cream-light leading-relaxed mb-4">
                 Among the scholars he studied, Muhyiddin Ibn Arabi held a particularly
@@ -170,7 +140,6 @@ export default function FaithPage() {
           </div>
         </section>
 
-        {/* 7. Science */}
         <section>
           <SectionHeader title="Science and Faith" goldDivider />
           <div className="prose-archive">
@@ -184,7 +153,6 @@ export default function FaithPage() {
           </div>
         </section>
 
-        {/* 8. Comparative Religion */}
         <section>
           <SectionHeader title="Comparative Religion" goldDivider />
           <div className="prose-archive mb-6">
@@ -206,30 +174,6 @@ export default function FaithPage() {
           </div>
         </section>
 
-      </div>
-
-      {/* Cross-links */}
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-14">
-        <div className="grid sm:grid-cols-2 gap-4">
-          <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
-            <div>
-              <p className="font-playfair text-base text-green font-bold mb-1">Travels, Pilgrimage &amp; Exploration</p>
-              <p className="font-lora text-sm text-gray-600">
-                The pilgrimages to Makkah and Madinah and the journeys that deepened his faith.
-              </p>
-            </div>
-            <Link href="/travels-pilgrimage-and-exploration" className="btn-gold text-sm text-center">Explore</Link>
-          </div>
-          <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
-            <div>
-              <p className="font-playfair text-base text-green font-bold mb-1">Scholarship &amp; Intellectual Influences</p>
-              <p className="font-lora text-sm text-gray-600">
-                The scholars, saints, and thinkers he read — and how they shaped 650 published articles.
-              </p>
-            </div>
-            <Link href="/scholarship-and-spirituality" className="btn-gold text-sm text-center">Explore</Link>
-          </div>
-        </div>
       </div>
 
     </div>

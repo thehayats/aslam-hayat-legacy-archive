@@ -25,15 +25,10 @@ export default function GalleryPage() {
   return (
     <div className="min-h-screen">
       {/* Page Header */}
-      <div className="bg-green py-16 md:py-20">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-playfair text-4xl md:text-5xl text-cream-light font-bold mb-4">
-            Photo Gallery
-          </h1>
-          <p className="font-lora text-base text-cream-dark italic max-w-xl mx-auto opacity-80">
-            Photographs from across his life — Pakistan, London, Canada, Makkah, and Istanbul.
-          </p>
-          <div className="gold-divider mt-5" />
+      <div className="border-b border-cream-dark">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+          <h1 className="font-playfair text-2xl text-green font-bold">Photo Gallery</h1>
+          <p className="font-lora text-sm text-gray-500 mt-1">Photographs from across his life — Pakistan, London, Canada, Makkah, and Istanbul.</p>
         </div>
       </div>
 

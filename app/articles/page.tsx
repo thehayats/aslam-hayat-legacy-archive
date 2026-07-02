@@ -19,15 +19,10 @@ export default function ArticlesPage() {
   return (
     <div className="min-h-screen">
       {/* Page Header */}
-      <div className="bg-green py-16 md:py-20">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-playfair text-4xl md:text-5xl text-cream-light font-bold mb-4">
-            Articles
-          </h1>
-          <p className="font-lora text-lg text-cream-dark italic max-w-xl mx-auto">
-            Original Urdu writings and their English translations, preserved as he published them.
-          </p>
-          <div className="gold-divider mt-6" />
+      <div className="border-b border-cream-dark">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+          <h1 className="font-playfair text-2xl text-green font-bold">Articles</h1>
+          <p className="font-lora text-sm text-gray-500 mt-1">Original Urdu writings and their English translations, preserved as he published them.</p>
         </div>
       </div>
 

@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import SectionHeader from '@/components/ui/SectionHeader';
 import { buildMetadata } from '@/components/seo/MetaTags';
 
@@ -32,28 +31,21 @@ export default function TravelsPage() {
   return (
     <div className="min-h-screen">
 
-      {/* Hero */}
-      <div className="bg-green py-16 md:py-20">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-playfair text-4xl md:text-5xl text-cream-light font-bold mb-4">
+      <div className="bg-parchment border-b border-cream-dark">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+          <h1 className="font-playfair text-2xl md:text-3xl text-green font-bold">
             Travels, Pilgrimage &amp; Exploration
           </h1>
-          <p className="font-lora text-lg text-cream-dark italic max-w-2xl mx-auto">
-            From a sea voyage past Gibraltar to the sacred cities of Makkah and Madinah
+          <p className="font-lora text-sm text-gray-500 mt-1.5">
+            From a sea voyage past Gibraltar to Makkah, Madinah, and Istanbul.
           </p>
-          <div className="gold-divider mt-6" />
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-16">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
 
-        {/* ── 1. The Voyage to London ── */}
         <section>
-          <SectionHeader
-            title="The Voyage to London by Sea"
-            subtitle="His first journey outside Pakistan — and one of his most vivid memories"
-            goldDivider
-          />
+          <SectionHeader title="The Voyage to London by Sea" goldDivider />
           <div className="bg-green rounded-lg p-8 md:p-10 mb-8">
             <div className="max-w-3xl mx-auto text-center">
               <p className="font-playfair text-3xl text-gold opacity-60 mb-3">&ldquo;</p>
@@ -89,13 +81,8 @@ export default function TravelsPage() {
           </div>
         </section>
 
-        {/* ── 2. Makkah & Madinah ── */}
         <section>
-          <SectionHeader
-            title="Makkah &amp; Madinah — The Sacred Journeys"
-            subtitle="Among the most treasured experiences of his life"
-            goldDivider
-          />
+          <SectionHeader title="Makkah &amp; Madinah — The Sacred Journeys" goldDivider />
           <div className="prose-archive mb-8">
             <p>
               He made multiple pilgrimages to Makkah and Madinah over the course of his life.
@@ -124,13 +111,8 @@ export default function TravelsPage() {
           </div>
         </section>
 
-        {/* ── 3. Travels with Family ── */}
         <section>
-          <SectionHeader
-            title="Travels with Family"
-            subtitle="Journeys shared with Zeeshan Hayat and other family members across continents"
-            goldDivider
-          />
+          <SectionHeader title="Travels with Family" goldDivider />
           <div className="prose-archive bg-parchment border border-cream-dark rounded-lg p-6 md:p-8">
             <p>
               In later years, many of his most cherished journeys were shared with his grandson,
@@ -145,13 +127,8 @@ export default function TravelsPage() {
           </div>
         </section>
 
-        {/* ── 4. Turkey 2008 ── */}
         <section>
-          <SectionHeader
-            title="Turkey, 2008 — Istanbul"
-            subtitle="One of his favourite international trips — a journey through Ottoman civilisation"
-            goldDivider
-          />
+          <SectionHeader title="Turkey, 2008 — Istanbul" goldDivider />
           <div className="prose-archive mb-8">
             <p>
               One of his favourite international trips took place in 2008 when he travelled through
@@ -174,14 +151,9 @@ export default function TravelsPage() {
           </div>
         </section>
 
-        {/* ── 5. Other Destinations ── */}
         <section>
-          <SectionHeader
-            title="A World Explored"
-            subtitle="The countries and places he visited across a lifetime of travel"
-            goldDivider
-          />
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+          <SectionHeader title="A World Explored" goldDivider />
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {destinations.map(({ name, note }) => (
               <div
                 key={name}
@@ -193,28 +165,6 @@ export default function TravelsPage() {
             ))}
           </div>
         </section>
-
-        {/* Cross-links */}
-        <div className="grid sm:grid-cols-2 gap-4">
-          <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
-            <div>
-              <p className="font-playfair text-base text-green font-bold mb-1">Faith, Theology &amp; Spirituality</p>
-              <p className="font-lora text-sm text-gray-600">
-                The faith that gave the pilgrimages their meaning — a lifelong spiritual pursuit.
-              </p>
-            </div>
-            <Link href="/faith-theology-and-spirituality" className="btn-gold text-sm text-center">Explore</Link>
-          </div>
-          <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col justify-between gap-4">
-            <div>
-              <p className="font-playfair text-base text-green font-bold mb-1">Politics, Economics &amp; World Affairs</p>
-              <p className="font-lora text-sm text-gray-600">
-                His engagement with the countries and events he encountered through a lifetime of reading.
-              </p>
-            </div>
-            <Link href="/politics-economics-and-world-affairs" className="btn-gold text-sm text-center">Explore</Link>
-          </div>
-        </div>
 
       </div>
 

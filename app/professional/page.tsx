@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import SectionHeader from '@/components/ui/SectionHeader';
 import { buildMetadata } from '@/components/seo/MetaTags';
 
@@ -13,15 +12,10 @@ export const metadata: Metadata = buildMetadata({
 export default function ProfessionalPage() {
   return (
     <div className="min-h-screen">
-      <div className="bg-green py-16 md:py-20">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-playfair text-4xl md:text-5xl text-cream-light font-bold mb-4">
-            Professional Profile
-          </h1>
-          <p className="font-lora text-lg text-cream-dark italic max-w-2xl mx-auto">
-            Chartered Accountant &middot; Civil Aviation Executive &middot; Community Writer
-          </p>
-          <div className="gold-divider mt-6" />
+      <div className="bg-parchment border-b border-cream-dark">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+          <h1 className="font-playfair text-2xl md:text-3xl text-green font-bold">Professional Profile</h1>
+          <p className="font-lora text-sm text-gray-500 mt-1.5">Chartered Accountant · Civil Aviation Executive · Community Writer</p>
         </div>
       </div>
 
@@ -106,16 +100,6 @@ export default function ProfessionalPage() {
           </div>
         </section>
 
-        {/* Invitation */}
-        <div className="bg-green rounded-lg p-6 text-center">
-          <p className="font-lora text-base text-cream-dark leading-relaxed mb-4">
-            If you knew Aslam Hayat professionally and would like to contribute verified
-            information to this section, the family would be grateful to hear from you.
-          </p>
-          <Link href="/contact" className="btn-gold">
-            Share What You Know
-          </Link>
-        </div>
 
       </div>
     </div>

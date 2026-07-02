@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Link from 'next/link';
 import SectionHeader from '@/components/ui/SectionHeader';
 import { buildMetadata } from '@/components/seo/MetaTags';
 
@@ -13,22 +12,17 @@ export const metadata: Metadata = buildMetadata({
 export default function PersonalPage() {
   return (
     <div className="min-h-screen">
-      <div className="bg-green py-16 md:py-20">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-playfair text-4xl md:text-5xl text-cream-light font-bold mb-4">
-            The Man, The Family Elder
-          </h1>
-          <p className="font-lora text-lg text-cream-dark italic max-w-xl mx-auto">
-            Father &middot; Grandfather &middot; Teacher of Faith &middot; Writer &middot; Community Member
-          </p>
-          <div className="gold-divider mt-6" />
+
+      <div className="bg-parchment border-b border-cream-dark">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+          <h1 className="font-playfair text-2xl md:text-3xl text-green font-bold">The Man, The Family Elder</h1>
+          <p className="font-lora text-sm text-gray-500 mt-1.5">Father · Grandfather · Teacher of Faith · Writer · Community Member</p>
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-12">
 
-        {/* Early Life & Origins */}
-        <section className="mb-14">
+        <section>
           <SectionHeader title="Origins &amp; Early Life" goldDivider />
           <div className="prose-archive bg-parchment border border-cream-dark rounded-lg p-6 md:p-8">
             <p>
@@ -44,8 +38,7 @@ export default function PersonalPage() {
           </div>
         </section>
 
-        {/* Partition */}
-        <section className="mb-14">
+        <section>
           <SectionHeader title="The Partition of India, 1947" goldDivider />
           <div className="prose-archive">
             <p>
@@ -65,8 +58,7 @@ export default function PersonalPage() {
           </div>
         </section>
 
-        {/* Family Man */}
-        <section className="mb-14">
+        <section>
           <SectionHeader title="Father &amp; Family Elder" goldDivider />
           <div className="prose-archive bg-parchment border border-cream-dark rounded-lg p-6 md:p-8">
             <p>
@@ -77,8 +69,7 @@ export default function PersonalPage() {
           </div>
         </section>
 
-        {/* Zeeshan */}
-        <section className="mb-14">
+        <section>
           <SectionHeader title="His Relationship with Zeeshan Hayat" goldDivider />
           <div className="prose-archive">
             <p>
@@ -99,8 +90,7 @@ export default function PersonalPage() {
           </div>
         </section>
 
-        {/* Faith & Spirituality */}
-        <section className="mb-14">
+        <section>
           <SectionHeader title="Faith &amp; Spiritual Life" goldDivider />
           <div className="prose-archive">
             <p>
@@ -124,33 +114,7 @@ export default function PersonalPage() {
           </div>
         </section>
 
-        {/* Faith cross-link */}
-        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
-          <div>
-            <p className="font-playfair text-base text-green font-bold mb-1">Faith, Theology &amp; Spiritual Worldview</p>
-            <p className="font-lora text-sm text-gray-600">
-              The Quran, Sunnah, Sufism, the Divine Names — a lifelong pursuit of spiritual understanding.
-            </p>
-          </div>
-          <Link href="/faith-theology-and-spirituality" className="btn-gold text-sm flex-shrink-0">
-            Explore
-          </Link>
-        </div>
-        {/* Scholarship cross-link */}
-        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-14">
-          <div>
-            <p className="font-playfair text-base text-green font-bold mb-1">Scholarship &amp; Intellectual Influences</p>
-            <p className="font-lora text-sm text-gray-600">
-              The scholars, mystics, scientists, and world thinkers who shaped his intellectual life.
-            </p>
-          </div>
-          <Link href="/scholarship-and-spirituality" className="btn-gold text-sm flex-shrink-0">
-            Explore
-          </Link>
-        </div>
-
-        {/* Writer */}
-        <section className="mb-14">
+        <section>
           <SectionHeader title="Writer &amp; Community Voice" goldDivider />
           <div className="prose-archive">
             <p>
@@ -158,7 +122,8 @@ export default function PersonalPage() {
               him the precision and register he needed — a literary language with centuries of
               intellectual tradition behind it. For more than twenty-five years, week after week,
               he contributed a column to <em>The Miracle</em>, Vancouver&apos;s Pakistani community
-              newspaper, and in doing so produced a body of work that exceeds <strong>650 articles</strong>.
+              newspaper, and in doing so produced a body of work that exceeds{' '}
+              <strong>650 articles</strong>.
             </p>
             <p>
               Those articles weren&apos;t opinion pieces. They were researched, argued, historically
@@ -174,76 +139,16 @@ export default function PersonalPage() {
           </div>
         </section>
 
-        {/* Life in Canada */}
-        <section className="mb-14">
+        <section>
           <SectionHeader title="Life in Canada" goldDivider />
           <div className="prose-archive">
             <p>
               Aslam Hayat arrived in Canada in 1989 and made his home in Vancouver, British
               Columbia. He remained a beloved presence in his family and in the
-              Pakistani-Canadian community until his passing on May 30, 2026, aged 93.
+              Pakistani-Canadian community until his passing on 30 May 2026, aged 93.
             </p>
           </div>
         </section>
-
-        {/* New sections cross-links */}
-        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
-          <div>
-            <p className="font-playfair text-base text-green font-bold mb-1">Technology &amp; Lifelong Learning</p>
-            <p className="font-lora text-sm text-gray-600">
-              Born in 1933, curious about AI in his nineties — he was always the first to own the newest device.
-            </p>
-          </div>
-          <Link href="/technology-and-lifelong-learning" className="btn-gold text-sm flex-shrink-0">
-            Explore
-          </Link>
-        </div>
-        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
-          <div>
-            <p className="font-playfair text-base text-green font-bold mb-1">Politics, Economics &amp; World Affairs</p>
-            <p className="font-lora text-sm text-gray-600">
-              Pakistani news was always on in his home. He followed events with care and had strong views.
-            </p>
-          </div>
-          <Link href="/politics-economics-and-world-affairs" className="btn-gold text-sm flex-shrink-0">
-            Explore
-          </Link>
-        </div>
-        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
-          <div>
-            <p className="font-playfair text-base text-green font-bold mb-1">Travels, Pilgrimage &amp; Exploration</p>
-            <p className="font-lora text-sm text-gray-600">
-              He sailed to London as a young man past Gibraltar, and performed Hajj multiple times.
-            </p>
-          </div>
-          <Link href="/travels-pilgrimage-and-exploration" className="btn-gold text-sm flex-shrink-0">
-            Explore
-          </Link>
-        </div>
-
-        {/* Tributes cross-link */}
-        <div className="bg-parchment border border-cream-dark rounded-lg p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
-          <div>
-            <p className="font-playfair text-base text-green font-bold mb-1">Family Tributes</p>
-            <p className="font-lora text-sm text-gray-600">
-              Remembrances from those who loved him most — in their own words.
-            </p>
-          </div>
-          <Link href="/tributes" className="btn-gold text-sm flex-shrink-0">
-            Read Tributes
-          </Link>
-        </div>
-
-        {/* Contribute */}
-        <div className="bg-green rounded-lg p-6 text-center">
-          <p className="font-lora text-base text-cream-dark leading-relaxed mb-4">
-            Did you know Aslam Hayat? The family welcomes your memories, stories, and
-            photographs to add to this archive.
-          </p>
-          <Link href="/contact" className="btn-gold inline-block">
-            Share a Memory
-          </Link>
-        </div>
 
       </div>
     </div>

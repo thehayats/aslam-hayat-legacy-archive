@@ -50,33 +50,16 @@ export default function LivingLegacyPage() {
   return (
     <div className="min-h-screen">
 
-      {/* Hero */}
-      <div className="bg-green py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="font-lora text-xs text-cream-dark italic mb-3 opacity-60 tracking-widest uppercase">
-            Family Reflections
-          </p>
-          <h1 className="font-playfair text-4xl md:text-5xl text-cream-light font-bold mb-5 leading-tight">
-            Living Legacy
-          </h1>
-          <div className="gold-divider mb-7" />
-          <p className="font-lora text-lg text-cream-dark leading-relaxed max-w-2xl mx-auto">
-            Reflections, khutbahs, bayans, and writings created by family members — inspired
-            by the teachings, wisdom, and spiritual influence of Aslam Hayat.
+      <div className="bg-parchment border-b border-cream-dark">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-6">
+          <p className="font-lora text-xs text-gray-400 uppercase tracking-widest mb-1">Family Reflections</p>
+          <h1 className="font-playfair text-2xl md:text-3xl text-green font-bold">Living Legacy</h1>
+          <p className="font-lora text-sm text-gray-500 mt-1.5">
+            Original writings by family members, inspired by the teachings and spiritual example
+            of Aslam Hayat. These are not his own writings.
           </p>
         </div>
       </div>
-
-      {/* Attribution note */}
-      <section className="bg-parchment border-b border-cream-dark py-10 md:py-12">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="font-lora text-base text-gray-600 leading-relaxed">
-            The writings in this section are the original work of family members.
-            They are not writings of Aslam Hayat. They reflect the lasting influence of his
-            teaching, character, and spiritual example on those he raised and mentored.
-          </p>
-        </div>
-      </section>
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-16">
 
@@ -106,7 +89,7 @@ export default function LivingLegacyPage() {
                 className="bg-parchment border border-cream-dark rounded-xl p-6 hover:border-gold-dark transition-colors"
               >
                 <div className="flex flex-wrap items-center gap-2 mb-3">
-                  <span className="inline-block bg-green text-gold font-lora text-xs px-3 py-1 rounded-full">
+                  <span className="inline-block bg-green text-gold font-lora text-xs px-3 py-1 rounded">
                     {entry.type}
                   </span>
                   <span className="font-lora text-xs text-gray-400">{entry.category}</span>
@@ -135,19 +118,6 @@ export default function LivingLegacyPage() {
 
       </div>
 
-      {/* Cross-link */}
-      <section className="bg-green border-t border-green-dark py-12">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="/faith-theology-and-spirituality" className="btn-gold">
-              Faith &amp; Theology
-            </Link>
-            <Link href="/tributes" className="btn-gold">
-              Tributes
-            </Link>
-          </div>
-        </div>
-      </section>
 
     </div>
   );
