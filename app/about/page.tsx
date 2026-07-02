@@ -86,8 +86,7 @@ export default function AboutPage() {
               <div className="prose-archive">
                 <p>
                   Aslam Hayat (23 March 1933 – 2026) was a Pakistani-Canadian chartered accountant,
-                  civil aviation executive, writer, historian, and student of Islamic spirituality
-                  whose life spanned some of the most significant events of the twentieth century.
+                  civil aviation executive, writer, historian, and student of Islamic spirituality.
                 </p>
                 <p>
                   Born in Lahore, with family roots in Subhan Pur, Kapurthala, Punjab, he witnessed
@@ -146,8 +145,7 @@ export default function AboutPage() {
                 <p>
                   In the late 1950s and early 1960s, he travelled to London, England, where he
                   pursued advanced accountancy studies and qualified as a{' '}
-                  <strong>Chartered Accountant</strong> — a significant personal and professional
-                  achievement that provided the foundation for his subsequent public-service career.
+                  <strong>Chartered Accountant</strong>.
                 </p>
               </div>
             </section>
@@ -162,8 +160,7 @@ export default function AboutPage() {
                   distinguished career in civil aviation. Over the course of several decades, he
                   served in increasingly senior leadership positions and ultimately rose to
                   director-level responsibilities within the{' '}
-                  <strong>Pakistan Civil Aviation Authority (PCAA)</strong>. His professional career
-                  was marked by dedication, integrity, and a commitment to public service.
+                  <strong>Pakistan Civil Aviation Authority (PCAA)</strong>.
                 </p>
               </div>
             </section>
@@ -281,8 +278,7 @@ export default function AboutPage() {
               <div className="prose-archive">
                 <p>
                   At the heart of everything was his family. Aslam Hayat was a devoted father,
-                  grandfather, and great-grandfather — a family elder deeply loved by all who
-                  knew him. He gave generously of his time, his wisdom, and his presence.
+                  grandfather, and great-grandfather.
                 </p>
                 <p>
                   He had a uniquely close and profound relationship with his grandson{' '}
@@ -293,11 +289,6 @@ export default function AboutPage() {
                   the love and stability a child needs. He taught Zeeshan to read the Quran, and
                   instilled in him the values of education, faith, patience, humility, and service.
                 </p>
-                <p>
-                  He encouraged all those around him to seek knowledge, to practice their faith
-                  sincerely, and to live with humility and service to others — a principle he
-                  modelled every day of his life.
-                </p>
               </div>
             </section>
 
@@ -307,10 +298,7 @@ export default function AboutPage() {
               <SectionHeader title="Life in Canada" goldDivider />
               <div className="prose-archive">
                 <p>
-                  Aslam Hayat arrived in Canada in 1989 and settled in Vancouver, British Columbia,
-                  where he would remain for the rest of his life. In Vancouver he found a community,
-                  continued his writing, deepened his spiritual life, and remained the anchor of
-                  his family until the very end.
+                  Aslam Hayat arrived in Canada in 1989 and settled in Vancouver, British Columbia.
                 </p>
                 <p>
                   He passed away on <strong>May 30, 2026</strong>, in Vancouver, aged 93.

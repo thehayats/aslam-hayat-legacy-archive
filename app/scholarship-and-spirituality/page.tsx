@@ -100,14 +100,8 @@ export default function ScholarshipPage() {
           />
           <div className="prose-archive mb-8">
             <p>
-              One of the central pillars of Aslam Hayat&apos;s intellectual life was the study of
-              Islamic spirituality, particularly the rich traditions of Sufism. For decades he read
-              and reflected upon the works of some of the most influential scholars, saints,
-              philosophers, and mystics in Islamic history.
-            </p>
-            <p>
-              Through these scholars he explored themes such as spiritual purification, self-knowledge,
-              divine love, humility, patience, trust in God, ethical conduct, and the inner dimensions
+              For decades he read the major figures in the Islamic tradition of Tasawwuf —
+              scholars, saints, philosophers, and mystics who addressed the inner dimensions
               of faith.
             </p>
           </div>
@@ -250,14 +244,6 @@ export default function ScholarshipPage() {
               </div>
             ))}
           </div>
-          <div className="prose-archive">
-            <p>
-              His articles sought to educate, encourage reflection, and preserve knowledge for future
-              generations. The breadth of his reading is reflected directly in the range of his
-              writing — few columnists in the Pakistani-Canadian community brought the same depth of
-              historical, spiritual, and philosophical perspective to every subject they addressed.
-            </p>
-          </div>
           <div className="mt-6 flex flex-col sm:flex-row gap-3">
             <Link href="/articles" className="btn-primary text-center">
               Browse His Articles
@@ -271,19 +257,6 @@ export default function ScholarshipPage() {
           </div>
         </section>
 
-        {/* ── 6. Lifelong Pursuit of Wisdom ── */}
-        <section>
-          <SectionHeader
-            title="A Lifelong Pursuit of Wisdom"
-            goldDivider
-          />
-          <div className="prose-archive">
-            <p>
-              Those who knew him remembered above all his curiosity, his humility, and his
-              eagerness to learn — qualities he modelled until the very end of his life.
-            </p>
-          </div>
-        </section>
 
       </div>
 

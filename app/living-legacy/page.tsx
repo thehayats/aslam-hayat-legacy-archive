@@ -138,10 +138,6 @@ export default function LivingLegacyPage() {
       {/* Cross-link */}
       <section className="bg-green border-t border-green-dark py-12">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="font-lora text-base text-cream-dark leading-relaxed mb-6">
-            The faith and spiritual practice that inspired these writings grew from a life
-            of serious Islamic study.
-          </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <Link href="/faith-theology-and-spirituality" className="btn-gold">
               Faith &amp; Theology

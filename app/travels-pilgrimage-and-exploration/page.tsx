@@ -45,20 +45,6 @@ export default function TravelsPage() {
         </div>
       </div>
 
-      {/* Intro */}
-      <section className="bg-parchment border-b border-cream-dark py-12 md:py-16">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="prose-archive text-center max-w-3xl mx-auto">
-            <p className="text-lg md:text-xl leading-relaxed text-gray-700">
-              Travel played an important role in Aslam Hayat&apos;s life and helped shape his
-              understanding of the world. Wherever he travelled, he sought more than sightseeing.
-              He wanted to understand the history, culture, people, food, and ideas that shaped
-              each place. He approached travel as another form of education.
-            </p>
-          </div>
-        </div>
-      </section>
-
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-14 space-y-16">
 
         {/* ── 1. The Voyage to London ── */}
@@ -82,19 +68,7 @@ export default function TravelsPage() {
           <div className="prose-archive">
             <p>
               Throughout his life he would often recall passing through the Strait of Gibraltar and
-              seeing the coast of Morocco near Tangier. The experience left a lasting impression and
-              represented the beginning of a lifetime of international travel and cultural exploration.
-            </p>
-            <p>
-              For a young man from Lahore, that sea passage was transformative. To sail from the
-              subcontinent to England, to pass through one of the world&apos;s most historic
-              waterways, and to arrive in a city as vast and varied as London — these were
-              experiences that opened the mind and could not be undone.
-            </p>
-            <p>
-              His years in London exposed him to new cultures, new ideas, and a broader understanding
-              of the world beyond South Asia. Those experiences helped shape the intellectual
-              curiosity that would remain a defining characteristic throughout his life.
+              seeing the coast of Morocco near Tangier.
             </p>
           </div>
           <div className="bg-parchment border border-cream-dark rounded-lg p-6 mt-6">
@@ -124,15 +98,7 @@ export default function TravelsPage() {
           />
           <div className="prose-archive mb-8">
             <p>
-              Among the most meaningful journeys of his life were multiple pilgrimages to the holy
-              cities of Makkah and Madinah. These visits held profound spiritual significance and
-              remained among the most treasured experiences of his life.
-            </p>
-            <p>
-              For a man whose faith was inseparable from his intellectual life, reaching the sacred
-              heart of Islam was not merely a religious obligation. It was a homecoming of the spirit
-              — a direct encounter with the places he had spent decades studying, reflecting upon,
-              and writing about.
+              He made multiple pilgrimages to Makkah and Madinah over the course of his life.
             </p>
           </div>
           <div className="bg-green rounded-lg p-8 md:p-10">
@@ -173,14 +139,8 @@ export default function TravelsPage() {
             </p>
             <p>
               He also travelled extensively throughout the United Kingdom to visit family members,
-              including his children and grandchildren who lived there. These visits allowed him to
-              maintain close family connections across continents — weaving together the threads of
-              a family that had spread from Lahore to London to Vancouver over the decades.
-            </p>
-            <p>
-              For Aslam Hayat, those shared journeys were among the most meaningful of his life.
-              Travel, for him, was not something done alone but something given — a gift of experience
-              and memory passed from one generation to the next.
+              including his children and grandchildren who lived there — maintaining close family
+              connections across continents as the family spread from Lahore to London to Vancouver.
             </p>
           </div>
         </section>
@@ -199,13 +159,6 @@ export default function TravelsPage() {
               about visiting the Blue Mosque, Topkapi Palace, and the Topkapi Museum. The
               intersection of Islamic civilisation, Ottoman history, and world culture made a lasting
               impression on him.
-            </p>
-            <p>
-              Istanbul was, in many ways, a city made for a mind like his. At its crossroads — between
-              Europe and Asia, between ancient and modern, between the secular and the sacred — it
-              distilled exactly the kind of historical complexity he had spent his life reading about.
-              He returned from Turkey with the kind of enthusiasm that only comes from a journey that
-              confirms everything you had hoped to find.
             </p>
           </div>
           <div className="grid sm:grid-cols-3 gap-4">
@@ -247,7 +200,7 @@ export default function TravelsPage() {
             <div>
               <p className="font-playfair text-base text-green font-bold mb-1">Faith, Theology &amp; Spirituality</p>
               <p className="font-lora text-sm text-gray-600">
-                The faith that gave the pilgrimages their meaning — a lifelong spiritual journey.
+                The faith that gave the pilgrimages their meaning — a lifelong spiritual pursuit.
               </p>
             </div>
             <Link href="/faith-theology-and-spirituality" className="btn-gold text-sm text-center">Explore</Link>

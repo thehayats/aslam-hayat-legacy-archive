@@ -85,8 +85,7 @@ export default function TechnologyPage() {
             <p>
               Whether it was the first colour television, an early personal computer, a laptop, a
               mobile phone, a smartphone, a tablet, or a smartwatch, he wanted to understand how
-              it worked and how it could improve everyday life. Each new device represented a new
-              opportunity to learn something the world had not known before.
+              it worked and how it could improve everyday life.
             </p>
           </div>
 
@@ -137,35 +136,7 @@ export default function TechnologyPage() {
           </div>
         </section>
 
-        {/* ── 3. A Philosophy of Openness ── */}
-        <section>
-          <SectionHeader
-            title="A Philosophy of Openness"
-            subtitle="Technology as an expression of his belief that knowledge is always expanding"
-            goldDivider
-          />
-          <div className="prose-archive">
-            <p>
-              His fascination with technology reflected a broader philosophy that knowledge was
-              always expanding and that a person should remain open to new ideas throughout life.
-              He did not view new technologies as intimidating or disruptive. He viewed them as
-              evidence that the world was continuing to grow, discover, and create — and that was
-              something to welcome.
-            </p>
-            <p>
-              This outlook was inseparable from his faith. He understood the Quranic imperative
-              to seek knowledge as a commandment that admitted no age limit and no final point of
-              arrival. Learning was not a phase of life but a way of life.
-            </p>
-          </div>
-          <div className="border-l-4 border-gold pl-6 py-3 bg-parchment rounded-r-lg pr-6 mt-6">
-            <p className="font-lora text-base md:text-lg text-green italic leading-relaxed">
-              &ldquo;He believed that learning should never stop, regardless of age.&rdquo;
-            </p>
-          </div>
-        </section>
-
-        {/* ── 4. Artificial Intelligence ── */}
+        {/* ── 3. Artificial Intelligence ── */}
         <section>
           <SectionHeader
             title="Artificial Intelligence — His Final Frontier"
@@ -194,21 +165,14 @@ export default function TechnologyPage() {
         <section>
           <SectionHeader
             title="A Lifetime of Technological Change"
-            subtitle="From radio to artificial intelligence — one of history's greatest technological spans"
+            subtitle="From radio to artificial intelligence — across ninety-three years"
             goldDivider
           />
           <div className="prose-archive mb-8">
             <p>
-              Having lived through the era of radio, black-and-white television, commercial aviation,
-              computers, the internet, smartphones, and artificial intelligence, Aslam Hayat
-              experienced one of the greatest periods of technological change in human history. Few
-              individuals have witnessed a span of innovation as sweeping as the one that unfolded
-              across his ninety-three years.
-            </p>
-            <p>
-              Rather than resisting those changes, he embraced them with curiosity and optimism. Each
-              new era was not a threat to what came before but an addition — another layer of
-              possibility added to an already remarkable world.
+              Born in 1933, he lived through radio, black-and-white television, commercial aviation,
+              personal computers, the internet, smartphones, and artificial intelligence — each
+              embraced as it arrived.
             </p>
           </div>
 

@@ -71,12 +71,7 @@ export default function PersonalPage() {
           <div className="prose-archive bg-parchment border border-cream-dark rounded-lg p-6 md:p-8">
             <p>
               At the heart of Aslam Hayat&apos;s life was his family. He was a devoted father,
-              grandfather, and great-grandfather — a family elder who was deeply loved and
-              respected by all those around him.
-            </p>
-            <p>
-              He gave generously of his time, his wisdom, and his presence. His home was a
-              place of warmth, learning, and faith. He encouraged those around him to value
+              grandfather, and great-grandfather who encouraged those around him to value
               education, to live by strong moral principles, and to care for one another.
             </p>
           </div>
@@ -101,13 +96,6 @@ export default function PersonalPage() {
               education, faith, patience, humility, and service. He supported Zeeshan throughout
               his life and remained his most trusted confidant until the very end.
             </p>
-            <blockquote className="border-l-4 border-gold pl-5 italic text-green bg-parchment py-3 pr-4 rounded-r">
-              &ldquo;To Zeeshan, he was much more than a grandfather: he was a father figure,
-              mentor, teacher, spiritual guide, protector, and closest lifelong companion.&rdquo;
-              <cite className="block not-italic text-sm mt-2 text-gray-600">
-                — The family of Aslam Hayat
-              </cite>
-            </blockquote>
           </div>
         </section>
 

@@ -79,9 +79,7 @@ export default function PoliticsPage() {
             </p>
             <p>
               His interest was not passive. He formed considered views, followed developments with
-              care, and was never reluctant to share his perspective in family conversations. He
-              cared about Pakistan the way one cares about a place that shaped you — with a mixture
-              of love, memory, hope, and honest assessment.
+              care, and was never reluctant to share his perspective in family conversations.
             </p>
           </div>
           <div className="bg-green rounded-lg p-8 md:p-10">
@@ -107,22 +105,10 @@ export default function PoliticsPage() {
           />
           <div className="prose-archive bg-parchment border border-cream-dark rounded-lg p-6 md:p-8">
             <p>
-              His interest in Pakistan&apos;s politics was rooted in something deeper than newspaper
-              habit. He had witnessed history firsthand. He was a teenager in Lahore when British
-              India was partitioned in 1947 — one of the most consequential and traumatic events of
-              the twentieth century, one that created Pakistan itself and displaced millions of people.
-            </p>
-            <p>
-              This made his perspective on Pakistani political life fundamentally different from that
-              of someone who had only read about the country&apos;s founding. He had been there. He
-              carried memories that no journalism could reproduce — the texture of the city before
+              He carried memories that no journalism could reproduce — the texture of Lahore before
               Partition, the upheaval of the months that followed, and the long process of building
-              a new nation from an extraordinary rupture.
-            </p>
-            <p>
-              When he commented on Pakistani politics, he did so with that living memory always in
-              the background. He understood what the country had come from. He cared about what it
-              was becoming.
+              a new nation from an extraordinary rupture. When he commented on Pakistani politics, he
+              did so with that living memory in the background.
             </p>
           </div>
         </section>
@@ -138,9 +124,7 @@ export default function PoliticsPage() {
             <p>
               His attention extended far beyond Pakistan. He was a devoted reader of international
               publications and regularly followed global events through some of the world&apos;s most
-              respected journalism. His exposure to international journalism began during his years
-              studying in London, where he developed a habit of following world affairs that remained
-              with him for the rest of his life.
+              respected journalism, a habit formed during his years studying in London.
             </p>
           </div>
           <div className="grid sm:grid-cols-2 gap-4 mb-8">
@@ -174,8 +158,7 @@ export default function PoliticsPage() {
             <p>
               He was never a passive observer. He formed views, argued positions, and remained open
               to reconsideration when presented with new evidence or a perspective he had not
-              considered. For his family, these conversations were both stimulating and instructive —
-              a window into a mind that had spent decades studying the world.
+              considered.
             </p>
           </div>
 
